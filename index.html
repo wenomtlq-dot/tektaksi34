@@ -293,6 +293,7 @@ fetch("fiyatlar.txt", { cache: "no-cache" })
   .catch(function () {});
 
 // --- yer onerileri (sitenin kendi listesi) ---
+var SON_SECIM = 0; // son oneri secim zamani
 document.querySelectorAll(".acw input").forEach(function (inp) {
   var kutu = document.createElement("div"), secildi = false;
   kutu.className = "oneri"; kutu.hidden = true; inp.parentNode.appendChild(kutu);
@@ -311,8 +312,12 @@ document.querySelectorAll(".acw input").forEach(function (inp) {
     l.forEach(function (o) {
       var d = document.createElement("div");
       d.textContent = o.g;
-      d.addEventListener("pointerdown", function (e) {
-        e.preventDefault();
+      // basinca listeyi hemen kapatma (yoksa dokunus alttaki butona gecer); secimi parmak kalkinca yap
+      d.addEventListener("pointerdown", function (e) { e.preventDefault(); });
+      d.addEventListener("mousedown", function (e) { e.preventDefault(); });
+      d.addEventListener("click", function (e) {
+        e.preventDefault(); e.stopPropagation();
+        SON_SECIM = Date.now();
         inp.value = o.g; secildi = true; kutu.hidden = true;
         inp.dispatchEvent(new Event("input"));
       });
@@ -322,7 +327,7 @@ document.querySelectorAll(".acw input").forEach(function (inp) {
   }
   inp.addEventListener("input", goster);
   inp.addEventListener("focus", goster);
-  inp.addEventListener("blur", function () { setTimeout(function () { kutu.hidden = true; }, 150); });
+  inp.addEventListener("blur", function () { setTimeout(function () { kutu.hidden = true; }, 300); });
 });
 
 // yazilan metin hangi yerlere uyuyor (yer -> puan)
@@ -429,6 +434,7 @@ document.querySelectorAll(".chips").forEach(function (c) {
   c.addEventListener("click", function (e) {
     var t = e.target;
     if (t.tagName !== "BUTTON" || t.classList.contains("loc")) return;
+    if (Date.now() - SON_SECIM < 600) return; // oneri secilirken yanlislikla basilmasin
     $(c.dataset.for).value = t.textContent;
     $(c.dataset.for).dispatchEvent(new Event("input"));
   });
