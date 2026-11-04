@@ -1,0 +1,548 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>tektaksi34 | İstanbul Taksi & Havalimanı Transfer</title>
+<meta name="description" content="tektaksi34 – İstanbul'da 7/24 taksi ve transfer. İstanbul Havalimanı ve Sabiha Gökçen transferi. Hızlı çağır, araç seç veya rezervasyon yap, WhatsApp'tan hemen dönüş yapalım.">
+<meta property="og:title" content="tektaksi34 | İstanbul Taksi & Transfer">
+<meta property="og:description" content="7/24 taksi ve havalimanı transferi. Hızlı çağır, araç seç veya rezervasyon yap, WhatsApp'tan dönüş yapalım.">
+<meta name="theme-color" content="#111318">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://tektaksi34.netlify.app/">
+<meta property="og:image" content="https://tektaksi34.netlify.app/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="tr_TR">
+<link rel="icon" type="image/png" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="tektaksi34">
+<style>
+:root{--y:#FFC20E;--yd:#E0A800;--bg:#111318;--card:#fff;--tx:#16181d;--mut:#6b7280;--ln:#e5e7eb;--wa:#25D366}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--tx);line-height:1.45}
+.top{background:var(--bg);color:#fff;padding:22px 16px 70px;text-align:center;background-image:repeating-linear-gradient(90deg,var(--y) 0 18px,#111318 18px 36px);background-size:100% 8px;background-repeat:no-repeat;background-position:bottom}
+.logo{font-size:34px;font-weight:900;letter-spacing:-1px}
+.logo span{color:var(--y)}
+#yukle{margin-top:14px;font:inherit;font-size:14px;font-weight:800;color:#111;background:var(--y);border:0;border-radius:22px;padding:9px 18px}
+#yukle[hidden]{display:none}
+.top p{color:#c9ccd3;margin-top:6px;font-size:15px}
+.tags{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:14px}
+.tags b{background:#1f232b;border:1px solid #2c313b;color:#fff;font-size:13px;font-weight:600;padding:6px 10px;border-radius:20px}
+main{max-width:520px;margin:-50px auto 0;padding:0 16px 40px}
+.card{background:var(--card);border-radius:18px;padding:14px 16px 20px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.tabs{display:grid;grid-template-columns:repeat(3,1fr);background:#f1f2f4;border-radius:13px;padding:4px;margin-bottom:14px;gap:2px}
+.tab{font:inherit;font-size:13.5px;font-weight:800;border:0;background:none;color:#4b5563;padding:8px 2px;border-radius:10px;display:flex;flex-direction:column;align-items:center;gap:2px}
+.tab i{font-style:normal;font-size:19px;line-height:1.1}
+.tab.on{background:var(--y);color:#111;box-shadow:0 2px 6px rgba(0,0,0,.12)}
+form[hidden]{display:none}
+.ara{display:grid;grid-template-columns:1fr 84px;gap:8px;margin-bottom:12px}
+.ara a{min-width:0;border-radius:14px;text-decoration:none;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.ara .tel{background:#111318;color:#fff;padding:10px 8px}
+.ara .t1{font-size:13.5px;font-weight:800;color:var(--y)}
+.ara .t2{font-size:clamp(17px,5.6vw,24px);font-weight:900;letter-spacing:.3px;white-space:nowrap}
+.ara .wa{background:var(--wa);color:#fff;gap:3px;font-size:13px;font-weight:800}
+.ara .wa .ico{width:30px;height:30px}
+.ara a:active{transform:scale(.97)}
+.uyari{background:#FFF3CD;border:2px solid var(--y);border-radius:12px;padding:10px 12px;margin-bottom:12px;text-align:center;font-weight:900;font-size:15.5px;color:#111}
+.uyari span{display:block;font-weight:700;font-size:13.5px;color:#5c4a12;margin-top:2px}
+.sub{color:var(--mut);font-size:14px}
+label,.lbl{display:block;font-weight:700;font-size:14px;margin:14px 0 6px}
+label small,.lbl small{font-weight:500;color:var(--mut)}
+input,select,textarea{width:100%;font:inherit;font-size:16px;padding:12px;border:1.5px solid var(--ln);border-radius:12px;background:#fafafa;color:var(--tx)}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--y);background:#fff}
+textarea{resize:vertical;min-height:70px}
+.acw{position:relative}
+.oneri{position:absolute;left:0;right:0;top:calc(100% + 4px);background:#fff;border:1.5px solid var(--y);border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.18);z-index:20;overflow:hidden}
+.oneri[hidden]{display:none}
+.oneri div{padding:12px 14px;font-size:16px;border-top:1px solid var(--ln);cursor:pointer}
+.oneri div:first-child{border-top:0}
+.oneri div:active{background:#FFF6D6}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.chips button{font:inherit;font-size:13px;padding:6px 10px;border-radius:16px;border:1px solid var(--ln);background:#f3f4f6;color:var(--tx)}
+.chips button.loc{background:#eaf7ef;border-color:#bfe6cc}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.sec{display:grid;gap:8px}
+.sec button{font:inherit;border:1.5px solid var(--ln);background:#fafafa;color:var(--tx);border-radius:12px;padding:10px 4px;font-weight:700;font-size:15px}
+.sec button.on{background:#FFF6D6;border-color:var(--y);box-shadow:inset 0 0 0 1px var(--y)}
+.sec.arac{grid-template-columns:1fr 1fr}
+.sec.arac button{padding:12px 8px;display:flex;flex-direction:column;align-items:center;gap:2px}
+.sec.arac i{font-style:normal;font-size:28px;line-height:1.1}
+.sec.arac small{font-weight:500;font-size:12.5px;color:var(--mut)}
+.sec.kisi{grid-template-columns:repeat(4,1fr)}
+.sec.dk{grid-template-columns:repeat(4,1fr)}
+.sec.dk button{font-size:14px}
+.fiyat{margin-top:16px;padding:14px;border-radius:14px;text-align:center}
+.fiyat[hidden]{display:none}
+.fiyat.var{background:#FFF6D6;border:1.5px solid var(--y)}
+.fiyat.var small{display:block;font-size:13px;color:#6b5a1e;font-weight:600}
+.fiyat.var .rota{font-weight:500;margin-top:2px}
+.fiyat.var b{font-size:30px;font-weight:900;letter-spacing:-.5px}
+.fiyat.var .liste{margin:8px 0 4px;text-align:left}
+.fiyat.var .liste div{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:7px 2px;border-top:1px solid #f1e3a6;font-size:15px;font-weight:600}
+.fiyat.var .liste div:first-child{border-top:0}
+.fiyat.var .liste b{font-size:17px;font-weight:900;letter-spacing:0}
+.fiyat.yok{background:#f3f4f6;color:#374151;font-size:14px;font-weight:600}
+.send{width:100%;margin-top:18px;padding:15px;font:inherit;font-size:17px;font-weight:800;color:#fff;background:var(--wa);border:0;border-radius:14px;display:flex;align-items:center;justify-content:center;gap:10px}
+.send:active{transform:scale(.98)}
+.note{color:var(--mut);font-size:12.5px;text-align:center;margin-top:10px}
+.why{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}
+.why div{background:#1b1e25;color:#fff;border-radius:14px;padding:14px;font-size:14px}
+.why div b{display:block;color:var(--y);font-size:15px;margin-bottom:2px}
+footer{text-align:center;color:#8b909a;font-size:13px;padding:10px 16px 90px}
+footer a{color:#fff}
+.ico{width:24px;height:24px;fill:#fff}
+.fab{position:fixed;right:16px;bottom:16px;width:60px;height:60px;border-radius:50%;background:var(--wa);display:flex;align-items:center;justify-content:center;box-shadow:0 6px 18px rgba(0,0,0,.4);z-index:30;transition:bottom .15s}
+.fab .ico{width:32px;height:32px}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="logo">tek<span>taksi</span>34</div>
+  <p>İstanbul'un her yerine taksi ve transfer</p>
+  <div class="tags"><b>🕐 7/24</b><b>✈️ IST & SAW</b><b>⚡ Hızlı dönüş</b></div>
+  <button type="button" id="yukle" hidden>📲 Uygulamayı Yükle</button>
+</header>
+
+<main>
+<div class="card">
+  <div class="tabs">
+    <button type="button" class="tab on" data-t="hizli"><i>⚡</i>Hızlı Çağır</button>
+    <button type="button" class="tab" data-t="arac"><i>🚘</i>Araç Seç</button>
+    <button type="button" class="tab" data-t="rez"><i>📅</i>Rezervasyonlu</button>
+  </div>
+  <div class="ara">
+    <a class="tel" href="tel:+905555095922"><span class="t1">📞 Hemen Ara</span><span class="t2">0555 509 59 22</span></a>
+    <a class="wa" id="wa2" href="#"><svg class="ico" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.8 14.1c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1a17 17 0 0 1-1.8-.7 13.6 13.6 0 0 1-5.2-4.6c-.4-.5-1.1-1.6-1.1-3 0-1.4.7-2.1 1-2.4.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .5l-.3.5-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.4z"/></svg><span>WhatsApp</span></a>
+  </div>
+  <div class="uyari">👉 Tüm alanları doldurmak zorunda değilsiniz!<span>Bildiğiniz kadarını yazıp gönderin, gerisini WhatsApp'tan konuşuruz.</span></div>
+
+  <!-- HIZLI ÇAĞIR -->
+  <form id="hizli">
+    <p class="sub">Nereden nereye gideceğinizi yazın, aracınızı hemen yönlendirelim.</p>
+
+    <label for="h_nereden">📍 Nereden</label>
+    <div class="acw"><input id="h_nereden" placeholder="Örn: Kadıköy" autocomplete="off"></div>
+    <div class="chips" data-for="h_nereden"><button type="button" class="loc" data-on="h">📍 Konumum</button><button type="button">İstanbul Havalimanı (IST)</button><button type="button">Sabiha Gökçen (SAW)</button></div>
+
+    <label for="h_nereye">🏁 Nereye</label>
+    <div class="acw"><input id="h_nereye" placeholder="Örn: Taksim" autocomplete="off"></div>
+    <div class="chips" data-for="h_nereye"><button type="button">İstanbul Havalimanı (IST)</button><button type="button">Sabiha Gökçen (SAW)</button></div>
+
+    <div class="fiyat" id="h_fiyat" hidden></div>
+
+    <button class="send" type="submit" id="h_btn"><svg class="ico" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.8 14.1c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1a17 17 0 0 1-1.8-.7 13.6 13.6 0 0 1-5.2-4.6c-.4-.5-1.1-1.6-1.1-3 0-1.4.7-2.1 1-2.4.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .5l-.3.5-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.4z"/></svg><span>Hemen Çağır</span></button>
+    <p class="note">WhatsApp açılır, mesaj hazır gelir — sadece gönder'e basın.</p>
+  </form>
+
+  <!-- ARAÇ SEÇ -->
+  <form id="arac" hidden>
+    <p class="sub">Aracınızı seçin, ne zaman gelelim söyleyin.</p>
+
+
+    <div class="lbl">🚘 Araç</div>
+    <div class="sec arac" id="a_arac">
+      <button type="button" data-v="Ticari"><i>🚕</i>Ticari<small>Taksimetre −%10</small></button>
+      <button type="button" data-v="Doblo tarzı"><i>🚙</i>Doblo tarzı<small>Geniş bagaj</small></button>
+      <button type="button" data-v="Comfort (C segment)"><i>🚘</i>Comfort<small>C segment sedan</small></button>
+      <button type="button" data-v="Vito"><i>🚐</i>Vito<small>Kalabalık grup</small></button>
+    </div>
+
+    <div class="lbl">👥 Kişi sayısı</div>
+    <div class="sec kisi" id="a_kisi">
+      <button type="button" data-v="1">1</button><button type="button" data-v="2">2</button><button type="button" data-v="3">3</button><button type="button" data-v="4">4</button>
+      <button type="button" data-v="5">5</button><button type="button" data-v="6">6</button><button type="button" data-v="7">7</button><button type="button" data-v="8+">8+</button>
+    </div>
+
+    <div class="lbl">⏱️ Kaç dakika sonra gelelim?</div>
+    <div class="sec dk" id="a_dk">
+      <button type="button" data-v="15 dk">15 dk</button><button type="button" data-v="20 dk">20 dk</button><button type="button" data-v="25 dk">25 dk</button><button type="button" data-v="30 dk">30 dk</button>
+      <button type="button" data-v="45 dk">45 dk</button><button type="button" data-v="1 saat">1 saat</button><button type="button" data-v="1,5 saat">1,5 saat</button><button type="button" data-v="2 saat">2 saat</button>
+    </div>
+
+    <label for="a_nereden">📍 Nereden</label>
+    <div class="acw"><input id="a_nereden" placeholder="Örn: Kadıköy" autocomplete="off"></div>
+    <div class="chips" data-for="a_nereden"><button type="button" class="loc" data-on="a">📍 Konumum</button><button type="button">İstanbul Havalimanı (IST)</button><button type="button">Sabiha Gökçen (SAW)</button></div>
+
+    <label for="a_nereye">🏁 Nereye</label>
+    <div class="acw"><input id="a_nereye" placeholder="Örn: Taksim" autocomplete="off"></div>
+    <div class="chips" data-for="a_nereye"><button type="button">İstanbul Havalimanı (IST)</button><button type="button">Sabiha Gökçen (SAW)</button></div>
+
+    <div class="fiyat" id="a_fiyat" hidden></div>
+
+    <button class="send" type="submit" id="a_btn"><svg class="ico" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.8 14.1c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1a17 17 0 0 1-1.8-.7 13.6 13.6 0 0 1-5.2-4.6c-.4-.5-1.1-1.6-1.1-3 0-1.4.7-2.1 1-2.4.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .5l-.3.5-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.4z"/></svg><span>Aracı Çağır</span></button>
+    <p class="note">WhatsApp açılır, mesaj hazır gelir — sadece gönder'e basın.</p>
+  </form>
+
+  <!-- REZERVASYONLU -->
+  <form id="rez" hidden>
+    <p class="sub">İleri tarihli transfer ve yolculuklar için bilgileri doldurun.</p>
+
+    <label for="nereden">📍 Nereden</label>
+    <div class="acw"><input id="nereden" placeholder="Örn: Kadıköy, Moda Cd. No:5" autocomplete="off"></div>
+    <div class="chips" data-for="nereden"><button type="button">İstanbul Havalimanı (IST)</button><button type="button">Sabiha Gökçen (SAW)</button></div>
+
+    <label for="nereye">🏁 Nereye</label>
+    <div class="acw"><input id="nereye" placeholder="Örn: Taksim" autocomplete="off"></div>
+    <div class="chips" data-for="nereye"><button type="button">İstanbul Havalimanı (IST)</button><button type="button">Sabiha Gökçen (SAW)</button></div>
+
+    <div class="row">
+      <div><label for="tarih">📅 Tarih</label><input id="tarih" type="date"></div>
+      <div><label for="saat">⏰ Saat</label><input id="saat" type="time"></div>
+    </div>
+
+    <div class="row">
+      <div><label for="kisi">👥 Kişi sayısı</label>
+        <select id="kisi"><option value="">—</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8+</option></select></div>
+      <div><label for="bavul">🧳 Bavul</label>
+        <select id="bavul"><option value="">—</option><option>0</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5+</option></select></div>
+    </div>
+
+    <label for="isim">👤 Adınız</label>
+    <input id="isim" placeholder="Ad Soyad">
+
+    <label for="not">📝 Not</label>
+    <textarea id="not" placeholder="Uçuş numarası, bebek koltuğu, ara durak vb."></textarea>
+
+    <button class="send" type="submit"><svg class="ico" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.8 14.1c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1a17 17 0 0 1-1.8-.7 13.6 13.6 0 0 1-5.2-4.6c-.4-.5-1.1-1.6-1.1-3 0-1.4.7-2.1 1-2.4.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .5l-.3.5-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.4z"/></svg><span>Rezervasyon Gönder</span></button>
+    <p class="note">WhatsApp açılır, mesaj hazır gelir — sadece gönder'e basın.</p>
+  </form>
+</div>
+
+<div class="why">
+  <div><b>Havalimanı</b>IST ve SAW karşılama, uçuş takibi</div>
+  <div><b>Şehir içi</b>İstanbul'un her semtine</div>
+  <div><b>Araç seçimi</b>Ticari, Doblo, Comfort veya Vito</div>
+  <div><b>Gece-gündüz</b>7 gün 24 saat ulaşılabilir</div>
+</div>
+</main>
+
+<footer>© tektaksi34 · İstanbul<br>WhatsApp: <a id="walink" href="#">0555 509 59 22</a></footer>
+
+<a class="fab" id="fab" href="#" aria-label="WhatsApp'tan yazın"><svg class="ico" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.8 14.1c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1a17 17 0 0 1-1.8-.7 13.6 13.6 0 0 1-5.2-4.6c-.4-.5-1.1-1.6-1.1-3 0-1.4.7-2.1 1-2.4.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .5l-.3.5-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.4z"/></svg></a>
+
+<script>
+var TEL = "905555095922"; // talebin gelecegi WhatsApp numarasi
+// Arac Sec sekmesi: liste fiyatina eklenen oran (100 TL'ye yuvarlanir). Ticari = taksimetre indirimli
+var ARAC = {
+  "Doblo tarzı": 0.15,
+  "Comfort (C segment)": 0.15,
+  "Vito": 0.40
+};
+var TICARI_INDIRIM = 10; // Ticari: taksimetrenin %10 indirimli
+
+// Ayni yerin baska yazilislari
+var ALIAS = {
+  "İstanbul Havalimanı": ["IST", "Yeni Havalimanı", "İstanbul Airport", "Istanbul Airport"],
+  "Sabiha Gökçen": ["SAW", "Sabiha", "Sabiha Gökçen Havalimanı"],
+  "Esenler Otogarı": ["Esenler Otogar", "Büyük İstanbul Otogarı"]
+};
+
+var $ = function (id) { return document.getElementById(id); };
+var wa = "https://wa.me/" + TEL;
+$("walink").href = $("fab").href = $("wa2").href = wa + "?text=" + encodeURIComponent("Merhaba, tektaksi34 sitesinden yazıyorum.");
+function gonder(satirlar) {
+  location.href = wa + "?text=" + encodeURIComponent(satirlar.join("\n").trim());
+}
+
+// --- sekmeler ---
+document.querySelectorAll(".tab").forEach(function (b) {
+  b.addEventListener("click", function () {
+    document.querySelectorAll(".tab").forEach(function (x) { x.classList.toggle("on", x === b); });
+    ["hizli", "arac", "rez"].forEach(function (f) { $(f).hidden = b.dataset.t !== f; });
+  });
+});
+
+function norm(s) {
+  return (s || "").toLocaleLowerCase("tr").replace(/ı/g, "i").normalize("NFD").replace(/[̀-ͯ]/g, "")
+    .replace(/[^a-z0-9]+/g, " ").trim();
+}
+
+// --- fiyat listesi: fiyatlar.txt dosyasindan okunur ---
+// Her satir "Yer 1 - Yer 2 Fiyat". "TEK İLANDAN" bolumu kullanilmaz.
+var ROT = [], YER = {}, ADLAR = {}, GOR = [];
+function gorunen(y) { return y === "İstanbul Havalimanı" ? y + " (IST)" : y === "Sabiha Gökçen" ? y + " (SAW)" : y; }
+function listeYukle(metin) {
+  var semt = 0, atla = false;
+  ROT = []; YER = {}; ADLAR = {};
+  metin.split("\n").forEach(function (l) {
+    l = l.trim();
+    if (l.indexOf("=====") === 0) {
+      var n = norm(l);
+      atla = n.indexOf("tek ilan") > -1;
+      semt = n.indexOf("semt") > -1 ? 1 : 0;
+      return;
+    }
+    if (atla) return;
+    var m = l.match(/^(.+?) - (.+?) (\d+)$/);
+    if (!m) return;
+    ROT.push([m[1], m[2], +m[3], semt]);
+    YER[m[1]] = 1; YER[m[2]] = 1;
+  });
+  Object.keys(YER).forEach(function (y) { ADLAR[y] = [y].concat(ALIAS[y] || []).map(norm); });
+  GOR = Object.keys(YER).sort(function (a, b) { return a.localeCompare(b, "tr"); })
+    .map(function (y) { return { g: gorunen(y), k: ADLAR[y] }; });
+  if (window.guncelle) { guncelle("h"); guncelle("a"); }
+}
+fetch("fiyatlar.txt", { cache: "no-cache" })
+  .then(function (r) { return r.ok ? r.text() : ""; })
+  .then(listeYukle)
+  .catch(function () {});
+
+// --- yer onerileri (sitenin kendi listesi) ---
+document.querySelectorAll(".acw input").forEach(function (inp) {
+  var kutu = document.createElement("div"), secildi = false;
+  kutu.className = "oneri"; kutu.hidden = true; inp.parentNode.appendChild(kutu);
+  function goster() {
+    if (secildi) { secildi = false; kutu.hidden = true; return; }
+    var v = norm(inp.value);
+    if (v.length < 2) { kutu.hidden = true; return; }
+    var bas = [], ic = [];
+    GOR.forEach(function (o) {
+      if (o.k.some(function (k) { return k.indexOf(v) === 0; })) bas.push(o);
+      else if (o.k.some(function (k) { return k.indexOf(" " + v) > -1; })) ic.push(o);
+    });
+    var l = bas.concat(ic).slice(0, 6);
+    if (!l.length || (l.length === 1 && norm(l[0].g) === v)) { kutu.hidden = true; return; }
+    kutu.innerHTML = "";
+    l.forEach(function (o) {
+      var d = document.createElement("div");
+      d.textContent = o.g;
+      d.addEventListener("pointerdown", function (e) {
+        e.preventDefault();
+        inp.value = o.g; secildi = true; kutu.hidden = true;
+        inp.dispatchEvent(new Event("input"));
+      });
+      kutu.appendChild(d);
+    });
+    kutu.hidden = false;
+  }
+  inp.addEventListener("input", goster);
+  inp.addEventListener("focus", goster);
+  inp.addEventListener("blur", function () { setTimeout(function () { kutu.hidden = true; }, 150); });
+});
+
+// yazilan metin hangi yerlere uyuyor (yer -> puan)
+function eslesme(girdi) {
+  var v = norm(girdi), vv = " " + v + " ", s = {}, tam = false;
+  if (!v) return s;
+  Object.keys(ADLAR).forEach(function (y) {
+    ADLAR[y].forEach(function (k) {
+      if (v === k || vv.indexOf(" " + k + " ") > -1) {
+        if (!s[y] || s[y] < k.length) s[y] = k.length;
+        tam = true;
+      }
+    });
+  });
+  if (!tam && v.length >= 4) { // yarim yazildiysa ve tek yere uyuyorsa
+    var aday = Object.keys(ADLAR).filter(function (y) {
+      return ADLAR[y].some(function (k) { return k.indexOf(v) === 0; });
+    });
+    if (aday.length === 1) s[aday[0]] = v.length;
+  }
+  return s;
+}
+
+// en uygun guzergahi bul: semt fiyati ilce fiyatindan once gelir
+function fiyatBul(a, b) {
+  var A = eslesme(a), B = eslesme(b), en = null, puan = -1;
+  ROT.forEach(function (r) {
+    var p = -1;
+    if (A[r[0]] && B[r[1]]) p = A[r[0]] + B[r[1]];
+    if (A[r[1]] && B[r[0]]) p = Math.max(p, A[r[1]] + B[r[0]]);
+    if (p < 0) return;
+    p += r[3] * 1000;
+    if (p > puan) { puan = p; en = r; }
+  });
+  return en;
+}
+function tl(p) { return p.toLocaleString("tr-TR") + " TL"; }
+
+// --- secmeli butonlar (arac, kisi, dakika): tekrar basinca secim kalkar ---
+document.querySelectorAll(".sec").forEach(function (g) {
+  g.addEventListener("click", function (e) {
+    var b = e.target.closest("button");
+    if (!b) return;
+    var acik = b.classList.contains("on");
+    g.querySelectorAll("button").forEach(function (x) { x.classList.remove("on"); });
+    if (!acik) b.classList.add("on");
+    if (g.id === "a_arac") guncelle("a");
+  });
+});
+function secilen(id) { var b = $(id).querySelector(".on"); return b ? b.dataset.v : ""; }
+
+// --- hizli (h) ve arac sec (a) formlari icin fiyat ---
+var KONUM = { h: null, a: null };
+var BTN = { h: "Hemen Çağır", a: "Aracı Çağır" };
+var AD = { "Doblo tarzı": "Doblo", "Comfort (C segment)": "Comfort", "Vito": "Vito" };
+function rota(on) {
+  var a = $(on + "_nereden").value.trim(), b = $(on + "_nereye").value.trim();
+  if (KONUM[on] || a.length < 2 || b.length < 2) return null;
+  return fiyatBul(a, b);
+}
+function aracFiyat(arac, taban) { return Math.round(taban * (1 + ARAC[arac]) / 100) * 100; }
+var TICARI_YAZI = "Taksimetre −%" + TICARI_INDIRIM;
+
+function guncelle(on) {
+  var a = $(on + "_nereden").value.trim(), b = $(on + "_nereye").value.trim(), kutu = $(on + "_fiyat"), yazi = $(on + "_btn").lastChild;
+  var arac = on === "a" ? secilen("a_arac") : "";
+  yazi.textContent = BTN[on];
+  if (arac === "Ticari") {
+    kutu.hidden = false; kutu.className = "fiyat var";
+    kutu.innerHTML = "<small>Ticari taksi ücreti</small><b></b><small class='rota'></small>";
+    kutu.querySelector("b").textContent = TICARI_YAZI;
+    kutu.querySelector(".rota").textContent = "Taksimetre ne yazarsa %" + TICARI_INDIRIM + " indirimli ödersiniz";
+    return;
+  }
+  if (a.length < 2 || b.length < 2) { kutu.hidden = true; return; }
+  var r = rota(on);
+  kutu.hidden = false;
+  if (!r) {
+    kutu.className = "fiyat yok";
+    kutu.textContent = "💬 Bu güzergâhın fiyatı için WhatsApp'tan yazın, hemen dönüş yapalım.";
+    yazi.textContent = "WhatsApp'tan Fiyat Al";
+    return;
+  }
+  kutu.className = "fiyat var";
+  if (on === "h" || arac) {
+    kutu.innerHTML = "<small></small><b></b><small class='rota'></small>";
+    kutu.firstChild.textContent = arac ? AD[arac] + " ücreti" : "Yolculuk ücreti";
+    kutu.querySelector("b").textContent = tl(arac ? aracFiyat(arac, r[2]) : r[2]);
+  } else {
+    kutu.innerHTML = "<small>Araç seçin — ücretler</small><div class='liste'>" +
+      "<div><span>🚙 Doblo / 🚘 Comfort</span><b>" + tl(aracFiyat("Doblo tarzı", r[2])) + "</b></div>" +
+      "<div><span>🚐 Vito</span><b>" + tl(aracFiyat("Vito", r[2])) + "</b></div>" +
+      "<div><span>🚕 Ticari</span><b>" + TICARI_YAZI + "</b></div></div><small class='rota'></small>";
+  }
+  kutu.querySelector(".rota").textContent = r[0] + " ⇄ " + r[1];
+}
+["h", "a"].forEach(function (on) {
+  $(on + "_nereden").addEventListener("input", function () { KONUM[on] = null; guncelle(on); });
+  $(on + "_nereye").addEventListener("input", function () { guncelle(on); });
+});
+
+// --- hazir yer butonlari ---
+document.querySelectorAll(".chips").forEach(function (c) {
+  c.addEventListener("click", function (e) {
+    var t = e.target;
+    if (t.tagName !== "BUTTON" || t.classList.contains("loc")) return;
+    $(c.dataset.for).value = t.textContent;
+    $(c.dataset.for).dispatchEvent(new Event("input"));
+  });
+});
+
+// --- konumum ---
+document.querySelectorAll(".loc").forEach(function (btn) {
+  btn.addEventListener("click", function () {
+    var on = btn.dataset.on;
+    if (!navigator.geolocation) { alert("Telefonunuz konum paylaşımını desteklemiyor, adresi yazın."); return; }
+    btn.textContent = "⏳ Konum alınıyor…";
+    navigator.geolocation.getCurrentPosition(function (p) {
+      var k = p.coords.latitude.toFixed(6) + "," + p.coords.longitude.toFixed(6);
+      $(on + "_nereden").value = "📍 Bulunduğum konum";
+      $(on + "_nereden").dispatchEvent(new Event("input"));
+      KONUM[on] = k;
+      btn.textContent = "📍 Konumum"; guncelle(on);
+    }, function () {
+      btn.textContent = "📍 Konumum";
+      alert("Konum alınamadı. Lütfen konum iznini açın veya adresi yazın.");
+    }, { enableHighAccuracy: true, timeout: 15000 });
+  });
+});
+
+// ortak satirlar: nereden, konum, nereye (sadece yazilanlar)
+function yerSatirlari(on, m) {
+  var a = $(on + "_nereden").value.trim(), b = $(on + "_nereye").value.trim();
+  if (a) m.push("📍 *Nereden:* " + a);
+  if (KONUM[on]) m.push("🗺️ *Konum:* https://maps.google.com/?q=" + KONUM[on]);
+  if (b) m.push("🏁 *Nereye:* " + b);
+}
+function fiyatSatiri(on) {
+  var a = $(on + "_nereden").value.trim(), b = $(on + "_nereye").value.trim();
+  var arac = on === "a" ? secilen("a_arac") : "", r = rota(on);
+  if (arac === "Ticari") return "💰 *Fiyat:* " + TICARI_YAZI + " indirimli";
+  if (r) {
+    var yer = " (" + r[0] + " – " + r[1] + ")";
+    if (on === "h") return "💰 *Fiyat:* " + tl(r[2]) + yer;
+    if (arac) return "💰 *Fiyat:* " + tl(aracFiyat(arac, r[2])) + yer;
+    return "💰 *Fiyat:* Doblo/Comfort " + tl(aracFiyat("Doblo tarzı", r[2])) + " · Vito " + tl(aracFiyat("Vito", r[2])) + " · Ticari " + TICARI_YAZI + yer;
+  }
+  return a && b ? "💰 *Fiyat:* Fiyat bilgisi istiyorum" : "";
+}
+
+// --- hizli cagir gonder ---
+$("hizli").addEventListener("submit", function (e) {
+  e.preventDefault();
+  var m = ["⚡ *tektaksi34 – HIZLI ÇAĞRI*", ""];
+  yerSatirlari("h", m);
+  var f = fiyatSatiri("h");
+  if (f) m.push(f);
+  gonder(m);
+});
+
+// --- arac sec gonder ---
+$("arac").addEventListener("submit", function (e) {
+  e.preventDefault();
+  var m = ["🚘 *tektaksi34 – ARAÇ SEÇİMLİ ÇAĞRI*", ""];
+  yerSatirlari("a", m);
+  var f = fiyatSatiri("a");
+  var arac = secilen("a_arac"), kisi = secilen("a_kisi"), dk = secilen("a_dk");
+  if (arac) m.push("🚐 *Araç:* " + arac);
+  if (kisi) m.push("👥 *Kişi:* " + kisi);
+  if (dk) m.push("⏱️ *Geliş:* " + dk + " sonra");
+  if (f) m.push(f);
+  gonder(m);
+});
+
+// --- rezervasyon ---
+var d = new Date(), bugun = new Date(d.getTime() - d.getTimezoneOffset() * 60000).toISOString().slice(0, 10);
+$("tarih").min = bugun;
+
+$("rez").addEventListener("submit", function (e) {
+  e.preventDefault();
+  var m = ["📅 *tektaksi34 – REZERVASYON*", ""];
+  var a = $("nereden").value.trim(), b = $("nereye").value.trim(), t = $("tarih").value, s = $("saat").value;
+  if (a) m.push("📍 *Nereden:* " + a);
+  if (b) m.push("🏁 *Nereye:* " + b);
+  if (t) m.push("📅 *Tarih:* " + new Date(t + "T00:00").toLocaleDateString("tr-TR", { day: "2-digit", month: "2-digit", year: "numeric", weekday: "long" }));
+  if (s) m.push("⏰ *Saat:* " + s);
+  if ($("kisi").value) m.push("👥 *Kişi:* " + $("kisi").value);
+  if ($("bavul").value) m.push("🧳 *Bavul:* " + $("bavul").value);
+  if ($("isim").value.trim()) m.push("👤 *İsim:* " + $("isim").value.trim());
+  if ($("not").value.trim()) m.push("📝 *Not:* " + $("not").value.trim());
+  gonder(m);
+});
+
+// --- sag alttaki WhatsApp butonu: ana gonder butonuna denk gelirse onun ustune cikar ---
+function fabKontrol() {
+  var alt = 16, H = window.innerHeight;
+  document.querySelectorAll(".send").forEach(function (s) {
+    if (!s.offsetParent) return;
+    var r = s.getBoundingClientRect();
+    if (r.bottom > H - 86 && r.top < H - 16) alt = Math.max(alt, H - r.top + 10);
+  });
+  $("fab").style.bottom = alt + "px";
+}
+window.addEventListener("scroll", fabKontrol, { passive: true });
+window.addEventListener("resize", fabKontrol);
+document.querySelectorAll(".tab").forEach(function (b) { b.addEventListener("click", function () { setTimeout(fabKontrol, 0); }); });
+fabKontrol();
+
+// --- uygulama gibi yukleme ---
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(function () {});
+var kurulum = null, yukleBtn = $("yukle");
+var ios = /iphone|ipad|ipod/i.test(navigator.userAgent);
+var acikUygulama = window.matchMedia("(display-mode: standalone)").matches || navigator.standalone;
+window.addEventListener("beforeinstallprompt", function (e) { e.preventDefault(); kurulum = e; yukleBtn.hidden = false; });
+window.addEventListener("appinstalled", function () { yukleBtn.hidden = true; });
+if (ios && !acikUygulama) yukleBtn.hidden = false;
+yukleBtn.addEventListener("click", function () {
+  if (kurulum) { kurulum.prompt(); kurulum.userChoice.then(function () { kurulum = null; yukleBtn.hidden = true; }); return; }
+  alert("Ana ekrana eklemek için: alttaki Paylaş (⬆️) simgesine basın, sonra \"Ana Ekrana Ekle\"yi seçin.");
+});
+</script>
+</body>
+</html>
