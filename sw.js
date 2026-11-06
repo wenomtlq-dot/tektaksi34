@@ -1,5 +1,5 @@
 // tektaksi34 - once internetten alir (fiyatlar hep guncel), internet yoksa son kaydedileni gosterir
-var ONBELLEK = "tektaksi34-v1";
+var ONBELLEK = "tektaksi34-v2";
 self.addEventListener("install", function () { self.skipWaiting(); });
 self.addEventListener("activate", function (e) { e.waitUntil(self.clients.claim()); });
 self.addEventListener("fetch", function (e) {
