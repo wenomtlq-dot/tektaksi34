@@ -1,41 +1,58 @@
-FİYAT LİSTESİ (İstanbul) - 03.11.2026
-Kaynak: botun gördüğü iş gruplarındaki 6800 ilan (Ekim sonu - 2 Kasım).
+FİYAT LİSTESİ (İstanbul) - 09.11.2026
+Kaynak: botun gördüğü iş gruplarındaki 11761 ilan (20 Ekim - 9 Kasım).
 Hesap: ilanlardaki şoföre kalan fiyat (artı / komisyon hariç) ortalaması + %20, 100 TL'ye yuvarlandı.
 Fiyat iki yönde de geçerli. Vito, minibüs, gidiş-dönüş, uğramalı, beklemeli ve premium araç ilanları hesaba katılmadı.
+Aşağıdaki fiyatlar bütün saatlerin ortalamasıdır. Site, müşterinin istediği saate göre SAAT FARKI kadar artırıp azaltır (sonra 100 TL'ye yuvarlar).
 
-===== İLÇE - İLÇE (721 güzergâh) =====
-İstanbul Havalimanı - Arnavutköy 1200
-İstanbul Havalimanı - Ataşehir 1700
+===== SAAT FARKI (% - gruplardaki ilanların saatine göre, 9944 ilan) =====
+hafta içi 00-06 -4
+hafta içi 06-10 +2
+hafta içi 10-16 -1
+hafta içi 16-20 +3
+hafta içi 20-24 -2
+hafta sonu 00-06 -2
+hafta sonu 06-10 -2
+hafta sonu 10-16 -2
+hafta sonu 16-20 +2
+hafta sonu 20-24 0
+
+===== İLÇE - İLÇE (883 güzergâh) =====
+İstanbul Havalimanı - Arnavutköy 1100
+İstanbul Havalimanı - Ataşehir 1800
 İstanbul Havalimanı - Avcılar 1600
-İstanbul Havalimanı - Bağcılar 1400
-İstanbul Havalimanı - Bahçelievler 1400
+İstanbul Havalimanı - Bağcılar 1500
+İstanbul Havalimanı - Bahçelievler 1500
 İstanbul Havalimanı - Bakırköy 1600
 İstanbul Havalimanı - Başakşehir 1300
 İstanbul Havalimanı - Bayrampaşa 1400
-İstanbul Havalimanı - Beşiktaş 1400
+İstanbul Havalimanı - Beşiktaş 1600
 İstanbul Havalimanı - Beykoz 1500
 İstanbul Havalimanı - Beylikdüzü 1500
 İstanbul Havalimanı - Beyoğlu 1600
 İstanbul Havalimanı - Büyükçekmece 1600
-İstanbul Havalimanı - Çatalca 1700
-İstanbul Havalimanı - Çekmeköy 1600
-İstanbul Havalimanı - Çerkezköy 2300
-İstanbul Havalimanı - Esenler 1500
-İstanbul Havalimanı - Esenyurt 1600
-İstanbul Havalimanı - Eyüpsultan 900
+İstanbul Havalimanı - Çatalca 1600
+İstanbul Havalimanı - Çekmeköy 1500
+İstanbul Havalimanı - Çerkezköy 2400
+İstanbul Havalimanı - Çorlu 3100
+İstanbul Havalimanı - Esenler 1400
+İstanbul Havalimanı - Esenyurt 1500
+İstanbul Havalimanı - Eyüpsultan 1000
 İstanbul Havalimanı - Fatih 1700
-İstanbul Havalimanı - Gaziosmanpaşa 1500
+İstanbul Havalimanı - Gaziosmanpaşa 1600
 İstanbul Havalimanı - Gebze 2700
 İstanbul Havalimanı - Güngören 1500
-İstanbul Havalimanı - Kadıköy 1600
-İstanbul Havalimanı - Kağıthane 1400
+İstanbul Havalimanı - İzmir 2300
+İstanbul Havalimanı - İzmit 3900
+İstanbul Havalimanı - Kadıköy 1700
+İstanbul Havalimanı - Kağıthane 1300
+İstanbul Havalimanı - Kapaklı 2300
 İstanbul Havalimanı - Kartal 1900
-İstanbul Havalimanı - Küçükçekmece 1600
+İstanbul Havalimanı - Küçükçekmece 1500
 İstanbul Havalimanı - Maltepe 1900
 İstanbul Havalimanı - Pendik 2400
 İstanbul Havalimanı - Sancaktepe 2000
 İstanbul Havalimanı - Sapanca 4700
-İstanbul Havalimanı - Sarıyer 1500
+İstanbul Havalimanı - Sarıyer 1400
 İstanbul Havalimanı - Silivri 1900
 İstanbul Havalimanı - Sultanbeyli 1800
 İstanbul Havalimanı - Sultangazi 1300
@@ -43,34 +60,35 @@ Fiyat iki yönde de geçerli. Vito, minibüs, gidiş-dönüş, uğramalı, bekle
 İstanbul Havalimanı - Tuzla 2300
 İstanbul Havalimanı - Ümraniye 1600
 İstanbul Havalimanı - Üsküdar 1600
+İstanbul Havalimanı - Zeytinburnu 1500
 Sabiha Gökçen - Arnavutköy 2800
 Sabiha Gökçen - Ataşehir 1000
 Sabiha Gökçen - Avcılar 2300
 Sabiha Gökçen - Bağcılar 1800
 Sabiha Gökçen - Bahçelievler 1800
 Sabiha Gökçen - Bakırköy 1900
-Sabiha Gökçen - Başakşehir 2000
-Sabiha Gökçen - Bayrampaşa 1500
-Sabiha Gökçen - Beşiktaş 1700
-Sabiha Gökçen - Beykoz 1500
-Sabiha Gökçen - Beylikdüzü 2200
+Sabiha Gökçen - Başakşehir 2100
+Sabiha Gökçen - Bayrampaşa 1900
+Sabiha Gökçen - Beşiktaş 1800
+Sabiha Gökçen - Beykoz 1600
+Sabiha Gökçen - Beylikdüzü 2300
 Sabiha Gökçen - Beyoğlu 2000
 Sabiha Gökçen - Bursa 5000
-Sabiha Gökçen - Büyükçekmece 2600
+Sabiha Gökçen - Büyükçekmece 2800
 Sabiha Gökçen - Çayırova 800
 Sabiha Gökçen - Çekmeköy 1000
-Sabiha Gökçen - Çerkezköy 3700
-Sabiha Gökçen - Darıca 1000
+Sabiha Gökçen - Çerkezköy 3600
+Sabiha Gökçen - Darıca 900
 Sabiha Gökçen - Dilovası 1300
 Sabiha Gökçen - Esenler 1800
 Sabiha Gökçen - Esenyurt 2200
 Sabiha Gökçen - Eyüpsultan 1600
-Sabiha Gökçen - Fatih 2100
+Sabiha Gökçen - Fatih 2000
 Sabiha Gökçen - Gaziosmanpaşa 1700
 Sabiha Gökçen - Gebze 900
-Sabiha Gökçen - Güngören 2100
-Sabiha Gökçen - İstanbul Havalimanı 2500
-Sabiha Gökçen - İzmit 2000
+Sabiha Gökçen - Güngören 1900
+Sabiha Gökçen - İstanbul Havalimanı 2400
+Sabiha Gökçen - İzmit 2500
 Sabiha Gökçen - Kadıköy 1200
 Sabiha Gökçen - Kağıthane 1600
 Sabiha Gökçen - Kartal 800
@@ -78,125 +96,153 @@ Sabiha Gökçen - Küçükçekmece 2000
 Sabiha Gökçen - Maltepe 900
 Sabiha Gökçen - Pendik 700
 Sabiha Gökçen - Sancaktepe 900
-Sabiha Gökçen - Sapanca 3500
+Sabiha Gökçen - Sapanca 3300
 Sabiha Gökçen - Sarıyer 1700
 Sabiha Gökçen - Silivri 3400
 Sabiha Gökçen - Sultanbeyli 800
 Sabiha Gökçen - Sultangazi 1800
-Sabiha Gökçen - Şişli 1700
+Sabiha Gökçen - Şile 2000
+Sabiha Gökçen - Şişli 1800
 Sabiha Gökçen - Tuzla 700
 Sabiha Gökçen - Ümraniye 1000
-Sabiha Gökçen - Üsküdar 1200
-Sabiha Gökçen - Zeytinburnu 1700
+Sabiha Gökçen - Üsküdar 1100
+Sabiha Gökçen - Yalova 4200
+Sabiha Gökçen - Zeytinburnu 1800
 Arnavutköy - Ataşehir 1600
 Arnavutköy - Avcılar 1100
 Arnavutköy - Bağcılar 1000
 Arnavutköy - Bahçelievler 1000
 Arnavutköy - Bakırköy 1000
-Arnavutköy - Başakşehir 800
+Arnavutköy - Başakşehir 900
 Arnavutköy - Bayrampaşa 1000
 Arnavutköy - Beşiktaş 1200
+Arnavutköy - Beykoz 1400
 Arnavutköy - Beylikdüzü 900
 Arnavutköy - Beyoğlu 1100
 Arnavutköy - Büyükçekmece 1200
-Arnavutköy - Çatalca 1300
-Arnavutköy - Çekmeköy 1500
+Arnavutköy - Çatalca 1200
+Arnavutköy - Çayırova 2400
+Arnavutköy - Çekmeköy 1300
 Arnavutköy - Çorlu 2200
+Arnavutköy - Dilovası 2900
+Arnavutköy - Düzce 7800
 Arnavutköy - Esenler 1000
-Arnavutköy - Esenyurt 900
+Arnavutköy - Esenyurt 1000
 Arnavutköy - Eyüpsultan 800
 Arnavutköy - Fatih 1200
 Arnavutköy - Gaziosmanpaşa 900
-Arnavutköy - Gebze 2200
+Arnavutköy - Gebze 2900
+Arnavutköy - Güngören 1000
+Arnavutköy - Kadıköy 1500
+Arnavutköy - Kağıthane 700
 Arnavutköy - Kapaklı 2200
-Arnavutköy - Küçükçekmece 900
+Arnavutköy - Küçükçekmece 1000
 Arnavutköy - Maltepe 1600
 Arnavutköy - Pendik 2400
 Arnavutköy - Sancaktepe 800
-Arnavutköy - Sarıyer 1200
+Arnavutköy - Sarıyer 1100
+Arnavutköy - Silivri 1800
+Arnavutköy - Sultanbeyli 1900
 Arnavutköy - Sultangazi 800
 Arnavutköy - Şişli 1200
 Arnavutköy - Tekirdağ 3800
 Arnavutköy - Ümraniye 1800
-Ataşehir - Avcılar 1600
-Ataşehir - Bağcılar 1200
+Arnavutköy - Zeytinburnu 900
+Ataşehir - Avcılar 1500
+Ataşehir - Bağcılar 1400
 Ataşehir - Bahçelievler 1100
 Ataşehir - Bakırköy 1000
-Ataşehir - Başakşehir 1500
+Ataşehir - Başakşehir 1300
 Ataşehir - Bayrampaşa 1100
 Ataşehir - Beşiktaş 900
-Ataşehir - Beykoz 1000
+Ataşehir - Beykoz 1100
 Ataşehir - Beylikdüzü 1600
-Ataşehir - Beyoğlu 900
-Ataşehir - Büyükçekmece 2600
-Ataşehir - Çayırova 900
+Ataşehir - Beyoğlu 1000
+Ataşehir - Büyükçekmece 2200
+Ataşehir - Çatalca 2400
+Ataşehir - Çayırova 1100
 Ataşehir - Çekmeköy 700
+Ataşehir - Çorlu 3600
 Ataşehir - Dilovası 1600
 Ataşehir - Esenler 1100
 Ataşehir - Esenyurt 1500
-Ataşehir - Eyüpsultan 1300
-Ataşehir - Fatih 1100
+Ataşehir - Eyüpsultan 1100
+Ataşehir - Fatih 1000
 Ataşehir - Gaziosmanpaşa 1100
 Ataşehir - Gebze 1100
-Ataşehir - Güngören 1100
+Ataşehir - Güngören 1200
+Ataşehir - İzmit 2400
 Ataşehir - Kadıköy 700
 Ataşehir - Kağıthane 1000
-Ataşehir - Kartal 800
+Ataşehir - Kartal 700
 Ataşehir - Küçükçekmece 1400
 Ataşehir - Maltepe 600
 Ataşehir - Pendik 800
+Ataşehir - Sakarya 3300
 Ataşehir - Sancaktepe 700
+Ataşehir - Sapanca 3100
 Ataşehir - Sarıyer 1300
 Ataşehir - Sultanbeyli 800
+Ataşehir - Sultangazi 1200
+Ataşehir - Şile 1900
 Ataşehir - Şişli 1000
 Ataşehir - Tekirdağ 4800
-Ataşehir - Tuzla 900
+Ataşehir - Tuzla 1000
 Ataşehir - Ümraniye 700
-Ataşehir - Üsküdar 600
+Ataşehir - Üsküdar 700
 Avcılar - Bağcılar 800
 Avcılar - Bahçelievler 700
-Avcılar - Bakırköy 700
+Avcılar - Bakırköy 800
 Avcılar - Başakşehir 800
 Avcılar - Bayrampaşa 800
 Avcılar - Beşiktaş 1100
 Avcılar - Beylikdüzü 600
-Avcılar - Beyoğlu 1100
-Avcılar - Büyükçekmece 700
-Avcılar - Çatalca 1600
-Avcılar - Çekmeköy 1600
+Avcılar - Beyoğlu 1000
+Avcılar - Büyükçekmece 800
+Avcılar - Çatalca 1500
+Avcılar - Çekmeköy 1700
 Avcılar - Çerkezköy 2100
 Avcılar - Darıca 2800
 Avcılar - Esenler 800
 Avcılar - Esenyurt 600
-Avcılar - Eyüpsultan 1300
+Avcılar - Eyüpsultan 1200
 Avcılar - Fatih 900
-Avcılar - Gaziosmanpaşa 800
+Avcılar - Gaziosmanpaşa 900
 Avcılar - Güngören 800
 Avcılar - İzmit 3700
-Avcılar - Kadıköy 1400
+Avcılar - Kadıköy 1500
 Avcılar - Kağıthane 1000
+Avcılar - Kapaklı 2300
 Avcılar - Küçükçekmece 600
 Avcılar - Maltepe 1700
+Avcılar - Pendik 1700
 Avcılar - Sarıyer 1400
 Avcılar - Silivri 1400
+Avcılar - Sultanbeyli 1700
 Avcılar - Sultangazi 1000
 Avcılar - Şişli 1000
+Avcılar - Ümraniye 1300
+Avcılar - Üsküdar 1400
+Avcılar - Zeytinburnu 800
 Bağcılar - Bahçelievler 600
-Bağcılar - Bakırköy 600
+Bağcılar - Bakırköy 700
 Bağcılar - Başakşehir 700
 Bağcılar - Bayrampaşa 700
 Bağcılar - Beşiktaş 900
+Bağcılar - Beykoz 1300
 Bağcılar - Beylikdüzü 900
 Bağcılar - Beyoğlu 800
 Bağcılar - Büyükçekmece 1300
+Bağcılar - Çatalca 2200
 Bağcılar - Çekmeköy 1200
 Bağcılar - Çerkezköy 2600
 Bağcılar - Darıca 1900
-Bağcılar - Esenler 600
+Bağcılar - Esenler 700
 Bağcılar - Esenyurt 900
-Bağcılar - Eyüpsultan 700
-Bağcılar - Fatih 800
-Bağcılar - Gaziosmanpaşa 800
+Bağcılar - Eyüpsultan 800
+Bağcılar - Fatih 700
+Bağcılar - Gaziosmanpaşa 900
+Bağcılar - Gebze 2800
 Bağcılar - Güngören 600
 Bağcılar - Kadıköy 1200
 Bağcılar - Kağıthane 800
@@ -204,45 +250,46 @@ Bağcılar - Kapaklı 3000
 Bağcılar - Kartal 1500
 Bağcılar - Küçükçekmece 600
 Bağcılar - Maltepe 1500
-Bağcılar - Sarıyer 1000
-Bağcılar - Silivri 1900
+Bağcılar - Sarıyer 1100
+Bağcılar - Silivri 2000
 Bağcılar - Sultanbeyli 1500
 Bağcılar - Sultangazi 700
 Bağcılar - Şişli 800
 Bağcılar - Ümraniye 1400
 Bağcılar - Üsküdar 1200
-Bağcılar - Zeytinburnu 600
+Bağcılar - Zeytinburnu 700
 Bahçelievler - Bakırköy 600
 Bahçelievler - Başakşehir 700
 Bahçelievler - Bayrampaşa 700
 Bahçelievler - Beşiktaş 800
-Bahçelievler - Beykoz 1200
+Bahçelievler - Beykoz 1300
 Bahçelievler - Beylikdüzü 900
 Bahçelievler - Beyoğlu 800
 Bahçelievler - Büyükçekmece 1300
-Bahçelievler - Çatalca 1500
+Bahçelievler - Çatalca 1800
 Bahçelievler - Çerkezköy 2100
-Bahçelievler - Çorlu 2600
+Bahçelievler - Çorlu 2700
+Bahçelievler - Darıca 2200
 Bahçelievler - Esenler 600
 Bahçelievler - Esenyurt 800
-Bahçelievler - Eyüpsultan 800
-Bahçelievler - Fatih 900
-Bahçelievler - Gaziosmanpaşa 800
+Bahçelievler - Eyüpsultan 900
+Bahçelievler - Fatih 800
+Bahçelievler - Gaziosmanpaşa 700
 Bahçelievler - Güngören 600
 Bahçelievler - Kadıköy 1100
 Bahçelievler - Kağıthane 800
-Bahçelievler - Kartal 1100
+Bahçelievler - Kartal 1400
 Bahçelievler - Küçükçekmece 600
 Bahçelievler - Pendik 1600
-Bahçelievler - Sancaktepe 1300
-Bahçelievler - Sarıyer 900
+Bahçelievler - Sancaktepe 1400
+Bahçelievler - Sarıyer 1100
 Bahçelievler - Silivri 1500
-Bahçelievler - Sultanbeyli 1500
+Bahçelievler - Sultanbeyli 1600
 Bahçelievler - Sultangazi 800
 Bahçelievler - Şişli 800
-Bahçelievler - Ümraniye 1300
-Bahçelievler - Üsküdar 1100
-Bahçelievler - Zeytinburnu 500
+Bahçelievler - Ümraniye 1200
+Bahçelievler - Üsküdar 1200
+Bahçelievler - Zeytinburnu 600
 Bakırköy - Başakşehir 900
 Bakırköy - Bayrampaşa 700
 Bakırköy - Beşiktaş 900
@@ -250,70 +297,81 @@ Bakırköy - Beykoz 1300
 Bakırköy - Beylikdüzü 900
 Bakırköy - Beyoğlu 800
 Bakırköy - Bursa 5900
-Bakırköy - Büyükçekmece 1100
+Bakırköy - Büyükçekmece 1300
 Bakırköy - Esenler 700
 Bakırköy - Esenyurt 800
-Bakırköy - Eyüpsultan 1300
+Bakırköy - Eyüpsultan 1100
 Bakırköy - Fatih 700
 Bakırköy - Gaziosmanpaşa 800
-Bakırköy - Gebze 2100
+Bakırköy - Gebze 2000
 Bakırköy - Güngören 700
-Bakırköy - Kağıthane 1000
+Bakırköy - Kadıköy 1200
+Bakırköy - Kağıthane 900
 Bakırköy - Kapaklı 2600
+Bakırköy - Kartal 1400
 Bakırköy - Küçükçekmece 700
 Bakırköy - Maltepe 1300
 Bakırköy - Pendik 1600
 Bakırköy - Sarıyer 1100
 Bakırköy - Silivri 1700
 Bakırköy - Sultanbeyli 1500
-Bakırköy - Sultangazi 1400
+Bakırköy - Sultangazi 1000
 Bakırköy - Şişli 800
-Bakırköy - Ümraniye 1500
+Bakırköy - Ümraniye 1300
 Bakırköy - Üsküdar 1200
 Bakırköy - Zeytinburnu 600
 Başakşehir - Bayrampaşa 800
-Başakşehir - Beşiktaş 1400
-Başakşehir - Beykoz 1600
-Başakşehir - Beylikdüzü 700
+Başakşehir - Beşiktaş 1300
+Başakşehir - Beykoz 1400
+Başakşehir - Beylikdüzü 800
 Başakşehir - Beyoğlu 1000
-Başakşehir - Büyükçekmece 800
-Başakşehir - Çatalca 1100
-Başakşehir - Çekmeköy 1600
+Başakşehir - Büyükçekmece 900
+Başakşehir - Çatalca 1300
+Başakşehir - Çekmeköy 1700
 Başakşehir - Çerkezköy 2200
 Başakşehir - Edirne 5700
 Başakşehir - Esenler 700
-Başakşehir - Esenyurt 800
-Başakşehir - Eyüpsultan 700
+Başakşehir - Esenyurt 700
+Başakşehir - Eyüpsultan 800
 Başakşehir - Fatih 900
 Başakşehir - Gaziosmanpaşa 800
-Başakşehir - Güngören 800
+Başakşehir - Güngören 900
 Başakşehir - Kadıköy 1600
-Başakşehir - Kağıthane 1200
-Başakşehir - Kartal 1900
-Başakşehir - Küçükçekmece 800
+Başakşehir - Kağıthane 1100
+Başakşehir - Kartal 1700
+Başakşehir - Küçükçekmece 700
 Başakşehir - Maltepe 1600
 Başakşehir - Pendik 1900
 Başakşehir - Sancaktepe 1600
-Başakşehir - Sarıyer 1000
-Başakşehir - Silivri 1200
-Başakşehir - Sultangazi 900
-Başakşehir - Şişli 1000
+Başakşehir - Sarıyer 1200
+Başakşehir - Silivri 1500
+Başakşehir - Sultangazi 700
+Başakşehir - Şişli 1100
+Başakşehir - Tuzla 1700
 Başakşehir - Ümraniye 1600
+Başakşehir - Üsküdar 1200
 Başakşehir - Zeytinburnu 900
 Bayrampaşa - Beşiktaş 800
+Bayrampaşa - Beykoz 1100
 Bayrampaşa - Beylikdüzü 1000
 Bayrampaşa - Beyoğlu 700
 Bayrampaşa - Büyükçekmece 1300
-Bayrampaşa - Esenler 600
+Bayrampaşa - Çekmeköy 1200
+Bayrampaşa - Esenler 500
 Bayrampaşa - Esenyurt 900
 Bayrampaşa - Eyüpsultan 800
+Bayrampaşa - Gaziosmanpaşa 500
 Bayrampaşa - Kadıköy 1100
 Bayrampaşa - Kağıthane 700
+Bayrampaşa - Kartal 1500
 Bayrampaşa - Küçükçekmece 700
 Bayrampaşa - Maltepe 1300
 Bayrampaşa - Pendik 1500
-Bayrampaşa - Sarıyer 1100
-Bayrampaşa - Silivri 1700
+Bayrampaşa - Sarıyer 1000
+Bayrampaşa - Silivri 2000
+Bayrampaşa - Sultanbeyli 1400
+Bayrampaşa - Sultangazi 700
+Bayrampaşa - Şişli 900
 Bayrampaşa - Tuzla 1600
 Bayrampaşa - Üsküdar 1000
 Bayrampaşa - Zeytinburnu 800
@@ -324,501 +382,669 @@ Beşiktaş - Çatalca 2000
 Beşiktaş - Çekmeköy 1100
 Beşiktaş - Esenler 800
 Beşiktaş - Esenyurt 1200
-Beşiktaş - Eyüpsultan 900
+Beşiktaş - Eyüpsultan 800
 Beşiktaş - Fatih 700
 Beşiktaş - Gaziosmanpaşa 800
+Beşiktaş - Gebze 1700
 Beşiktaş - Güngören 800
 Beşiktaş - Kadıköy 900
 Beşiktaş - Kağıthane 700
 Beşiktaş - Kartal 1200
 Beşiktaş - Küçükçekmece 900
 Beşiktaş - Maltepe 1100
+Beşiktaş - Pendik 2000
 Beşiktaş - Sancaktepe 1100
-Beşiktaş - Sarıyer 700
+Beşiktaş - Sarıyer 800
+Beşiktaş - Silivri 800
+Beşiktaş - Sultanbeyli 1100
 Beşiktaş - Sultangazi 800
 Beşiktaş - Şile 2400
 Beşiktaş - Şişli 600
-Beşiktaş - Tuzla 1500
-Beşiktaş - Ümraniye 1000
+Beşiktaş - Tuzla 1400
+Beşiktaş - Ümraniye 900
+Beşiktaş - Üsküdar 900
 Beşiktaş - Zeytinburnu 800
-Beykoz - Beyoğlu 1200
+Beykoz - Beylikdüzü 1800
+Beykoz - Beyoğlu 1100
 Beykoz - Çekmeköy 900
-Beykoz - Esenler 1500
+Beykoz - Esenler 1400
 Beykoz - Esenyurt 1500
 Beykoz - Eyüpsultan 1300
-Beykoz - Fatih 1200
-Beykoz - Gebze 1600
+Beykoz - Fatih 1100
+Beykoz - Gaziosmanpaşa 1300
+Beykoz - Gebze 1700
 Beykoz - Kadıköy 900
 Beykoz - Kağıthane 1100
-Beykoz - Küçükçekmece 1200
-Beykoz - Maltepe 1200
-Beykoz - Pendik 1500
+Beykoz - Kartal 900
+Beykoz - Küçükçekmece 1400
+Beykoz - Maltepe 1100
+Beykoz - Pendik 1400
+Beykoz - Sancaktepe 700
 Beykoz - Sarıyer 1100
+Beykoz - Sultanbeyli 1000
 Beykoz - Şişli 900
 Beykoz - Tekirdağ 3800
 Beykoz - Tuzla 1700
 Beykoz - Ümraniye 700
 Beykoz - Üsküdar 700
-Beykoz - Yalova 5600
-Beylikdüzü - Beyoğlu 1100
+Beykoz - Yalova 5000
+Beylikdüzü - Beyoğlu 1200
 Beylikdüzü - Bursa 6600
 Beylikdüzü - Büyükçekmece 700
-Beylikdüzü - Çatalca 1100
-Beylikdüzü - Çekmeköy 1900
+Beylikdüzü - Çatalca 1200
+Beylikdüzü - Çekmeköy 1800
 Beylikdüzü - Çerkezköy 2500
 Beylikdüzü - Çorlu 2200
 Beylikdüzü - Esenler 1000
 Beylikdüzü - Esenyurt 500
 Beylikdüzü - Eyüpsultan 1200
-Beylikdüzü - Fatih 1100
-Beylikdüzü - Gaziosmanpaşa 1000
-Beylikdüzü - Kadıköy 1100
-Beylikdüzü - Kağıthane 1100
+Beylikdüzü - Fatih 1000
+Beylikdüzü - Gaziosmanpaşa 1100
+Beylikdüzü - Gebze 2300
+Beylikdüzü - Güngören 900
+Beylikdüzü - Kadıköy 1300
+Beylikdüzü - Kağıthane 1200
+Beylikdüzü - Kartal 2000
 Beylikdüzü - Küçükçekmece 800
+Beylikdüzü - Maltepe 1300
+Beylikdüzü - Pendik 2000
 Beylikdüzü - Sakarya 4200
-Beylikdüzü - Sarıyer 1500
+Beylikdüzü - Sapanca 5200
+Beylikdüzü - Sarıyer 1400
 Beylikdüzü - Silivri 1200
 Beylikdüzü - Sultangazi 900
+Beylikdüzü - Şile 3300
 Beylikdüzü - Şişli 1300
-Beylikdüzü - Tekirdağ 4500
-Beylikdüzü - Ümraniye 1900
+Beylikdüzü - Tekirdağ 3900
+Beylikdüzü - Ümraniye 1800
+Beylikdüzü - Üsküdar 1400
 Beylikdüzü - Zeytinburnu 1000
-Beyoğlu - Büyükçekmece 1400
+Beyoğlu - Bursa 7400
+Beyoğlu - Büyükçekmece 1300
 Beyoğlu - Çayırova 1600
-Beyoğlu - Çekmeköy 1300
-Beyoğlu - Darıca 2600
-Beyoğlu - Dilovası 2100
+Beyoğlu - Çekmeköy 1200
+Beyoğlu - Çerkezköy 3000
+Beyoğlu - Darıca 2000
+Beyoğlu - Dilovası 2000
 Beyoğlu - Düzce 6800
 Beyoğlu - Esenler 700
 Beyoğlu - Esenyurt 1100
 Beyoğlu - Eyüpsultan 800
-Beyoğlu - Fatih 700
+Beyoğlu - Fatih 600
 Beyoğlu - Gaziosmanpaşa 700
-Beyoğlu - Gebze 1600
+Beyoğlu - Gebze 1700
 Beyoğlu - Güngören 700
+Beyoğlu - İzmit 3000
 Beyoğlu - Kadıköy 1000
-Beyoğlu - Kağıthane 700
-Beyoğlu - Kartal 1100
+Beyoğlu - Kağıthane 600
+Beyoğlu - Kartal 1200
 Beyoğlu - Küçükçekmece 800
-Beyoğlu - Maltepe 1000
-Beyoğlu - Pendik 1200
+Beyoğlu - Maltepe 1100
+Beyoğlu - Pendik 1400
 Beyoğlu - Sakarya 3600
-Beyoğlu - Sancaktepe 1000
-Beyoğlu - Sarıyer 800
+Beyoğlu - Sancaktepe 1200
+Beyoğlu - Sarıyer 1000
 Beyoğlu - Silivri 2200
 Beyoğlu - Sultanbeyli 1200
 Beyoğlu - Sultangazi 800
-Beyoğlu - Şile 2100
+Beyoğlu - Şile 2200
 Beyoğlu - Şişli 700
 Beyoğlu - Tekirdağ 3600
 Beyoğlu - Tuzla 1400
 Beyoğlu - Ümraniye 1000
 Beyoğlu - Üsküdar 900
 Beyoğlu - Zeytinburnu 600
-Bursa - Esenler 4900
+Bursa - Esenler 2200
 Bursa - Esenyurt 7500
 Bursa - Küçükçekmece 5900
+Bursa - Pendik 4500
 Büyükçekmece - Çatalca 800
+Büyükçekmece - Çekmeköy 900
 Büyükçekmece - Esenler 1200
 Büyükçekmece - Esenyurt 700
+Büyükçekmece - Eyüpsultan 1300
 Büyükçekmece - Fatih 1400
 Büyükçekmece - Gaziosmanpaşa 1400
+Büyükçekmece - Gebze 2700
 Büyükçekmece - Güngören 1100
 Büyükçekmece - Kadıköy 1300
-Büyükçekmece - Kağıthane 1300
-Büyükçekmece - Küçükçekmece 1100
+Büyükçekmece - Kağıthane 1400
+Büyükçekmece - Kapaklı 2000
+Büyükçekmece - Küçükçekmece 1000
 Büyükçekmece - Lüleburgaz 2500
-Büyükçekmece - Maltepe 2100
-Büyükçekmece - Sarıyer 1800
+Büyükçekmece - Maltepe 2300
+Büyükçekmece - Sakarya 5100
+Büyükçekmece - Sarıyer 1700
 Büyükçekmece - Silivri 1000
-Büyükçekmece - Şişli 1700
+Büyükçekmece - Sultangazi 1200
+Büyükçekmece - Şişli 1800
 Büyükçekmece - Ümraniye 1900
 Büyükçekmece - Zeytinburnu 1200
 Çanakkale - Esenyurt 7800
+Çatalca - Çekmeköy 2400
 Çatalca - Çerkezköy 1600
 Çatalca - Esenler 1500
-Çatalca - Esenyurt 1000
+Çatalca - Esenyurt 1100
 Çatalca - Eyüpsultan 1500
 Çatalca - Fatih 1400
+Çatalca - Gebze 3300
+Çatalca - Güngören 1500
 Çatalca - Küçükçekmece 1500
 Çatalca - Silivri 900
 Çatalca - Sultanbeyli 3000
 Çatalca - Sultangazi 1400
 Çayırova - Çekmeköy 1100
 Çayırova - Esenler 1800
-Çayırova - Fatih 1800
+Çayırova - Fatih 1700
+Çayırova - Gaziosmanpaşa 1700
 Çayırova - Kadıköy 1200
 Çayırova - Kartal 800
-Çayırova - Maltepe 900
+Çayırova - Maltepe 1000
 Çayırova - Pendik 800
 Çayırova - Sancaktepe 1000
-Çayırova - Sultanbeyli 800
+Çayırova - Sultanbeyli 900
+Çayırova - Şişli 1500
 Çayırova - Tuzla 700
-Çayırova - Ümraniye 1100
-Çekmeköy - Esenler 1000
+Çayırova - Ümraniye 1200
+Çekmeköy - Esenler 1100
 Çekmeköy - Esenyurt 1800
 Çekmeköy - Fatih 1200
-Çekmeköy - Gaziosmanpaşa 1000
-Çekmeköy - Gebze 900
+Çekmeköy - Gaziosmanpaşa 1300
+Çekmeköy - Gebze 1000
+Çekmeköy - İzmit 2600
 Çekmeköy - Kadıköy 900
 Çekmeköy - Kağıthane 900
 Çekmeköy - Kartal 800
-Çekmeköy - Küçükçekmece 1800
-Çekmeköy - Pendik 800
-Çekmeköy - Sancaktepe 500
+Çekmeköy - Küçükçekmece 1700
+Çekmeköy - Maltepe 900
+Çekmeköy - Pendik 900
+Çekmeköy - Sancaktepe 600
 Çekmeköy - Sapanca 2900
+Çekmeköy - Sarıyer 1400
 Çekmeköy - Silivri 3600
 Çekmeköy - Sultanbeyli 700
 Çekmeköy - Şile 2000
 Çekmeköy - Şişli 1100
 Çekmeköy - Ümraniye 700
 Çekmeköy - Üsküdar 900
+Çekmeköy - Zeytinburnu 1200
 Çerkezköy - Esenler 2700
-Çerkezköy - Esenyurt 2400
-Çerkezköy - Fatih 3000
+Çerkezköy - Esenyurt 2200
+Çerkezköy - Fatih 2800
 Çerkezköy - Güngören 2700
-Çerkezköy - Pendik 4000
-Çerkezköy - Silivri 1000
+Çerkezköy - Kağıthane 2700
+Çerkezköy - Pendik 4100
+Çerkezköy - Sarıyer 3000
+Çerkezköy - Silivri 1100
+Çerkezköy - Ümraniye 3300
 Çorlu - Esenler 3000
 Çorlu - Esenyurt 2100
 Çorlu - Gaziosmanpaşa 2600
 Çorlu - Kartal 3900
 Çorlu - Küçükçekmece 2400
+Çorlu - Pendik 3900
 Çorlu - Silivri 1200
 Çorlu - Sultanbeyli 3800
 Çorlu - Şişli 3000
 Çorlu - Üsküdar 3600
-Darıca - Kadıköy 1600
+Darıca - Kadıköy 1500
 Darıca - Kağıthane 1600
-Darıca - Kartal 900
-Darıca - Maltepe 800
+Darıca - Kartal 800
+Darıca - Maltepe 900
 Darıca - Pendik 700
+Darıca - Sancaktepe 1300
 Darıca - Sultanbeyli 900
+Darıca - Şişli 1600
 Darıca - Tuzla 700
+Darıca - Ümraniye 1200
+Derince - Pendik 1800
 Derince - Sultanbeyli 1300
+Derince - Şişli 2800
+Dilovası - Maltepe 3100
+Dilovası - Pendik 1100
 Dilovası - Sancaktepe 1600
-Dilovası - Ümraniye 1800
+Dilovası - Sultanbeyli 1100
+Dilovası - Şişli 2400
+Dilovası - Ümraniye 1700
 Dilovası - Üsküdar 1600
-Esenler - Esenyurt 900
+Edirne - Esenler 5400
+Edirne - Fatih 6000
+Esenler - Esenyurt 1000
 Esenler - Eyüpsultan 700
-Esenler - Fatih 600
+Esenler - Fatih 700
 Esenler - Gaziosmanpaşa 600
 Esenler - Gebze 700
 Esenler - Güngören 600
 Esenler - İzmir 5400
+Esenler - İzmit 1200
 Esenler - Kadıköy 1100
 Esenler - Kağıthane 800
+Esenler - Kapaklı 2500
 Esenler - Kartal 1400
 Esenler - Küçükçekmece 700
 Esenler - Maltepe 1400
+Esenler - Pendik 1700
+Esenler - Sakarya 1200
 Esenler - Sancaktepe 1400
 Esenler - Sarıyer 900
-Esenler - Silivri 2400
-Esenler - Sultanbeyli 1700
-Esenler - Sultangazi 600
+Esenler - Silivri 2300
+Esenler - Sultanbeyli 1600
+Esenler - Sultangazi 700
 Esenler - Şişli 700
 Esenler - Tuzla 1600
 Esenler - Ümraniye 1200
 Esenler - Üsküdar 900
-Esenler - Zeytinburnu 700
+Esenler - Yalova 5100
+Esenler - Zeytinburnu 600
 Esenyurt - Eyüpsultan 1200
 Esenyurt - Fatih 1000
-Esenyurt - Gaziosmanpaşa 900
-Esenyurt - Gebze 2300
-Esenyurt - Güngören 900
+Esenyurt - Gaziosmanpaşa 1000
+Esenyurt - Gebze 2400
+Esenyurt - Güngören 1000
 Esenyurt - İzmit 3400
-Esenyurt - Kadıköy 1300
+Esenyurt - Kadıköy 1500
 Esenyurt - Kağıthane 1200
 Esenyurt - Kapaklı 2100
-Esenyurt - Kartal 1900
+Esenyurt - Kartal 1800
 Esenyurt - Küçükçekmece 800
 Esenyurt - Maltepe 1900
-Esenyurt - Pendik 2100
+Esenyurt - Pendik 2200
 Esenyurt - Sakarya 4800
 Esenyurt - Sancaktepe 1800
 Esenyurt - Sarıyer 1400
 Esenyurt - Silivri 1300
 Esenyurt - Sultanbeyli 1900
 Esenyurt - Sultangazi 1000
+Esenyurt - Şile 3100
 Esenyurt - Şişli 1200
-Esenyurt - Tuzla 2300
+Esenyurt - Tekirdağ 2100
+Esenyurt - Tuzla 2200
 Esenyurt - Ümraniye 1600
 Esenyurt - Üsküdar 1400
 Esenyurt - Zeytinburnu 1100
-Eyüpsultan - Fatih 700
-Eyüpsultan - Gaziosmanpaşa 600
-Eyüpsultan - Kadıköy 1200
-Eyüpsultan - Kağıthane 800
+Eyüpsultan - Fatih 800
+Eyüpsultan - Gaziosmanpaşa 700
+Eyüpsultan - Güngören 700
+Eyüpsultan - Kadıköy 1100
+Eyüpsultan - Kağıthane 700
 Eyüpsultan - Kartal 1500
 Eyüpsultan - Küçükçekmece 800
 Eyüpsultan - Maltepe 1400
-Eyüpsultan - Pendik 1900
+Eyüpsultan - Pendik 1800
 Eyüpsultan - Sakarya 5200
+Eyüpsultan - Sancaktepe 1800
 Eyüpsultan - Sarıyer 900
 Eyüpsultan - Silivri 1500
-Eyüpsultan - Sultangazi 700
+Eyüpsultan - Sultanbeyli 1500
+Eyüpsultan - Sultangazi 800
 Eyüpsultan - Şişli 800
-Eyüpsultan - Ümraniye 1000
-Eyüpsultan - Üsküdar 1100
+Eyüpsultan - Tuzla 1600
+Eyüpsultan - Ümraniye 1200
+Eyüpsultan - Üsküdar 1000
 Eyüpsultan - Zeytinburnu 700
 Fatih - Gaziosmanpaşa 600
-Fatih - Gebze 1800
+Fatih - Gebze 1700
 Fatih - Güngören 600
-Fatih - İzmit 3000
+Fatih - İzmit 2900
 Fatih - Kadıköy 1000
 Fatih - Kağıthane 800
-Fatih - Kartal 1300
+Fatih - Kartal 1400
 Fatih - Küçükçekmece 800
 Fatih - Maltepe 1100
-Fatih - Pendik 1500
+Fatih - Pendik 1600
 Fatih - Sancaktepe 1300
-Fatih - Sarıyer 1000
-Fatih - Silivri 2000
+Fatih - Sapanca 3600
+Fatih - Sarıyer 900
+Fatih - Silivri 1900
+Fatih - Sultanbeyli 1200
 Fatih - Sultangazi 700
+Fatih - Şile 2400
 Fatih - Şişli 700
 Fatih - Tuzla 1500
 Fatih - Ümraniye 1000
-Fatih - Üsküdar 1200
-Fatih - Zeytinburnu 600
-Gaziosmanpaşa - Gebze 3500
+Fatih - Üsküdar 1000
+Fatih - Yalova 4800
+Fatih - Zeytinburnu 700
+Gaziosmanpaşa - Gebze 3000
 Gaziosmanpaşa - Güngören 600
-Gaziosmanpaşa - Kadıköy 1000
-Gaziosmanpaşa - Kağıthane 600
-Gaziosmanpaşa - Kartal 1600
+Gaziosmanpaşa - Kadıköy 1100
+Gaziosmanpaşa - Kağıthane 700
+Gaziosmanpaşa - Kartal 1500
 Gaziosmanpaşa - Körfez 2700
 Gaziosmanpaşa - Küçükçekmece 700
 Gaziosmanpaşa - Maltepe 1300
 Gaziosmanpaşa - Pendik 1600
-Gaziosmanpaşa - Sakarya 2900
-Gaziosmanpaşa - Sarıyer 800
+Gaziosmanpaşa - Sakarya 3700
+Gaziosmanpaşa - Sarıyer 700
 Gaziosmanpaşa - Silivri 1800
-Gaziosmanpaşa - Sultanbeyli 1500
+Gaziosmanpaşa - Sultanbeyli 1400
 Gaziosmanpaşa - Sultangazi 700
 Gaziosmanpaşa - Şişli 700
+Gaziosmanpaşa - Tuzla 1700
 Gaziosmanpaşa - Ümraniye 1200
-Gaziosmanpaşa - Üsküdar 1300
-Gaziosmanpaşa - Zeytinburnu 500
-Gebze - Kadıköy 1400
-Gebze - Kartal 800
-Gebze - Maltepe 1200
+Gaziosmanpaşa - Üsküdar 1100
+Gaziosmanpaşa - Zeytinburnu 600
+Gebze - Kadıköy 1300
+Gebze - Kağıthane 1700
+Gebze - Kartal 900
+Gebze - Maltepe 1100
 Gebze - Pendik 800
+Gebze - Sarıyer 1900
+Gebze - Silivri 3200
 Gebze - Sultanbeyli 900
-Gebze - Şişli 1700
+Gebze - Sultangazi 2100
+Gebze - Şile 2300
+Gebze - Şişli 1800
 Gebze - Tuzla 700
 Gebze - Ümraniye 1200
 Gebze - Üsküdar 1500
+Gebze - Zeytinburnu 1800
 Güngören - Kadıköy 1000
 Güngören - Kağıthane 800
-Güngören - Küçükçekmece 700
+Güngören - Küçükçekmece 800
+Güngören - Maltepe 1400
 Güngören - Pendik 1700
 Güngören - Sarıyer 900
 Güngören - Silivri 1700
+Güngören - Sultanbeyli 1300
 Güngören - Sultangazi 800
+Güngören - Şişli 700
 Güngören - Tekirdağ 3000
 Güngören - Ümraniye 1100
+Güngören - Üsküdar 800
 Güngören - Zeytinburnu 1200
 İzmir - Maltepe 10500
-İzmit - Kadıköy 2600
+İzmit - Kadıköy 2700
+İzmit - Kağıthane 1100
+İzmit - Kartal 2300
+İzmit - Maltepe 2100
 İzmit - Pendik 1800
 İzmit - Sultangazi 3000
-İzmit - Şişli 2900
+İzmit - Şişli 3000
 İzmit - Tuzla 1700
-Kadıköy - Kağıthane 900
+İzmit - Zeytinburnu 3000
+Kadıköy - Kağıthane 1000
 Kadıköy - Kartal 800
-Kadıköy - Küçükçekmece 1100
+Kadıköy - Körfez 2300
+Kadıköy - Küçükçekmece 1300
 Kadıköy - Maltepe 700
-Kadıköy - Pendik 1000
+Kadıköy - Pendik 900
 Kadıköy - Sancaktepe 800
 Kadıköy - Sapanca 3300
 Kadıköy - Sarıyer 1100
 Kadıköy - Silivri 2800
 Kadıköy - Sultanbeyli 800
-Kadıköy - Şişli 900
+Kadıköy - Sultangazi 1100
+Kadıköy - Şişli 1000
 Kadıköy - Tuzla 1100
 Kadıköy - Ümraniye 700
 Kadıköy - Üsküdar 600
+Kadıköy - Zeytinburnu 1100
+Kağıthane - Kartal 1300
 Kağıthane - Küçükçekmece 900
+Kağıthane - Maltepe 1300
 Kağıthane - Pendik 1300
+Kağıthane - Sancaktepe 1200
 Kağıthane - Sarıyer 700
-Kağıthane - Silivri 2200
+Kağıthane - Silivri 2100
 Kağıthane - Sultanbeyli 1300
+Kağıthane - Sultangazi 700
 Kağıthane - Şişli 600
 Kağıthane - Tuzla 1500
 Kağıthane - Ümraniye 900
-Kağıthane - Üsküdar 1100
-Kağıthane - Zeytinburnu 900
+Kağıthane - Üsküdar 1000
+Kağıthane - Zeytinburnu 800
 Kapaklı - Küçükçekmece 2500
+Kapaklı - Silivri 1400
 Kapaklı - Sultangazi 2600
-Kartal - Maltepe 500
-Kartal - Pendik 700
+Kartal - Maltepe 600
+Kartal - Pendik 600
+Kartal - Sakarya 3600
 Kartal - Sancaktepe 700
 Kartal - Sarıyer 1500
 Kartal - Sultanbeyli 700
 Kartal - Sultangazi 1300
-Kartal - Şişli 1200
-Kartal - Tuzla 700
+Kartal - Şile 1600
+Kartal - Şişli 1100
+Kartal - Tekirdağ 4800
+Kartal - Tuzla 800
 Kartal - Ümraniye 800
-Kartal - Üsküdar 900
+Kartal - Üsküdar 800
 Kırklareli - Pendik 6000
 Körfez - Şile 1700
-Küçükçekmece - Pendik 1800
+Körfez - Üsküdar 2100
+Küçükçekmece - Pendik 1700
 Küçükçekmece - Sakarya 4700
 Küçükçekmece - Sancaktepe 1500
-Küçükçekmece - Sarıyer 1000
-Küçükçekmece - Silivri 1700
+Küçükçekmece - Sapanca 4400
+Küçükçekmece - Sarıyer 1100
+Küçükçekmece - Silivri 1600
 Küçükçekmece - Sultanbeyli 1600
-Küçükçekmece - Sultangazi 900
+Küçükçekmece - Sultangazi 800
 Küçükçekmece - Şile 3000
 Küçükçekmece - Şişli 900
-Küçükçekmece - Ümraniye 1300
+Küçükçekmece - Tuzla 1900
+Küçükçekmece - Ümraniye 1400
 Küçükçekmece - Üsküdar 1200
 Küçükçekmece - Zeytinburnu 700
 Lüleburgaz - Silivri 2600
 Maltepe - Pendik 600
-Maltepe - Sarıyer 1400
+Maltepe - Sancaktepe 600
+Maltepe - Sarıyer 1300
 Maltepe - Sultanbeyli 600
-Maltepe - Sultangazi 1400
+Maltepe - Sultangazi 1300
 Maltepe - Şile 3300
-Maltepe - Şişli 1300
+Maltepe - Şişli 1200
 Maltepe - Tuzla 800
 Maltepe - Ümraniye 700
 Maltepe - Üsküdar 700
-Pendik - Sancaktepe 800
-Pendik - Sapanca 2300
+Maltepe - Zeytinburnu 1400
+Pendik - Sancaktepe 700
+Pendik - Sapanca 2500
+Pendik - Silivri 2800
 Pendik - Sultanbeyli 700
-Pendik - Sultangazi 1700
+Pendik - Sultangazi 1600
 Pendik - Şile 2000
 Pendik - Şişli 1300
-Pendik - Tuzla 600
-Pendik - Ümraniye 1000
+Pendik - Tekirdağ 4800
+Pendik - Tuzla 700
+Pendik - Ümraniye 900
 Pendik - Üsküdar 900
-Pendik - Zeytinburnu 1400
+Pendik - Zeytinburnu 1600
 Sakarya - Tuzla 3100
 Sancaktepe - Sarıyer 1300
 Sancaktepe - Sultanbeyli 600
 Sancaktepe - Sultangazi 1400
-Sancaktepe - Şile 1900
-Sancaktepe - Ümraniye 600
+Sancaktepe - Şile 1800
+Sancaktepe - Şişli 1200
+Sancaktepe - Tuzla 900
+Sancaktepe - Ümraniye 700
 Sancaktepe - Üsküdar 800
+Sapanca - Ümraniye 3600
+Sapanca - Üsküdar 600
 Sarıyer - Sultangazi 900
 Sarıyer - Şişli 800
+Sarıyer - Tuzla 1700
 Sarıyer - Ümraniye 1000
 Sarıyer - Üsküdar 900
+Silivri - Sultanbeyli 3000
 Silivri - Sultangazi 2100
-Silivri - Tekirdağ 2200
-Silivri - Zeytinburnu 2100
-Sultanbeyli - Sultangazi 1400
-Sultanbeyli - Şişli 1300
+Silivri - Şişli 2800
+Silivri - Tekirdağ 1900
+Silivri - Ümraniye 2600
+Silivri - Zeytinburnu 2200
+Sultanbeyli - Sultangazi 1500
+Sultanbeyli - Şile 2100
+Sultanbeyli - Şişli 1200
 Sultanbeyli - Tuzla 700
 Sultanbeyli - Ümraniye 700
 Sultanbeyli - Zeytinburnu 1700
-Sultangazi - Şişli 700
-Sultangazi - Ümraniye 1300
-Sultangazi - Zeytinburnu 900
+Sultangazi - Şişli 800
+Sultangazi - Tekirdağ 3200
+Sultangazi - Ümraniye 1200
+Sultangazi - Üsküdar 1100
+Sultangazi - Zeytinburnu 800
+Şile - Şişli 2100
 Şile - Ümraniye 1900
-Şişli - Ümraniye 1000
+Şile - Üsküdar 2000
+Şişli - Tuzla 1600
+Şişli - Ümraniye 900
 Şişli - Üsküdar 1100
 Şişli - Yalova 4800
 Şişli - Zeytinburnu 700
-Tuzla - Ümraniye 1000
+Tekirdağ - Zeytinburnu 3600
+Tuzla - Ümraniye 1100
+Tuzla - Üsküdar 1200
+Tuzla - Yalova 3600
 Tuzla - Zeytinburnu 1700
 Ümraniye - Üsküdar 600
 Ümraniye - Zeytinburnu 1100
 Üsküdar - Zeytinburnu 800
 
-===== SEMT (836 güzergâh) =====
-İstanbul Havalimanı - Akçaburgaz 1900
-İstanbul Havalimanı - Aksaray 1600
+===== SEMT (1416 güzergâh) =====
+İstanbul Havalimanı - Akçaburgaz 1800
+İstanbul Havalimanı - Aksaray 1500
 İstanbul Havalimanı - Alibeyköy 1200
-İstanbul Havalimanı - Bahçeşehir 1500
+İstanbul Havalimanı - Ataköy 1600
+İstanbul Havalimanı - Bahçeşehir 1400
 İstanbul Havalimanı - Bomonti 1600
 İstanbul Havalimanı - Dudullu 1600
 İstanbul Havalimanı - Edirnekapı 1500
 İstanbul Havalimanı - Esenler Otogarı 1400
 İstanbul Havalimanı - Esenyalı 2600
-İstanbul Havalimanı - Etiler 1300
+İstanbul Havalimanı - Etiler 1400
 İstanbul Havalimanı - Feriköy 1600
+İstanbul Havalimanı - Fındıkzade 1700
+İstanbul Havalimanı - Fikirtepe 1100
 İstanbul Havalimanı - Florya 1500
 İstanbul Havalimanı - Fulya 1400
 İstanbul Havalimanı - Göktürk 700
 İstanbul Havalimanı - Güneşli 1400
-İstanbul Havalimanı - Hadımköy 1200
-İstanbul Havalimanı - Halkalı 1500
+İstanbul Havalimanı - Hadımköy 1100
+İstanbul Havalimanı - Halkalı 1400
 İstanbul Havalimanı - İkitelli 1300
+İstanbul Havalimanı - İstinye 1200
 İstanbul Havalimanı - Karaköy 1600
+İstanbul Havalimanı - Kasımpaşa 1400
 İstanbul Havalimanı - Kavacık 1100
+İstanbul Havalimanı - Kavaklı 1600
 İstanbul Havalimanı - Kayaşehir 1000
-İstanbul Havalimanı - Kilyos 1100
+İstanbul Havalimanı - Kilyos 1200
+İstanbul Havalimanı - Kocasinan 1600
 İstanbul Havalimanı - Kumburgaz 1800
 İstanbul Havalimanı - Kurtköy 2300
-İstanbul Havalimanı - Laleli 1600
-İstanbul Havalimanı - Levent 1500
+İstanbul Havalimanı - Laleli 1700
+İstanbul Havalimanı - Levent 1400
+İstanbul Havalimanı - Mahmutbey 1800
 İstanbul Havalimanı - Mecidiyeköy 2000
 İstanbul Havalimanı - Merter 1500
 İstanbul Havalimanı - Mimaroba 1600
+İstanbul Havalimanı - Okmeydanı 1500
+İstanbul Havalimanı - Ortaköy 1600
+İstanbul Havalimanı - Ömerli 1200
 İstanbul Havalimanı - Paşabahçe 1800
 İstanbul Havalimanı - Sefaköy 1700
 İstanbul Havalimanı - Selimpaşa 2000
 İstanbul Havalimanı - Sirkeci 2000
-İstanbul Havalimanı - Sultanahmet 1700
+İstanbul Havalimanı - Sultanahmet 1900
 İstanbul Havalimanı - Taksim 1600
 İstanbul Havalimanı - Teşvikiye 1500
+İstanbul Havalimanı - Yakuplu 1500
 İstanbul Havalimanı - Yenibosna 1500
+İstanbul Havalimanı - Yeşilköy 1700
+İstanbul Havalimanı - Yeşilpınar 1200
 İstanbul Havalimanı - Zekeriyaköy 1600
 Sabiha Gökçen - Acıbadem 1000
+Sabiha Gökçen - Akatlar 1600
 Sabiha Gökçen - Aksaray 1700
-Sabiha Gökçen - Alemdağ 900
-Sabiha Gökçen - Alibeyköy 1600
+Sabiha Gökçen - Alemdağ 1000
+Sabiha Gökçen - Alibeyköy 1500
+Sabiha Gökçen - Ataköy 1700
+Sabiha Gökçen - Ayazağa 1600
 Sabiha Gökçen - Aydınlı 600
 Sabiha Gökçen - Bahçeşehir 2200
+Sabiha Gökçen - Balat 2600
 Sabiha Gökçen - Beşyol 2000
 Sabiha Gökçen - Beyazıt 2600
+Sabiha Gökçen - Bostancı 1000
+Sabiha Gökçen - Celaliye 2900
 Sabiha Gökçen - Çağlayan 1400
-Sabiha Gökçen - Dudullu 1000
+Sabiha Gökçen - Dudullu 900
+Sabiha Gökçen - Eminönü 1900
 Sabiha Gökçen - Erenköy 900
 Sabiha Gökçen - Esenkent 2000
-Sabiha Gökçen - Fikirtepe 1200
-Sabiha Gökçen - Fulya 2000
+Sabiha Gökçen - Esenler Otogarı 1700
+Sabiha Gökçen - Esenyalı 800
+Sabiha Gökçen - Ferhatpaşa 800
+Sabiha Gökçen - Fikirtepe 1100
+Sabiha Gökçen - Fulya 2200
+Sabiha Gökçen - Göktürk 1600
+Sabiha Gökçen - Göztepe 1200
+Sabiha Gökçen - Güneşli 1800
+Sabiha Gökçen - Gürpınar 2700
 Sabiha Gökçen - Halkalı 1800
-Sabiha Gökçen - Karaköy 2100
+Sabiha Gökçen - Kanlıca 1400
+Sabiha Gökçen - Karaköy 2200
+Sabiha Gökçen - Kaynarca 700
 Sabiha Gökçen - Kızıltoprak 1200
 Sabiha Gökçen - Kozyatağı 1100
 Sabiha Gökçen - Kumkapı 2400
 Sabiha Gökçen - Kurtuluş 1600
-Sabiha Gökçen - Laleli 2100
+Sabiha Gökçen - Küçükyalı 1100
+Sabiha Gökçen - Laleli 2200
 Sabiha Gökçen - Levent 1400
 Sabiha Gökçen - Mahmutbey 2500
+Sabiha Gökçen - Maslak 1500
 Sabiha Gökçen - Mecidiyeköy 1600
-Sabiha Gökçen - Merter 2200
-Sabiha Gökçen - Nişantaşı 1800
-Sabiha Gökçen - Ortaköy 1900
+Sabiha Gökçen - Merter 2000
+Sabiha Gökçen - Mimaroba 3100
+Sabiha Gökçen - Nişantaşı 1700
+Sabiha Gökçen - Ortaköy 1800
 Sabiha Gökçen - Riva 1700
 Sabiha Gökçen - Samatya 1600
-Sabiha Gökçen - Sarıgazi 800
+Sabiha Gökçen - Sarıgazi 900
 Sabiha Gökçen - Sefaköy 2100
 Sabiha Gökçen - Selimpaşa 2700
 Sabiha Gökçen - Sirkeci 2500
-Sabiha Gökçen - Sultanahmet 2300
+Sabiha Gökçen - Söğütlüçeşme 1200
+Sabiha Gökçen - Suadiye 1100
+Sabiha Gökçen - Sultanahmet 2200
 Sabiha Gökçen - Sütlüce 1600
 Sabiha Gökçen - Şirinevler 1800
 Sabiha Gökçen - Taksim 1900
+Sabiha Gökçen - Tarlabaşı 1900
 Sabiha Gökçen - Taşdelen 1000
 Sabiha Gökçen - Tophane 2300
-Sabiha Gökçen - Ünalan 1200
+Sabiha Gökçen - Ünalan 1100
 Sabiha Gökçen - Yakuplu 2200
 Sabiha Gökçen - Yenibosna 1900
 Sabiha Gökçen - Yenikapı 1600
+Sabiha Gökçen - Yeşilpınar 1700
+Sabiha Gökçen - Zincirlikuyu 2200
+Acarkent - Kağıthane 800
+Acarkent - Maltepe 1000
+Acarkent - Ümraniye 700
 Acıbadem - Beşiktaş 600
+Acıbadem - Esenyurt 1600
+Acıbadem - Pendik 800
 Acıbadem - Şişli 1000
+Ağva - Gebze 2300
 Ağva - Körfez 1700
 Ağva - Maltepe 3300
 Ağva - Sancaktepe 2000
+Akçaburgaz - Başakşehir 800
+Akçaburgaz - Bayrampaşa 1000
+Akçaburgaz - Beylikdüzü 600
+Akçaburgaz - Büyükçekmece 600
+Akçaburgaz - Cevizlibağ 1000
 Akçaburgaz - Çatalca 1000
 Akçaburgaz - Firuzköy 700
 Akçaburgaz - Gaziosmanpaşa 1100
-Akçaburgaz - Güneşli 1000
+Akçaburgaz - Güneşli 900
+Akçaburgaz - Habipler 1000
 Akçaburgaz - Kapaklı 2000
 Akçaburgaz - Kayaşehir 900
+Akçaburgaz - Levent 300
 Akçaburgaz - Tepecik 600
 Akçaburgaz - Üsküdar 1600
 Akçaburgaz - Yenibosna 900
@@ -826,18 +1052,33 @@ Akçaburgaz - Yeşilköy 800
 Aksaray - Arnavutköy 1100
 Aksaray - Ataşehir 1000
 Aksaray - Bağcılar 700
+Aksaray - Bahçelievler 700
 Aksaray - Bahçeşehir 1000
 Aksaray - Beşiktaş 800
+Aksaray - Beşyol 700
 Aksaray - Beykoz 1400
-Aksaray - Çayırova 1700
+Aksaray - Beylikdüzü 1100
+Aksaray - Çayırova 1600
+Aksaray - Çekmeköy 1300
+Aksaray - Esenkent 1100
 Aksaray - Esenyurt 1000
-Aksaray - Gebze 1800
+Aksaray - Firuzköy 1000
+Aksaray - Gaziosmanpaşa 600
+Aksaray - Gebze 1700
 Aksaray - Hadımköy 1200
+Aksaray - Halkalı 800
 Aksaray - İkitelli 800
 Aksaray - Kadıköy 1000
 Aksaray - Kartal 1200
+Aksaray - Kemerburgaz 900
 Aksaray - Mahmutbey 700
+Aksaray - Maltepe 1000
+Aksaray - Mecidiyeköy 700
+Aksaray - Sancaktepe 1200
+Aksaray - Sefaköy 800
 Aksaray - Şahintepe 1000
+Aksaray - Şişli 700
+Aksaray - Ümraniye 900
 Aksaray - Yakuplu 1000
 Alemdağ - Ataşehir 700
 Alemdağ - Çayırova 1000
@@ -847,375 +1088,649 @@ Alemdağ - Kuruçeşme 1200
 Alemdağ - Nişantaşı 1200
 Alemdağ - Pendik 900
 Alemdağ - Samandıra 400
-Alibeyköy - Bahçelievler 600
+Alemdağ - Ümraniye 700
+Alibeyköy - Alkent 2000 1300
+Alibeyköy - Ataşehir 1100
+Alibeyköy - Bahçelievler 700
+Alibeyköy - Bakırköy 600
 Alibeyköy - Beşiktaş 1100
 Alibeyköy - Beyoğlu 700
 Alibeyköy - Esenler 700
 Alibeyköy - Esenler Otogarı 500
-Alibeyköy - Esenyurt 900
+Alibeyköy - Esenyurt 1000
+Alibeyköy - Etiler 500
+Alibeyköy - Gürpınar 1200
 Alibeyköy - Haramidere 1000
 Alibeyköy - İkitelli 700
+Alibeyköy - İstinye 500
 Alibeyköy - Kartal 1600
-Alibeyköy - Sarıyer 1000
+Alibeyköy - Kavaklı 1200
+Alibeyköy - Ortaköy 800
+Alibeyköy - Sarıyer 900
+Alibeyköy - Sultangazi 600
 Alibeyköy - Şirinevler 800
-Alibeyköy - Şişhane 500
+Alibeyköy - Şişhane 600
 Alibeyköy - Taksim 1000
+Alibeyköy - Tuzla 1600
+Alibeyköy - Üsküdar 900
 Alibeyköy - Zeytinburnu 700
 Alkent 2000 - Esenyurt 600
 Alkent 2000 - Fatih 1500
+Alkent 2000 - Halkalı 1000
+Altınşehir - Bağcılar 600
+Altınşehir - Çekmeköy 1700
 Altınşehir - Esenler 800
 Altınşehir - Esenyurt 700
 Altınşehir - Kağıthane 1400
 Altınşehir - Kanarya 500
-Arnavutköy - Baltalimanı 1100
+Altınşehir - Yenibosna 800
+Altınşehir - Yenikapı 800
+Altınşehir - Yeşilkent 700
+Altunizade - Dudullu 500
+Ambarlı - Beylikdüzü 500
+Ambarlı - Ömerli 700
+Arnavutköy - Bahçeşehir 1200
+Arnavutköy - Baltalimanı 1000
+Arnavutköy - Bostancı 1500
+Arnavutköy - Cennet 1000
+Arnavutköy - Dudullu 1700
+Arnavutköy - Esenler Otogarı 900
 Arnavutköy - Etiler 1100
+Arnavutköy - Firuzköy 1000
+Arnavutköy - Güneşli 900
 Arnavutköy - Gürpınar 1000
 Arnavutköy - Güzelce 1000
 Arnavutköy - Halkalı 1000
-Arnavutköy - İkitelli 800
+Arnavutköy - İkitelli 900
 Arnavutköy - Kasımpaşa 1000
+Arnavutköy - Kayaşehir 800
+Arnavutköy - Küçükköy 1000
 Arnavutköy - Mecidiyeköy 1200
 Arnavutköy - Sefaköy 1100
+Arnavutköy - Sirkeci 1200
 Arnavutköy - Şirinevler 1700
-Arnavutköy - Taksim 1100
+Arnavutköy - Taksim 1200
 Arnavutköy - Tepecik 1800
+Arnavutköy - Yakuplu 1100
 Arnavutköy - Yenibosna 1000
 Arnavutköy - Zincirlikuyu 1000
 Atakent - Ataköy 700
 Atakent - Beylikdüzü 800
+Atakent - Esenyurt 700
+Atakent - Gaziosmanpaşa 700
 Atakent - Güneşli 500
 Atakent - Kurtköy 1900
 Atakent - Piyalepaşa 800
+Atakent - Yakuplu 800
 Ataköy - Bahçeşehir 900
+Ataköy - Başakşehir 1000
 Ataköy - Beylikdüzü 800
-Ataköy - Etiler 900
+Ataköy - Esenyurt 900
+Ataköy - Etiler 800
+Ataköy - Fatih 700
+Ataköy - Gaziosmanpaşa 700
+Ataköy - Kıraç 700
 Ataköy - Saadetdere 800
-Ataköy - Sarıyer 1100
+Ataköy - Sarıyer 1000
+Ataköy - Ümraniye 1200
+Ataköy - Zeytinburnu 500
+Atalar - Etiler 1300
 Ataşehir - Bahçeşehir 1700
+Ataşehir - Bostancı 600
 Ataşehir - Çamlıca 500
+Ataşehir - Dudullu 600
 Ataşehir - Etiler 900
+Ataşehir - Fikirtepe 600
+Ataşehir - Göztepe 600
+Ataşehir - Gülsuyu 600
+Ataşehir - Güneşli 1700
 Ataşehir - Halkalı 1400
 Ataşehir - Haramidere 1600
-Ataşehir - İkitelli 800
+Ataşehir - İkitelli 900
 Ataşehir - Karaköy 900
 Ataşehir - Kavacık 600
+Ataşehir - Kavakpınar 700
+Ataşehir - Kayaşehir 1200
+Ataşehir - Kaynarca 800
 Ataşehir - Kıraç 1700
-Ataşehir - Kurtköy 1000
+Ataşehir - Kurtköy 1100
 Ataşehir - Maslak 1300
+Ataşehir - Mecidiyeköy 800
+Ataşehir - Nişantaşı 900
+Ataşehir - Orhanlı 1100
+Ataşehir - Şirinevler 1100
 Ataşehir - Taksim 1000
 Ataşehir - Ulus 900
+Ataşehir - Yenikapı 1100
+Atışalanı - Yenibosna 600
 Avcılar - Bahçeşehir 800
-Avcılar - Cennet 600
+Avcılar - Beşyol 600
+Avcılar - Cennet 700
+Avcılar - Esenkent 500
 Avcılar - Esenler Otogarı 800
 Avcılar - Florya 700
+Avcılar - Güneşli 800
 Avcılar - Gürpınar 600
 Avcılar - Hadımköy 1000
 Avcılar - Halkalı 700
 Avcılar - İkitelli 800
-Avcılar - Kavaklı 700
+Avcılar - Kanarya 500
+Avcılar - Kasımpaşa 1000
+Avcılar - Kavaklı 600
+Avcılar - Kayaşehir 700
 Avcılar - Kemerburgaz 1500
 Avcılar - Kıraç 600
+Avcılar - Kocamustafapaşa 800
 Avcılar - Kumburgaz 1000
+Avcılar - Küçükköy 800
+Avcılar - Maslak 1300
+Avcılar - Mecidiyeköy 1000
+Avcılar - Merter 800
+Avcılar - Ortaköy 1100
 Avcılar - Söğütlüçeşme 1400
-Avcılar - Şahintepe 1000
-Avcılar - Taksim 1100
+Avcılar - Şahintepe 800
+Avcılar - Taksim 1000
 Avcılar - Talatpaşa 700
-Avcılar - Yenibosna 600
+Avcılar - Yenibosna 700
 Avcılar - Yeşilkent 500
-Avcılar - Yeşilpınar 1100
+Avcılar - Yeşilpınar 1000
 Avcılar - Zincirlikuyu 1000
+Ayazağa - Beykoz 1300
 Ayazağa - Esenyurt 1100
 Ayazağa - Kadıköy 900
 Ayazağa - Kağıthane 500
+Ayazağa - Yenibosna 1300
 Aydınlı - Bayrampaşa 1600
+Aydınlı - Dudullu 1000
 Aydınlı - Gebze 700
+Aydınlı - Halkalı 1800
+Aydınlı - Hasanpaşa 1500
+Aydınlı - İzmit 1400
 Aydınlı - Kadıköy 1100
 Aydınlı - Maltepe 800
 Aydınlı - Pendik 600
 Aydıntepe - Kartal 600
+Bağcılar - Bahçeşehir 800
+Bağcılar - Bebek 1000
 Bağcılar - Dudullu 1500
+Bağcılar - Eminönü 700
 Bağcılar - Esenler Otogarı 600
 Bağcılar - Firuzköy 900
 Bağcılar - Fulya 900
+Bağcılar - Galata 700
+Bağcılar - Göktürk 1100
+Bağcılar - Göztepe 500
 Bağcılar - Güvercintepe 700
 Bağcılar - Habipler 800
-Bağcılar - Halkalı 600
+Bağcılar - Hadımköy 1100
+Bağcılar - Halkalı 700
 Bağcılar - İkitelli 600
 Bağcılar - Kamiloba 1500
-Bağcılar - Kanarya 600
+Bağcılar - Kanarya 700
 Bağcılar - Kıraç 900
 Bağcılar - Kumkapı 800
 Bağcılar - Kurtuluş 800
+Bağcılar - Kuruçeşme 1100
 Bağcılar - Mecidiyeköy 800
 Bağcılar - Sefaköy 700
+Bağcılar - Selimpaşa 1400
+Bağcılar - Şahintepe 800
 Bağcılar - Şirinevler 600
 Bağcılar - Taksim 800
-Bağcılar - Yakuplu 800
+Bağcılar - Yakuplu 900
 Bağcılar - Yenibosna 600
+Bağcılar - Yeşilköy 700
+Bağlarbaşı - Taksim 1000
 Bahçeköy - Bakırköy 1400
-Bahçeköy - Bayrampaşa 800
+Bahçeköy - Bayrampaşa 900
+Bahçeköy - Mahmutbey 1200
+Bahçeköy - Şirinevler 1100
 Bahçelievler - Esenler Otogarı 600
 Bahçelievler - Etiler 800
-Bahçelievler - Florya 600
+Bahçelievler - Florya 700
+Bahçelievler - Halkalı 600
 Bahçelievler - İkitelli 500
 Bahçelievler - Kavacık 1100
-Bahçelievler - Kavaklı 1100
-Bahçelievler - Kumburgaz 1500
+Bahçelievler - Kavaklı 1000
+Bahçelievler - Kıraç 900
+Bahçelievler - Kumburgaz 1400
 Bahçelievler - Mimarsinan 1400
-Bahçelievler - Taksim 800
+Bahçelievler - Taksim 900
+Bahçelievler - Yakuplu 900
+Bahçelievler - Yeşilköy 600
+Bahçeşehir - Bakırköy 900
+Bahçeşehir - Bayrampaşa 1000
 Bahçeşehir - Beşiktaş 1200
 Bahçeşehir - Beylikdüzü 600
-Bahçeşehir - Beyoğlu 1200
-Bahçeşehir - Büyükçekmece 700
+Bahçeşehir - Beyoğlu 1300
+Bahçeşehir - Büyükçekmece 800
+Bahçeşehir - Cennet 800
 Bahçeşehir - Cevizlibağ 1100
-Bahçeşehir - Çatalca 1100
+Bahçeşehir - Çağlayan 1200
+Bahçeşehir - Çatalca 1400
 Bahçeşehir - Çekmeköy 1600
 Bahçeşehir - Edirne 5700
-Bahçeşehir - Esenyurt 700
+Bahçeşehir - Esenler 900
+Bahçeşehir - Esenyurt 600
+Bahçeşehir - Etiler 1400
 Bahçeşehir - Fatih 800
 Bahçeşehir - Fikirtepe 2400
-Bahçeşehir - Florya 1300
+Bahçeşehir - Florya 1000
 Bahçeşehir - Gaziosmanpaşa 900
 Bahçeşehir - Güneşli 800
+Bahçeşehir - Güngören 1000
 Bahçeşehir - Gürpınar 700
 Bahçeşehir - Hadımköy 800
 Bahçeşehir - Halkalı 800
 Bahçeşehir - Haznedar 1000
 Bahçeşehir - Kadıköy 1400
+Bahçeşehir - Kağıthane 1100
 Bahçeşehir - Kanarya 700
 Bahçeşehir - Kartal 1900
 Bahçeşehir - Kavacık 1600
 Bahçeşehir - Kıraç 500
 Bahçeşehir - Kuruçeşme 1400
-Bahçeşehir - Küçükçekmece 700
+Bahçeşehir - Küçükçekmece 800
+Bahçeşehir - Maslak 1100
+Bahçeşehir - Mecidiyeköy 1200
+Bahçeşehir - Merter 800
 Bahçeşehir - Mimaroba 700
 Bahçeşehir - Nişantaşı 1200
+Bahçeşehir - Sarıyer 1700
 Bahçeşehir - Sefaköy 900
 Bahçeşehir - Silivri 1200
-Bahçeşehir - Sultangazi 800
+Bahçeşehir - Sultanahmet 1200
+Bahçeşehir - Sultangazi 900
 Bahçeşehir - Şirinevler 800
 Bahçeşehir - Şişli 1300
 Bahçeşehir - Taksim 1100
-Bahçeşehir - Yenibosna 700
+Bahçeşehir - Yakuplu 700
+Bahçeşehir - Yenibosna 800
+Bahçeşehir - Zeytinburnu 900
 Bakırköy - Balat 700
 Bakırköy - Bebek 800
 Bakırköy - Dolapdere 700
 Bakırköy - Edirnekapı 600
 Bakırköy - Esenler Otogarı 700
+Bakırköy - Göktürk 1000
 Bakırköy - Güneşli 600
-Bakırköy - Gürpınar 1100
-Bakırköy - Halkalı 600
-Bakırköy - Kanarya 700
+Bakırköy - Gürpınar 1000
+Bakırköy - Halkalı 700
+Bakırköy - İkitelli 700
+Bakırköy - Kanarya 600
+Bakırköy - Kasımpaşa 600
 Bakırköy - Kavacık 1100
 Bakırköy - Kayışdağı 1000
-Bakırköy - Kumburgaz 1100
+Bakırköy - Kumburgaz 1400
+Bakırköy - Kurtköy 1600
+Bakırköy - Küçükköy 800
 Bakırköy - Küçükyalı 1300
 Bakırköy - Levent 800
 Bakırköy - Mecidiyeköy 800
+Bakırköy - Mehterçeşme 900
+Bakırköy - Mimaroba 1200
 Bakırköy - Saadetdere 1000
+Bakırköy - Sefaköy 600
 Bakırköy - Şahintepe 900
 Bakırköy - Şirinevler 500
-Bakırköy - Taksim 1000
+Bakırköy - Taksim 900
+Bakırköy - Topkapı 600
+Bakırköy - Yakuplu 1000
 Bakırköy - Yeşilpınar 800
+Balat - Maltepe 1100
+Başakşehir - Celaliye 1100
+Başakşehir - Cennet 700
 Başakşehir - Esenler Otogarı 800
 Başakşehir - Florya 800
+Başakşehir - Hadımköy 1000
+Başakşehir - Kanarya 600
+Başakşehir - Kıraç 800
 Başakşehir - Kumkapı 900
+Başakşehir - Maslak 1100
 Başakşehir - Merter 500
 Başakşehir - Şirinevler 700
+Başakşehir - Taksim 900
+Başakşehir - Topkapı 800
 Başakşehir - Yenibosna 800
+Başakşehir - Yenikapı 800
 Başıbüyük - Dudullu 700
 Başıbüyük - Kalamış 500
-Bayrampaşa - Esenler Otogarı 600
+Bayrampaşa - Esenler Otogarı 500
 Bayrampaşa - Göktürk 900
 Bayrampaşa - Gültepe 700
+Bayrampaşa - Habipler 800
 Bayrampaşa - Hadımköy 1100
+Bayrampaşa - Halkalı 600
+Bayrampaşa - İçerenköy 1000
 Bayrampaşa - Kanarya 800
+Bayrampaşa - Karayolları 600
 Bayrampaşa - Kıraç 1000
 Bayrampaşa - Kilyos 1500
 Bayrampaşa - Levent 800
 Bayrampaşa - Mahmutbey 1300
 Bayrampaşa - Maslak 1000
-Bayrampaşa - Şahintepe 800
+Bayrampaşa - Sefaköy 700
+Bayrampaşa - Şahintepe 900
 Bayrampaşa - Taksim 800
+Bayrampaşa - Tarabya 800
 Bayrampaşa - Ünalan 1000
 Bayrampaşa - Yenibosna 700
+Bayrampaşa - Yeşilköy 700
 Bebek - Bostancı 900
 Bebek - Florya 900
+Bebek - Gaziosmanpaşa 800
+Bebek - Kartal 1200
 Bebek - Şirinevler 800
 Beşiktaş - Esenler Otogarı 800
 Beşiktaş - Göztepe 1500
+Beşiktaş - Halkalı 800
 Beşiktaş - Kanarya 800
 Beşiktaş - Maslak 500
 Beşiktaş - Nurtepe 700
 Beşiktaş - Şirinevler 800
+Beşiktaş - Taksim 600
 Beşiktaş - Tayakadın 1400
 Beşiktaş - Topkapı 700
+Beşiktaş - Yenisahra 1100
+Beşiktaş - Zekeriyaköy 1300
+Beşyol - Bostancı 1300
+Beşyol - Kıraç 700
+Beşyol - Yeniköy 1200
+Beyazıt - Esenler 800
+Beyazıt - Rumelihisarı 900
 Beykoz - Çengelköy 700
 Beykoz - Göztepe 800
+Beykoz - Güneşli 1300
+Beykoz - Güzelyalı 1400
 Beykoz - Küçükyalı 1400
+Beykoz - Mecidiyeköy 1000
+Beykoz - Okmeydanı 1000
+Beykoz - Soğanlık 900
+Beykoz - Tepeüstü 500
+Beykoz - Topkapı 1000
 Beykoz - Yeşilköy 1500
 Beylikdüzü - Cevizlibağ 1000
+Beylikdüzü - Çağlayan 1200
 Beylikdüzü - Çapa 1000
+Beylikdüzü - Eminönü 1300
 Beylikdüzü - Esenkent 600
 Beylikdüzü - Esenler Otogarı 1000
-Beylikdüzü - Feriköy 1100
-Beylikdüzü - Florya 800
+Beylikdüzü - Etiler 1200
+Beylikdüzü - Feriköy 1200
+Beylikdüzü - Firuzköy 500
+Beylikdüzü - Florya 900
+Beylikdüzü - Galata 1100
 Beylikdüzü - Göktürk 1500
 Beylikdüzü - Gümüşpala 600
 Beylikdüzü - Güvercintepe 600
-Beylikdüzü - Hadımköy 700
+Beylikdüzü - Güzelce 700
+Beylikdüzü - Hadımköy 800
 Beylikdüzü - Halkalı 900
+Beylikdüzü - Haznedar 1100
 Beylikdüzü - İkitelli 900
+Beylikdüzü - Kabataş 1400
 Beylikdüzü - Kanarya 800
+Beylikdüzü - Kıraç 500
 Beylikdüzü - Kumburgaz 900
+Beylikdüzü - Levent 1300
+Beylikdüzü - Maslak 1300
+Beylikdüzü - Mecidiyeköy 1300
+Beylikdüzü - Merter 900
 Beylikdüzü - Mimaroba 600
 Beylikdüzü - Nişantaşı 1300
+Beylikdüzü - Okmeydanı 1100
 Beylikdüzü - Sefaköy 800
+Beylikdüzü - Şirinevler 900
 Beylikdüzü - Taksim 1100
+Beylikdüzü - Taşdelen 1600
+Beylikdüzü - Topkapı 1000
 Beylikdüzü - Yenibosna 1000
 Beylikdüzü - Yenikapı 1000
 Beylikdüzü - Yeşilkent 600
+Beylikdüzü - Yeşilköy 900
+Beyoğlu - Florya 900
+Beyoğlu - Göktürk 900
 Beyoğlu - Kemerburgaz 800
+Beyoğlu - Mahmutbey 1000
+Bizimkent - Sefaköy 800
 Bizimkent - Silivri 1200
 Bolluca - Göktürk 700
+Bolluca - Yenibosna 800
+Bomonti - Güngören 700
 Bomonti - Kartal 1300
+Bostancı - Dudullu 800
 Bostancı - Esenler 1000
-Bostancı - Kağıthane 900
+Bostancı - Esenyurt 1800
+Bostancı - Kağıthane 1000
 Bostancı - Kavacık 800
-Bursa - Esenler Otogarı 2200
+Bostancı - Kurtköy 900
+Bostancı - Küçükbakkalköy 600
+Bostancı - Levent 900
+Bostancı - Taksim 1100
+Bostancı - Taşdelen 700
+Bostancı - Tuzla 900
+Bostancı - Yenikapı 1200
+Bostancı - Zeytinburnu 1200
+Bursa - Esenler Otogarı 1800
+Bursa - Okmeydanı 7800
+Bursa - Yenişehir 4500
 Büyükçekmece - Esenler Otogarı 1000
-Büyükçekmece - Hadımköy 900
+Büyükçekmece - Hadımköy 1000
 Büyükçekmece - Halkalı 1100
 Büyükçekmece - Kanarya 800
 Büyükçekmece - Sefaköy 900
+Büyükçekmece - Taksim 1200
+Büyükçekmece - Yenikapı 1200
 Caddebostan - Darıca 1700
+Caddebostan - Kuruçeşme 900
 Caddebostan - Tepeören 1100
+Caddebostan - Zeytinburnu 1000
+Celaliye - Esenler 1400
+Celaliye - Esenyurt 900
 Cennet - Esenler Otogarı 1100
+Cennet - Esenyurt 700
 Cennet - Mimaroba 700
 Cennet - Yenibosna 500
 Cerrahpaşa - Esenyurt 1000
 Cerrahpaşa - Gaziosmanpaşa 600
 Cevahir - Esenyurt 1200
+Cevizli - Çengelköy 800
+Cevizli - Darıca 700
+Cevizli - Gebze 1000
 Cevizli - Kurtköy 600
-Cevizli - Maltepe 500
+Cevizli - Maltepe 600
 Cevizli - Tuzla 800
 Cevizlibağ - Gaziosmanpaşa 500
+Cevizlibağ - İzmit 3000
 Cevizlibağ - Kemerburgaz 800
 Cihangir - Kağıthane 500
+Cihangir - Nurtepe 500
 Çağlayan - Fatih 1400
+Çağlayan - Florya 800
 Çağlayan - Güneşli 800
+Çağlayan - Güngören 800
 Çağlayan - Gürpınar 1200
+Çağlayan - Kadıköy 1000
+Çağlayan - Küçükköy 700
 Çağlayan - Okmeydanı 600
+Çağlayan - Sancaktepe 1200
+Çağlayan - Silivri 1900
+Çağlayan - Sultangazi 600
+Çağlayan - Ümraniye 700
 Çağlayan - Üsküdar 1000
 Çağlayan - Zekeriyaköy 1000
 Çamlıca - Dudullu 500
+Çamlıca - Sapanca 600
 Çapa - Çekmeköy 1100
 Çapa - Esenyurt 900
+Çapa - Gümüşpala 800
 Çapa - Kadıköy 1100
 Çapa - Kıraç 900
-Çatalca - Esenler Otogarı 1500
+Çapa - Maltepe 1100
+Çapa - Şile 2400
+Çatalca - Esenler Otogarı 1600
 Çatalca - Göktürk 1500
-Çatalca - Hadımköy 800
+Çatalca - Gürpınar 1200
+Çatalca - Hadımköy 900
 Çatalca - Halkalı 1300
 Çatalca - Kamiloba 700
-Çatalca - Kıraç 1000
+Çatalca - Kıraç 900
 Çatalca - Selimpaşa 1000
+Çatalca - Şahintepe 1100
+Çatalca - Yakuplu 1000
 Çavuşbaşı - İstinye 1000
-Çayırova - Dudullu 1100
+Çayırova - Dudullu 1200
 Çayırova - Ferhatpaşa 1000
+Çayırova - Fikirtepe 1100
 Çayırova - Kaynarca 700
 Çayırova - Kurtköy 900
+Çayırova - Samandıra 1000
 Çayırova - Sarıgazi 1000
 Çayırova - Taksim 1600
 Çayırova - Taşdelen 1100
+Çayırova - Tepeören 800
 Çayırova - Zümrütevler 900
 Çekmeköy - Dudullu 600
+Çekmeköy - Ferhatpaşa 600
 Çekmeköy - Fikirtepe 1200
+Çekmeköy - Gayrettepe 1100
 Çekmeköy - Halkalı 2000
 Çekmeköy - Karagümrük 1200
-Çekmeköy - Kaynarca 1000
+Çekmeköy - Kaynarca 900
 Çekmeköy - Kurtköy 800
 Çekmeköy - Kuştepe 1000
 Çekmeköy - Ortaköy 1000
 Çekmeköy - Samandıra 600
-Çekmeköy - Taksim 1300
+Çekmeköy - Taksim 1200
+Çekmeköy - Tarabya 1300
 Çekmeköy - Yeşilkent 1800
+Çeliktepe - Göktürk 900
+Çeliktepe - Maltepe 200
 Çeliktepe - Rami 800
 Çeliktepe - Yenikapı 800
 Çengelköy - Ümraniye 600
 Çengelköy - Zeytinburnu 800
 Çerkezköy - Değirmenköy 1000
+Çerkezköy - Galata 3000
 Çerkezköy - Merter 2600
+Çerkezköy - Yenikapı 2900
+Çobançeşme - Haramidere 800
+Çobançeşme - Mecidiyeköy 800
 Çorlu - Esenler Otogarı 3000
 Çorlu - Halkalı 2400
-Çorlu - Yenibosna 2600
+Çorlu - Yenibosna 2700
 Darıca - Esenyalı 700
+Darıca - İçmeler 500
 Darıca - Kurtköy 800
-Darıca - Taksim 2600
-Darıca - Tepeören 800
-Darıca - Yakacık 1000
+Darıca - Sarıgazi 1200
+Darıca - Taksim 2100
+Darıca - Tepeören 900
+Darıca - Yakacık 900
+Darıca - Yenibosna 2200
+Değirmenköy - Mimarsinan 1300
+Değirmenköy - Zeytinburnu 2600
+Denizköşkler - Halkalı 700
 Denizköşkler - İkitelli 600
+Dereağzı - Şahintepe 800
 Dilovası - Kasımpaşa 2100
+Dilovası - Mecidiyeköy 2400
 Dilovası - Sarıgazi 1600
+Dilovası - Taksim 1900
+Dolapdere - Esenler Otogarı 500
+Dolapdere - Gaziosmanpaşa 600
+Dolapdere - Güvercintepe 1100
+Dolapdere - İkitelli 700
+Dolapdere - Kağıthane 700
 Dolapdere - Kavacık 1600
 Dudullu - Esenler 1100
 Dudullu - Esenyurt 1600
+Dudullu - Fatih 1300
+Dudullu - Gebze 1300
+Dudullu - Göktürk 1400
+Dudullu - İkitelli 1500
 Dudullu - Kadıköy 700
 Dudullu - Kağıthane 800
+Dudullu - Kartal 800
 Dudullu - Kurtköy 900
+Dudullu - Levent 900
 Dudullu - Maltepe 700
+Dudullu - Mecidiyeköy 900
 Dudullu - Nişantepe 700
+Dudullu - Ömerli 800
 Dudullu - Pendik 800
 Dudullu - Sultanbeyli 700
-Dudullu - Sultangazi 1300
+Dudullu - Sultangazi 1200
 Dudullu - Şile 1800
 Dudullu - Şişli 1100
+Dudullu - Tuzla 1100
 Dudullu - Üsküdar 700
 Dudullu - Yakacık 700
 Eminönü - Esenyurt 1100
 Eminönü - Gaziosmanpaşa 600
 Eminönü - Küçükçekmece 800
+Erenköy - Levent 1000
+Erenköy - Sancaktepe 800
 Erenköy - Yakacık 700
+Esenkent - Gaziosmanpaşa 900
+Esenkent - Mecidiyeköy 1100
+Esenkent - Sultangazi 1000
 Esenkent - Taksim 1100
 Esenler - Fikirtepe 1200
+Esenler - Florya 700
 Esenler - Göktürk 1000
-Esenler - Gümüşyaka 2500
-Esenler - Habipler 700
-Esenler - Hadımköy 1000
-Esenler - Halkalı 800
-Esenler - İkitelli 700
+Esenler - Gümüşyaka 2400
+Esenler - Gürpınar 800
+Esenler - Habipler 600
+Esenler - Hadımköy 1100
+Esenler - Halkalı 700
+Esenler - Haraççı 1000
+Esenler - İkitelli 600
 Esenler - İstinye 900
+Esenler - Kasımpaşa 800
 Esenler - Kayaşehir 800
+Esenler - Kıraç 900
 Esenler - Koşuyolu 1200
 Esenler - Kuruçeşme 800
 Esenler - Maslak 700
-Esenler - Mecidiyeköy 700
+Esenler - Mecidiyeköy 800
 Esenler - Okmeydanı 700
 Esenler - Ortaköy 900
 Esenler - Ömerli 800
 Esenler - Samandıra 1500
-Esenler - Sefaköy 600
+Esenler - Sefaköy 700
 Esenler - Şirinevler 700
 Esenler - Taksim 700
-Esenler - Yenibosna 500
+Esenler - Unkapanı 800
+Esenler - Yenibosna 600
 Esenler - Yeşilkent 700
-Esenler Otogarı - Esenyurt 900
+Esenler Otogarı - Esenyurt 1000
 Esenler Otogarı - Fatih 700
 Esenler Otogarı - Florya 800
 Esenler Otogarı - Gaziosmanpaşa 600
 Esenler Otogarı - Gebze 700
 Esenler Otogarı - Güneşli 700
 Esenler Otogarı - Güvercintepe 800
+Esenler Otogarı - Habipler 700
+Esenler Otogarı - Hadımköy 1200
 Esenler Otogarı - Halkalı 700
 Esenler Otogarı - İzmir 5400
-Esenler Otogarı - Küçükçekmece 700
+Esenler Otogarı - İzmit 1200
+Esenler Otogarı - Kadıköy 1200
+Esenler Otogarı - Kanarya 800
+Esenler Otogarı - Kıraç 1100
+Esenler Otogarı - Küçükçekmece 800
 Esenler Otogarı - Maslak 700
 Esenler Otogarı - Mimaroba 1300
+Esenler Otogarı - Ortaköy 900
+Esenler Otogarı - Ömerli 1200
+Esenler Otogarı - Sakarya 1200
 Esenler Otogarı - Sarıyer 1000
 Esenler Otogarı - Sefaköy 700
 Esenler Otogarı - Soğanlı 700
-Esenler Otogarı - Sultangazi 600
+Esenler Otogarı - Sultangazi 700
+Esenler Otogarı - Şahintepe 700
 Esenler Otogarı - Şirinevler 600
+Esenler Otogarı - Şişli 700
 Esenler Otogarı - Taşoluk 1000
 Esenler Otogarı - Tepecik 1400
 Esenler Otogarı - Yenibosna 600
@@ -1229,127 +1744,219 @@ Esenyalı - Tepeören 600
 Esenyalı - Tuzla 600
 Esenyurt - Etiler 1200
 Esenyurt - Florya 800
+Esenyurt - Galata 1200
 Esenyurt - Gayrettepe 1000
 Esenyurt - Göktürk 1200
+Esenyurt - Gümüşyaka 1900
 Esenyurt - Güneşli 800
 Esenyurt - Gürpınar 600
-Esenyurt - Güvercintepe 600
+Esenyurt - Güvercintepe 700
 Esenyurt - Güzelce 700
-Esenyurt - Hadımköy 800
+Esenyurt - Habipler 1100
+Esenyurt - Hadımköy 700
 Esenyurt - Halkalı 800
 Esenyurt - Haraççı 1000
 Esenyurt - Haramidere 500
 Esenyurt - Haseki 1000
 Esenyurt - İkitelli 800
 Esenyurt - İncirli 900
+Esenyurt - İstinye 1400
+Esenyurt - Kamiloba 800
 Esenyurt - Kanarya 800
 Esenyurt - Karaköy 1200
-Esenyurt - Kasımpaşa 1700
+Esenyurt - Kasımpaşa 1300
 Esenyurt - Kavacık 1400
 Esenyurt - Kavaklı 500
 Esenyurt - Kayaşehir 900
 Esenyurt - Kayışdağı 1100
 Esenyurt - Kemerburgaz 1400
+Esenyurt - Kirazlı 800
+Esenyurt - Kozyatağı 1400
 Esenyurt - Kumburgaz 800
+Esenyurt - Kumkapı 1100
 Esenyurt - Kurtköy 2300
 Esenyurt - Kurtuluş 1100
 Esenyurt - Küçükköy 800
 Esenyurt - Küçükyalı 1700
-Esenyurt - Levent 1200
-Esenyurt - Mahmutbey 800
+Esenyurt - Laleli 900
+Esenyurt - Levent 1100
+Esenyurt - Mahmutbey 900
+Esenyurt - Maslak 1200
 Esenyurt - Mecidiyeköy 1200
+Esenyurt - Mimarsinan 600
+Esenyurt - Nişantaşı 1200
 Esenyurt - Okmeydanı 1100
+Esenyurt - Ortaköy 1200
 Esenyurt - Sarıgöl 1000
 Esenyurt - Sefaköy 800
-Esenyurt - Selimpaşa 1100
+Esenyurt - Selimpaşa 1000
 Esenyurt - Sultanahmet 1000
 Esenyurt - Şahintepe 800
-Esenyurt - Şirinevler 800
+Esenyurt - Şirinevler 900
 Esenyurt - Taksim 1100
+Esenyurt - Talatpaşa 600
 Esenyurt - Tarlabaşı 1300
+Esenyurt - Taşdelen 1700
+Esenyurt - Tayakadın 1100
 Esenyurt - Tepecik 700
 Esenyurt - Yakuplu 500
 Esenyurt - Yenibosna 800
-Esenyurt - Yenikapı 1100
-Esenyurt - Yeşilköy 900
+Esenyurt - Yenikapı 1000
+Esenyurt - Yeşilköy 800
+Esenyurt - Yeşilpınar 700
+Esenyurt - Zekeriyaköy 1700
+Esenyurt - Zincirlikuyu 1200
 Etiler - Florya 1000
 Etiler - İstinye 600
+Etiler - Kavakpınar 2000
 Etiler - Kocamustafapaşa 800
+Etiler - Sefaköy 700
+Etiler - Şişli 700
+Etiler - Ümraniye 800
+Etiler - Yeşilköy 900
+Eyüpsultan - Polonezköy 1300
+Eyüpsultan - Şirinevler 1100
 Fatih - Fikirtepe 900
+Fatih - Florya 800
+Fatih - Gültepe 800
+Fatih - Güneşli 600
+Fatih - Hadımköy 1200
 Fatih - Haramidere 400
+Fatih - Hasköy 500
 Fatih - İkitelli 800
 Fatih - Kanarya 800
+Fatih - Kavacık 1100
+Fatih - Kurtköy 1800
+Fatih - Kuruçeşme 800
+Fatih - Maslak 800
+Fatih - Mecidiyeköy 700
 Fatih - Sefaköy 800
+Fatih - Sinanoba 1800
+Fatih - Şahintepe 900
+Fatih - Taksim 600
 Fatih - Tepeüstü 1100
+Fatih - Yenibosna 1000
+Fenerbahçe - Halkalı 1200
+Fenerbahçe - Taksim 1000
 Feneryolu - Pendik 900
 Ferhatpaşa - Kadıköy 800
+Ferhatpaşa - Sultanbeyli 700
 Ferhatpaşa - Şişli 1200
+Ferhatpaşa - Taşdelen 600
 Ferhatpaşa - Ümraniye 600
+Feriköy - Kartal 1100
+Feriköy - Şahintepe 1000
 Fındıkzade - Güzelce 1400
 Fındıkzade - Halkalı 800
 Fındıkzade - Kağıthane 700
 Fındıkzade - Kuruçeşme 800
 Fındıkzade - Küçükçekmece 800
 Fındıkzade - Şişli 700
+Fikirtepe - Kartal 700
+Fikirtepe - Kemerburgaz 1100
 Fikirtepe - Maltepe 600
 Fikirtepe - Pendik 800
+Fikirtepe - Sancaktepe 700
+Fikirtepe - Sultanbeyli 800
 Fikirtepe - Ümraniye 700
+Firuzköy - Gaziosmanpaşa 1000
 Firuzköy - Kıraç 700
-Florya - Küçükçekmece 700
+Firuzköy - Yenikapı 1000
+Florya - Kuruçeşme 1200
+Florya - Küçükçekmece 600
+Florya - Okmeydanı 800
+Florya - Ortaköy 1000
 Florya - Silivri 1600
+Florya - Sultanbeyli 1500
 Florya - Sultangazi 1600
+Florya - Şişli 900
 Florya - Taksim 800
 Florya - Yeşilkent 800
 Fulya - Kayışdağı 1000
+Fulya - Küçükçekmece 700
 Fulya - Üsküdar 1100
+Galata - Gaziosmanpaşa 700
 Gayrettepe - Kartal 1000
-Gaziosmanpaşa - Halkalı 700
+Gayrettepe - Sultanbeyli 1100
+Gaziosmanpaşa - Gürpınar 1100
+Gaziosmanpaşa - Hadımköy 1200
+Gaziosmanpaşa - Halkalı 600
+Gaziosmanpaşa - Karaköy 700
+Gaziosmanpaşa - Kayaşehir 700
+Gaziosmanpaşa - Kemerburgaz 900
 Gaziosmanpaşa - Kocasinan 900
 Gaziosmanpaşa - Kumburgaz 1600
+Gaziosmanpaşa - Kurtköy 1400
 Gaziosmanpaşa - Levent 700
+Gaziosmanpaşa - Mecidiyeköy 600
 Gaziosmanpaşa - Sefaköy 700
 Gaziosmanpaşa - Selimpaşa 1700
 Gaziosmanpaşa - Soğanlı 700
 Gaziosmanpaşa - Şişhane 600
-Gaziosmanpaşa - Taksim 800
-Gaziosmanpaşa - Yeşilköy 1000
+Gaziosmanpaşa - Taksim 700
+Gaziosmanpaşa - Yenibosna 700
+Gaziosmanpaşa - Yeşilköy 900
 Gaziosmanpaşa - Yeşilpınar 600
+Gebze - Gülsuyu 1200
+Gebze - Habipler 2200
 Gebze - Kavakpınar 700
-Gebze - Kurtköy 800
+Gebze - Kaynarca 800
+Gebze - Kurtköy 900
 Gebze - Mecidiyeköy 1800
 Gebze - Orhanlı 700
+Gebze - Sirkeci 1600
 Gebze - Taksim 1700
-Gebze - Tepeören 700
+Gebze - Taşdelen 1200
+Gebze - Tepeören 800
 Gebze - Tepeüstü 1200
-Gebze - Topselvi 700
+Gebze - Topselvi 900
+Göktürk - Güngören 800
+Göktürk - Kadıköy 1300
 Göktürk - Kasımpaşa 900
 Göktürk - Nişantaşı 900
+Göktürk - Sultangazi 1000
 Göktürk - Şişli 800
 Göktürk - Tarabya 800
 Göktürk - Yenibosna 1100
+Göktürk - Yeşilköy 1100
 Göztepe - Kavacık 800
+Göztepe - Maltepe 700
+Göztepe - Sefaköy 600
+Göztepe - Sultanbeyli 800
 Göztepe - Taksim 900
 Göztepe - Ümraniye 600
 Göztepe - Üsküdar 600
 Gülensu - Kadıköy 700
+Gülensu - Ümraniye 600
+Gülsuyu - Kemerburgaz 1400
+Gülsuyu - Sultanbeyli 700
 Gültepe - Güngören 800
 Gültepe - Zeytinburnu 800
 Güneşli - Hadımköy 1000
-Güneşli - Kadıköy 1200
+Güneşli - İncirli 600
+Güneşli - Kadıköy 1300
+Güneşli - Kağıthane 800
 Güneşli - Kapaklı 3000
 Güneşli - Kavaklı 1000
 Güneşli - Kumkapı 900
 Güneşli - Küçükçekmece 500
 Güneşli - Laleli 700
+Güneşli - Merter 600
 Güneşli - Şahintepe 700
 Güneşli - Şirinevler 600
 Güneşli - Şişli 800
-Güneşli - Taksim 900
+Güneşli - Taksim 800
+Güneşli - Yenibosna 500
 Güneşli - Yeşilköy 600
-Güngören - Kanarya 700
+Güneşli - Zeytinburnu 700
+Güngören - Kanarya 800
 Güngören - Levent 700
-Güngören - Sefaköy 900
+Güngören - Mecidiyeköy 800
+Güngören - Sefaköy 800
 Güngören - Şirinevler 700
+Güngören - Taksim 700
+Güngören - Tarabya 1000
+Gürpınar - Güzelce 700
 Gürpınar - Hadımköy 800
 Gürpınar - Kıraç 500
 Gürpınar - Mimaroba 600
@@ -1357,133 +1964,229 @@ Gürpınar - Sefaköy 900
 Gürpınar - Sultangazi 1000
 Gürpınar - Şahintepe 800
 Gürpınar - Yenibosna 1000
+Güvercintepe - Hadımköy 1900
+Güvercintepe - Halkalı 500
 Güvercintepe - Sefaköy 800
 Güvercintepe - Zeytinburnu 800
 Güzelce - Silivri 1100
 Güzelce - Yenibosna 1200
+Güzelyalı - Sancaktepe 800
 Güzelyalı - Sultanbeyli 800
 Güzelyalı - Yeşilpınar 2200
 Habipler - Halkalı 800
+Habipler - Küçükköy 600
 Habipler - Maltepe 1600
 Habipler - Pendik 1700
 Habipler - Silivri 2800
+Habipler - Tekirdağ 3200
+Hadımköy - İkitelli 1000
 Hadımköy - Kavaklı 900
 Hadımköy - Kıraç 800
+Hadımköy - Küçükçekmece 1000
 Hadımköy - Ortaköy 1400
-Hadımköy - Ömerli 900
+Hadımköy - Ömerli 800
 Hadımköy - Şişli 1600
+Hadımköy - Tepecik 900
 Hadımköy - Yakuplu 900
+Halkalı - İkitelli 600
 Halkalı - İncirli 700
+Halkalı - Kadıköy 1300
+Halkalı - Kalamış 1500
+Halkalı - Kirazlı 500
 Halkalı - Kurtköy 1700
 Halkalı - Maslak 700
 Halkalı - Mimarsinan 1000
+Halkalı - Pendik 1800
 Halkalı - Samatya 700
 Halkalı - Sancaktepe 1500
+Halkalı - Sapanca 4400
 Halkalı - Silivri 1700
 Halkalı - Sultanbeyli 1700
+Halkalı - Sultangazi 700
+Halkalı - Şahintepe 600
+Halkalı - Şişli 800
 Halkalı - Taksim 1000
 Halkalı - Yakuplu 800
 Halkalı - Yenibosna 600
 Halkalı - Yeşilkent 700
+Halkalı - Zeytinburnu 800
 Haraççı - Sarıyer 1200
+Haraççı - Sultangazi 800
+Haramidere - Sefaköy 900
 Haramidere - Sultangazi 800
 Harbiye - Kayaşehir 1100
 Harbiye - Levent 500
+Harbiye - Ümraniye 1000
 Hoşdere - Sefaköy 1000
 Ihlamurkuyu - Levent 1100
-İçmeler - Kartal 600
+İçerenköy - Kadıköy 500
+İçerenköy - Tuzla 900
+İçmeler - Kartal 700
+İdealtepe - Mecidiyeköy 1100
+İkitelli - Kadıköy 1300
 İkitelli - Kağıthane 800
+İkitelli - Kartal 1500
+İkitelli - Kavacık 1200
 İkitelli - Kıraç 800
+İkitelli - Kumkapı 800
 İkitelli - Küçükçekmece 700
 İkitelli - Maltepe 1400
 İkitelli - Maslak 900
 İkitelli - Mimaroba 1000
-İkitelli - Sefaköy 900
+İkitelli - Sefaköy 700
 İkitelli - Selimpaşa 1300
-İkitelli - Silivri 1200
-İkitelli - Sultangazi 700
-İkitelli - Şirinevler 800
-İkitelli - Şişli 800
+İkitelli - Silivri 1600
+İkitelli - Sultanahmet 700
+İkitelli - Sultangazi 600
+İkitelli - Şirinevler 700
+İkitelli - Şişli 900
 İkitelli - Taksim 900
+İkitelli - Yenibosna 600
+İkitelli - Zeytinburnu 800
 İstinye - Kumburgaz 1900
+İstinye - Levent 700
 İstinye - Merter 900
 İstinye - Ortaköy 700
 İstinye - Talatpaşa 600
 İstinye - Ümraniye 600
-İzmit - Kaynarca 2000
+İstinye - Üsküdar 1000
+İzmit - Kaynarca 1900
 İzmit - Mecidiyeköy 2900
+İzmit - Taksim 3000
+Kabakça - Yenibosna 2300
 Kadıköy - Kavacık 800
 Kadıköy - Kayaşehir 1600
+Kadıköy - Kaynarca 800
+Kadıköy - Kocamustafapaşa 800
 Kadıköy - Kurtköy 1000
+Kadıköy - Küçükyalı 800
 Kadıköy - Mecidiyeköy 1000
 Kadıköy - Mimaroba 1600
+Kadıköy - Riva 1100
 Kadıköy - Sarıgazi 800
-Kadıköy - Taksim 1000
+Kadıköy - Sefaköy 1500
+Kadıköy - Şirinevler 1000
+Kadıköy - Taksim 900
 Kadıköy - Taşdelen 800
+Kadıköy - Yenibosna 1200
+Kağıthane - Kayışdağı 1300
+Kağıthane - Kemerburgaz 1000
 Kağıthane - Kıraç 1200
 Kağıthane - Maslak 600
 Kağıthane - Mehterçeşme 1100
-Kağıthane - Taksim 800
+Kağıthane - Taksim 600
 Kağıthane - Ünalan 1100
+Kağıthane - Zekeriyaköy 900
+Kanarya - Mecidiyeköy 1000
+Kanarya - Pendik 1300
+Kanarya - Şahintepe 700
+Kanarya - Taksim 1000
+Kanarya - Yeşilkent 600
 Kapaklı - Kıraç 2000
+Kapaklı - Selimpaşa 1400
 Karaköy - Şişli 700
+Kartal - Kavakpınar 600
+Kartal - Kozyatağı 700
 Kartal - Kurtköy 800
 Kartal - Küçükyalı 600
-Kartal - Nişantaşı 1200
+Kartal - Maslak 1500
+Kartal - Mecidiyeköy 1000
+Kartal - Nişantaşı 1100
 Kartal - Samandıra 700
 Kartal - Sarıgazi 700
 Kartal - Soğanlı 900
-Kartal - Taksim 1100
+Kartal - Taksim 1200
 Kartal - Tepeüstü 800
 Kartal - Yenikapı 1300
 Kartal - Yenisahra 700
 Kartal - Zekeriyaköy 1700
 Kasımpaşa - Maltepe 1000
 Kasımpaşa - Sefaköy 800
+Kasımpaşa - Sultanbeyli 1300
+Kasımpaşa - Ümraniye 1400
 Kavacık - Suadiye 800
+Kavacık - Sultanbeyli 1000
 Kavacık - Taksim 900
 Kavacık - Ümraniye 700
 Kavacık - Üsküdar 700
-Kavakpınar - Ümraniye 1000
+Kavacık - Yakuplu 1400
+Kavacık - Yalova 4600
+Kavaklı - Kumburgaz 800
+Kavaklı - Silivri 1200
+Kavaklı - Şirinevler 800
+Kavaklı - Yenibosna 900
+Kavakpınar - Tuzla 900
+Kavakpınar - Ümraniye 900
+Kayaşehir - Küçükçekmece 600
+Kayışdağı - Maltepe 600
+Kayışdağı - Nurtepe 1000
 Kayışdağı - Şişli 1100
 Kayışdağı - Ümraniye 700
+Kayışdağı - Üsküdar 800
+Kaynarca - Sarıgazi 800
 Kaynarca - Ümraniye 900
 Kaynarca - Üsküdar 1000
+Kemerburgaz - Küçükköy 800
+Kemerburgaz - Şirinevler 1000
 Kıraç - Küçükçekmece 900
 Kıraç - Sefaköy 800
 Kıraç - Selimpaşa 1000
 Kıraç - Silivri 1400
-Kıraç - Şirinevler 900
+Kıraç - Şahintepe 700
+Kıraç - Şirinevler 1000
 Kıraç - Yenibosna 800
 Kısıklı - Yeniköy 900
+Kilyos - Taksim 1200
 Kocasinan - Maslak 800
 Kocasinan - Şişli 1000
 Kozyatağı - Şişli 1000
 Kumburgaz - Sefaköy 1300
+Kumburgaz - Selimpaşa 600
+Kumburgaz - Silivri 800
 Kumburgaz - Taksim 1300
+Kumkapı - Zeytinburnu 600
+Kurtköy - Küçükçekmece 1800
 Kurtköy - Samandıra 700
+Kurtköy - Sapanca 1900
 Kurtköy - Sultanbeyli 500
-Kurtköy - Tuzla 600
-Kurtköy - Ümraniye 900
+Kurtköy - Taksim 1400
+Kurtköy - Tuzla 700
+Kurtköy - Ümraniye 1000
 Kurtköy - Üsküdar 1000
+Kurtuluş - Ümraniye 900
 Kurtuluş - Yalova 4800
 Kuruçeşme - Maltepe 1100
 Küçükçekmece - Levent 1000
-Küçükçekmece - Merter 600
+Küçükçekmece - Maslak 1000
+Küçükçekmece - Merter 800
 Küçükçekmece - Mimaroba 1000
+Küçükçekmece - Polonezköy 1600
 Küçükçekmece - Samatya 700
+Küçükçekmece - Şahintepe 700
 Küçükçekmece - Şirinevler 700
 Küçükçekmece - Taksim 900
+Küçükçekmece - Yenikapı 800
 Küçükköy - Sefaköy 800
 Küçükköy - Taksim 700
 Küçükyalı - Sarıyer 1600
 Küçükyalı - Ümraniye 700
 Küçükyalı - Zekeriyaköy 1600
+Laleli - Zeytinburnu 1000
+Levent - Maltepe 1300
+Levent - Mecidiyeköy 600
 Levent - Paşabahçe 1000
 Levent - Sarıyer 800
-Levent - Zeytinburnu 900
+Levent - Sefaköy 800
+Levent - Zeytinburnu 800
+Mahmutbey - Maltepe 1400
+Mahmutbey - Taksim 800
+Maltepe - Maslak 1000
 Maltepe - Mecidiyeköy 1600
-Maltepe - Taksim 1100
+Maltepe - Nişantaşı 1000
+Maltepe - Orhanlı 800
+Maltepe - Samandıra 1100
+Maltepe - Taksim 1200
+Maslak - Orhanlı 1600
 Maslak - Sancaktepe 1300
 Maslak - Sefaköy 1200
 Maslak - Sultangazi 1000
@@ -1492,157 +2195,213 @@ Maslak - Tepecik 1600
 Maslak - Ümraniye 1000
 Maslak - Yenibosna 900
 Mecidiyeköy - Okmeydanı 500
+Mecidiyeköy - Sefaköy 900
+Mecidiyeköy - Sultanbeyli 1200
+Mecidiyeköy - Sultangazi 800
+Mecidiyeköy - Şile 2100
 Mecidiyeköy - Şirinevler 700
 Mecidiyeköy - Ümraniye 1000
 Mehterçeşme - Taşoluk 1100
+Mehterçeşme - Yenibosna 700
 Merter - Yenibosna 600
 Merter - Zeytinburnu 1200
-Mimaroba - Yakuplu 600
+Mimaroba - Sultangazi 1100
+Mimaroba - Ümraniye 1800
+Mimaroba - Yakuplu 700
 Mimarsinan - Nişantaşı 1700
 Mimarsinan - Silivri 800
+Mimarsinan - Yeşilkent 600
+Nişantaşı - Silivri 2400
 Nişantaşı - Sultanbeyli 1200
-Nişantaşı - Sultangazi 700
+Nişantaşı - Sultangazi 800
 Nişantepe - Sultanbeyli 600
 Nurtepe - Sultanbeyli 1300
 Okmeydanı - Pendik 1200
 Okmeydanı - Sefaköy 800
-Okmeydanı - Şile 2100
+Okmeydanı - Sultangazi 700
+Okmeydanı - Şile 2200
+Okmeydanı - Talatpaşa 600
+Okmeydanı - Yakuplu 1200
 Orhanlı - Pendik 700
+Ortaköy - Silivri 800
 Ortaköy - Tuzla 1500
 Osmanbey - Sarıyer 800
+Osmanbey - Zeytinburnu 700
+Ömerli - Tepecik 900
 Ömerli - Ümraniye 1000
+Paşabahçe - Ümraniye 700
+Pendik - Samandıra 700
 Pendik - Sefaköy 1900
+Pendik - Şişhane 1600
+Pendik - Taksim 1600
+Pendik - Taşdelen 1100
+Pendik - Tepeören 700
+Pendik - Ünalan 800
 Pendik - Yenibosna 1600
+Pendik - Yeşilpınar 1700
 Saadetdere - Sarıyer 1400
+Saadetdere - Üsküdar 1400
 Saadetdere - Zeytinburnu 1300
 Sakarya - Taksim 3600
-Samandıra - Sarıyer 1400
+Samandıra - Sarıyer 1300
 Samandıra - Sultanbeyli 500
+Samandıra - Tuzla 800
 Samandıra - Ümraniye 600
 Samatya - Şişli 800
 Sancaktepe - Söğütlüçeşme 800
+Sancaktepe - Taksim 1300
+Sarıgazi - Şişli 1100
+Sarıgazi - Taksim 1100
+Sarıgazi - Tepeören 1000
+Sarıgazi - Ümraniye 600
 Sarıgazi - Yakacık 600
-Sarıyer - Taksim 800
+Sarıyer - Suadiye 1400
+Sarıyer - Şirinevler 900
+Sarıyer - Taksim 1000
+Sarıyer - Yenibosna 1700
 Sarıyer - Zincirlikuyu 800
-Sefaköy - Silivri 2900
+Sefaköy - Silivri 1600
 Sefaköy - Sultangazi 800
-Sefaköy - Şişli 1100
-Sefaköy - Taksim 900
+Sefaköy - Şişli 1000
+Sefaköy - Taksim 800
+Sefaköy - Ümraniye 1500
 Sefaköy - Yakuplu 800
 Sefaköy - Yenibosna 600
+Sefaköy - Yeşilköy 700
+Sefaköy - Zekeriyaköy 1600
 Sefaköy - Zeytinburnu 600
 Silivri - Sirkeci 2000
 Silivri - Şirinevler 1700
 Silivri - Taksim 2200
 Silivri - Tozkoparan 1700
+Silivri - Yeşilköy 1700
 Sirkeci - Sultangazi 800
+Sirkeci - Yakuplu 1000
 Soğanlı - Yakuplu 800
-Sultanbeyli - Şirinevler 1400
+Soğanlık - Yenisahra 700
+Söğütlüçeşme - Üsküdar 600
+Suadiye - Tuzla 1000
+Sultanbeyli - Şirinevler 1600
+Sultanbeyli - Taksim 1200
 Sultangazi - Şahintepe 1000
-Sultangazi - Şirinevler 1000
+Sultangazi - Şirinevler 900
 Sultangazi - Taksim 800
+Sultangazi - Topkapı 700
+Sultangazi - Yenibosna 800
 Sultangazi - Yenikapı 700
 Şahintepe - Şişli 1000
 Şile - Tepeüstü 1900
-Şirinevler - Taksim 700
+Şirinevler - Taksim 800
 Şirinevler - Taşoluk 1000
-Şirinevler - Üsküdar 1100
+Şirinevler - Üsküdar 1200
 Şişli - Taksim 800
 Şişli - Yenibosna 700
 Şişli - Yenikapı 600
+Taksim - Tarabya 700
 Taksim - Tekirdağ 3600
-Taksim - Tuzla 1400
+Taksim - Tuzla 1300
 Taksim - Ümraniye 900
 Taksim - Üsküdar 900
 Taksim - Yakuplu 1300
 Taksim - Yenibosna 800
 Taksim - Yeşilpınar 800
+Taksim - Zümrütevler 1100
 Tepecik - Zeytinburnu 1200
+Topkapı - Zeytinburnu 700
 Tuzla - Yenikapı 1400
 Ümraniye - Yakacık 800
 Ümraniye - Yenibosna 1400
+Ümraniye - Yenikapı 900
+Üsküdar - Yeşilpınar 1000
+Yakacık - Zümrütevler 700
+Yakuplu - Yenibosna 900
+Yenikapı - Zekeriyaköy 1000
 Yeşilköy - Yeşilpınar 1700
 Yeşilpınar - Zeytinburnu 700
 
-===== TEK İLANDAN ÇIKAN (1254 güzergâh, daha az kesin) =====
-İstanbul Havalimanı - Ataköy 1700
+===== TEK İLANDAN ÇIKAN (1483 güzergâh, daha az kesin) =====
 İstanbul Havalimanı - Ayazağa 400
 İstanbul Havalimanı - Balat 1400
 İstanbul Havalimanı - Beyazıt 2000
 İstanbul Havalimanı - Bizimkent 1700
 İstanbul Havalimanı - Bostancı 1900
+İstanbul Havalimanı - Bursa 6000
 İstanbul Havalimanı - Cankurtaran 1900
 İstanbul Havalimanı - Cihangir 1700
 İstanbul Havalimanı - Çapa 1400
-İstanbul Havalimanı - Çorlu 3200
 İstanbul Havalimanı - Denizköşkler 1700
 İstanbul Havalimanı - Dilovası 3000
 İstanbul Havalimanı - Esenkent 1400
-İstanbul Havalimanı - Fikirtepe 600
 İstanbul Havalimanı - Galata 1900
+İstanbul Havalimanı - Gümüşyaka 2800
 İstanbul Havalimanı - Gürpınar 1600
-İstanbul Havalimanı - İzmir 9000
-İstanbul Havalimanı - İzmit 3600
-İstanbul Havalimanı - Kavaklı 1600
+İstanbul Havalimanı - Harbiye 1600
+İstanbul Havalimanı - Kalamış 2000
+İstanbul Havalimanı - Kayışdağı 1800
 İstanbul Havalimanı - Kaynarca 700
 İstanbul Havalimanı - Kıraç 1700
 İstanbul Havalimanı - Kısıklı 1900
 İstanbul Havalimanı - Maslak 1600
-İstanbul Havalimanı - Okmeydanı 1700
-İstanbul Havalimanı - Ortaköy 1700
 İstanbul Havalimanı - Samandıra 2200
+İstanbul Havalimanı - Sarıgazi 2000
 İstanbul Havalimanı - Soğanlık 2000
 İstanbul Havalimanı - Şirinevler 1300
 İstanbul Havalimanı - Ulus 1600
 İstanbul Havalimanı - Unkapanı 2000
 İstanbul Havalimanı - Yenisahra 1900
-İstanbul Havalimanı - Yeşilköy 1800
-İstanbul Havalimanı - Yeşilpınar 1100
-İstanbul Havalimanı - Zeytinburnu 1600
+İstanbul Havalimanı - Yeşilkent 1500
 Sabiha Gökçen - Acarkent 1200
 Sabiha Gökçen - Ankara 7200
-Sabiha Gökçen - Balat 3000
+Sabiha Gökçen - Aydıntepe 500
 Sabiha Gökçen - Bomonti 1700
-Sabiha Gökçen - Bostancı 1100
+Sabiha Gökçen - Cankurtaran 1800
 Sabiha Gökçen - Çatalca 2800
+Sabiha Gökçen - Çırağan 2400
 Sabiha Gökçen - Çiftehavuzlar 1200
 Sabiha Gökçen - Dolapdere 2600
-Sabiha Gökçen - Esenler Otogarı 1800
 Sabiha Gökçen - Esentepe 1800
-Sabiha Gökçen - Esenyalı 700
 Sabiha Gökçen - Etiler 1700
 Sabiha Gökçen - Fındıkzade 1800
 Sabiha Gökçen - Galata 3000
 Sabiha Gökçen - Gölcük 3600
 Sabiha Gökçen - Gülsuyu 800
 Sabiha Gökçen - Gültepe 1800
-Sabiha Gökçen - Güneşli 1700
-Sabiha Gökçen - Gürpınar 2400
 Sabiha Gökçen - Hasköy 1400
 Sabiha Gökçen - İstinye 200
+Sabiha Gökçen - Karayolları 1800
 Sabiha Gökçen - Kavakpınar 600
 Sabiha Gökçen - Kıraç 2400
 Sabiha Gökçen - Körfez 1400
 Sabiha Gökçen - Kuştepe 1400
+Sabiha Gökçen - Küçükbakkalköy 800
 Sabiha Gökçen - Küçükköy 1600
-Sabiha Gökçen - Maslak 1400
-Sabiha Gökçen - Mimaroba 3100
+Sabiha Gökçen - Nişantepe 1200
 Sabiha Gökçen - Okmeydanı 1800
+Sabiha Gökçen - Orhanlı 700
 Sabiha Gökçen - Ömerli 1200
+Sabiha Gökçen - Saadetdere 2200
+Sabiha Gökçen - Tekirdağ 7200
+Sabiha Gökçen - Tepecik 2400
+Sabiha Gökçen - Tepeüstü 800
+Sabiha Gökçen - Topkapı 2400
 Sabiha Gökçen - Yakacık 700
-Sabiha Gökçen - Yalova 4200
-Sabiha Gökçen - Yeşilpınar 1700
+Acarkent - Beyoğlu 1700
 Acarkent - Büyükçekmece 5400
-Acarkent - Kağıthane 1000
+Acarkent - Çekmeköy 800
 Acarkent - Kemerburgaz 1200
+Acarkent - Kıraç 2400
+Acarkent - Levent 600
 Acıbadem - Çağlayan 800
 Acıbadem - Çatalca 2400
+Acıbadem - Fulya 800
 Acıbadem - Gaziosmanpaşa 1000
+Acıbadem - Gebze 1200
 Acıbadem - Halkalı 700
+Acıbadem - Maslak 800
 Acıbadem - Sultanbeyli 800
 Ağva - Çekmeköy 2400
 Ağva - Dudullu 2600
-Ağva - Gebze 2400
+Ağva - Sultanbeyli 2300
 Akatlar - Alibeyköy 800
 Akatlar - Atakent 1000
 Akçaburgaz - Armağanevler 1500
@@ -1657,36 +2416,35 @@ Akçaburgaz - Florya 1000
 Akçaburgaz - Güngören 1000
 Akçaburgaz - Hadımköy 600
 Akçaburgaz - Haramidere 600
+Akçaburgaz - İkitelli 800
 Akçaburgaz - Küçükyalı 2400
-Akçaburgaz - Levent 1400
 Akçaburgaz - Merter 1000
 Akçaburgaz - Şahintepe 500
 Akçaburgaz - Talatpaşa 600
 Akçaburgaz - Zekeriyaköy 2400
 Akçaburgaz - Zeytinburnu 1200
+Aksaray - Avcılar 900
 Aksaray - Aydınlı 1600
-Aksaray - Beylikdüzü 1200
+Aksaray - Başakşehir 1000
 Aksaray - Büyükdere 1300
 Aksaray - Cennet 700
 Aksaray - Esenler 500
+Aksaray - Eyüpsultan 600
 Aksaray - Ferhatpaşa 1900
 Aksaray - Fikirtepe 700
-Aksaray - Gaziosmanpaşa 700
+Aksaray - Florya 700
 Aksaray - Güneşli 800
-Aksaray - Halkalı 800
 Aksaray - Kağıthane 700
 Aksaray - Kayaşehir 1000
 Aksaray - Kaynarca 1700
 Aksaray - Kurtköy 1600
+Aksaray - Kuruçeşme 800
 Aksaray - Küçükçekmece 800
-Aksaray - Maltepe 1100
-Aksaray - Mecidiyeköy 600
-Aksaray - Sancaktepe 1100
 Aksaray - Sultanbeyli 1200
-Aksaray - Şişli 800
 Aksaray - Tarabya 1000
 Aksaray - Tayakadın 1500
-Aksaray - Ümraniye 1000
+Aksaray - Üsküdar 1000
+Aksaray - Yalova 5400
 Alemdağ - Beykoz 1000
 Alemdağ - Cihangir 1200
 Alemdağ - Dudullu 700
@@ -1694,168 +2452,199 @@ Alemdağ - Etiler 1200
 Alemdağ - Fulya 1200
 Alemdağ - Harbiye 1200
 Alemdağ - Nispetiye 1200
+Alemdağ - Sultanbeyli 600
 Alemdağ - Şişli 1200
-Alemdağ - Ümraniye 700
-Alibeyköy - Ataşehir 1300
+Alibeyköy - Avcılar 1100
 Alibeyköy - Bağcılar 700
+Alibeyköy - Bahçeşehir 1000
 Alibeyköy - Bolluca 1000
 Alibeyköy - Bomonti 600
-Alibeyköy - Etiler 700
+Alibeyköy - Çağlayan 500
 Alibeyköy - Fatih 700
 Alibeyköy - Fındıkzade 600
+Alibeyköy - Gültepe 500
 Alibeyköy - Kadıköy 1000
 Alibeyköy - Kilyos 1400
 Alibeyköy - Küçükçekmece 800
 Alibeyköy - Küçükköy 700
 Alibeyköy - Mahmutbey 700
-Alibeyköy - Ortaköy 700
+Alibeyköy - Mecidiyeköy 500
+Alibeyköy - Okmeydanı 700
 Alibeyköy - Sakarya 4200
 Alibeyköy - Sefaköy 700
 Alibeyköy - Sultanbeyli 1500
-Alibeyköy - Sultangazi 600
 Alibeyköy - Şişli 800
 Alibeyköy - Ümraniye 900
 Alibeyköy - Yenikapı 700
+Alibeyköy - Zekeriyaköy 1000
 Alkent 2000 - Ataköy 1000
+Alkent 2000 - Ataşehir 1700
 Alkent 2000 - Bahçeşehir 500
+Alkent 2000 - Beylikdüzü 600
 Alkent 2000 - Esenler Otogarı 1200
+Alkent 2000 - Gaziosmanpaşa 1400
+Alkent 2000 - Kasımpaşa 1400
 Alkent 2000 - Sarıyer 1800
 Alkent 2000 - Zeytinburnu 1600
 Altınşehir - Avcılar 1200
-Altınşehir - Yenibosna 800
+Altınşehir - Gaziosmanpaşa 700
+Altıntepe - Ataşehir 600
+Altunizade - Mimaroba 2400
 Altunizade - Riva 1700
+Altunizade - Şişli 1000
 Altunizade - Yenikapı 1200
 Ambarlı - Arnavutköy 1000
-Ambarlı - Beylikdüzü 500
 Ambarlı - Kağıthane 1800
 Ankara - Beşiktaş 3800
 Ankara - Beylikdüzü 14400
+Ankara - Esenler 600
+Ankara - Esenler Otogarı 600
+Ankara - Eyüpsultan 9600
 Ankara - Ulus 3800
-Arnavutköy - Beykoz 1700
 Arnavutköy - Darıca 2300
-Arnavutköy - Dudullu 1800
-Arnavutköy - Esenler Otogarı 800
-Arnavutköy - Güngören 1000
+Arnavutköy - Değirmenköy 2000
+Arnavutköy - Esenkent 3500
+Arnavutköy - Güvercintepe 1200
+Arnavutköy - İzmit 4200
 Arnavutköy - Kabakça 1200
-Arnavutköy - Kağıthane 600
 Arnavutköy - Karayolları 1000
-Arnavutköy - Kayaşehir 900
+Arnavutköy - Kumburgaz 1600
 Arnavutköy - Levent 1000
 Arnavutköy - Okmeydanı 1100
 Arnavutköy - Ömerli 900
-Arnavutköy - Silivri 1600
-Arnavutköy - Sultanbeyli 1800
-Arnavutköy - Yakuplu 1200
+Arnavutköy - Paşabahçe 1300
+Arnavutköy - Tuzla 2400
 Arnavutköy - Yenikapı 1300
 Arnavutköy - Yeşilkent 800
-Arnavutköy - Zeytinburnu 800
 Atakent - Bağcılar 600
+Atakent - Bakırköy 600
 Atakent - Beyazıt 1000
 Atakent - Esenler 700
-Atakent - Esenyurt 700
 Atakent - Etiler 1000
 Atakent - Güngören 700
+Atakent - Levent 1000
 Atakent - Üsküdar 1200
+Ataköy - Avcılar 700
+Ataköy - Bahçelievler 800
 Ataköy - Bebek 1000
 Ataköy - Çapa 600
-Ataköy - Gaziosmanpaşa 700
+Ataköy - Çekmeköy 800
+Ataköy - Firuzköy 700
 Ataköy - Göktürk 1100
 Ataköy - Güneşli 700
 Ataköy - Halkalı 600
+Ataköy - Kadıköy 1600
+Ataköy - Kağıthane 1100
+Ataköy - Kozyatağı 700
 Ataköy - Küçükçekmece 600
+Ataköy - Mahmutbey 900
 Ataköy - Maslak 700
 Ataköy - Pendik 1700
 Ataköy - Şişli 800
 Ataköy - Yenibosna 500
 Ataköy - Yeniköy 800
-Ataköy - Zeytinburnu 500
+Atalar - Bostancı 500
 Atalar - Maltepe 500
+Atalar - Tuzla 600
 Atalar - Zümrütevler 500
 Ataşehir - Aydınlı 1100
 Ataşehir - Balmumcu 1000
-Ataşehir - Bostancı 600
+Ataşehir - Bursa 5600
 Ataşehir - Çapa 1100
 Ataşehir - Çengelköy 600
-Ataşehir - Dudullu 600
+Ataşehir - Darıca 2400
 Ataşehir - Edirnekapı 1000
+Ataşehir - Esenler Otogarı 1300
 Ataşehir - Göktürk 1300
-Ataşehir - Gülsuyu 500
+Ataşehir - Gültepe 700
 Ataşehir - Hadımköy 1700
 Ataşehir - Harbiye 900
-Ataşehir - İzmit 2400
 Ataşehir - Küçükköy 1200
-Ataşehir - Nişantaşı 900
+Ataşehir - Levent 1000
+Ataşehir - Merter 1200
+Ataşehir - Mimaroba 1800
+Ataşehir - Moda 400
+Ataşehir - Muratbey 2400
 Ataşehir - Samandıra 700
-Ataşehir - Sapanca 2900
-Ataşehir - Sultangazi 1200
+Ataşehir - Sarıgazi 700
+Ataşehir - Sefaköy 1200
 Ataşehir - Sütlüce 900
-Ataşehir - Şile 1800
-Ataşehir - Şirinevler 1100
 Ataşehir - Tepeüstü 1000
 Ataşehir - Yalova 4200
 Ataşehir - Yenibosna 1200
 Ataşehir - Zekeriyaköy 1400
 Atatürk Havalimanı - Gebze 2400
+Atatürk Havalimanı - Gürpınar 800
+Atışalanı - Beşiktaş 700
 Atışalanı - Esenyurt 800
 Atışalanı - Gülsuyu 1000
 Atışalanı - Üsküdar 800
+Avcılar - Baltalimanı 1200
 Avcılar - Bebek 1100
+Avcılar - Cihangir 1200
 Avcılar - Çorlu 3100
+Avcılar - Dudullu 1200
 Avcılar - Feriköy 1100
+Avcılar - Gebze 2400
 Avcılar - Göktürk 1200
-Avcılar - Güneşli 700
 Avcılar - Güzelce 1000
+Avcılar - Habipler 1000
 Avcılar - Karagümrük 900
 Avcılar - Kartal 1700
-Avcılar - Kayaşehir 700
 Avcılar - Kilyos 1700
-Avcılar - Kocamustafapaşa 800
+Avcılar - Kozyatağı 1800
 Avcılar - Kumkapı 1000
-Avcılar - Küçükköy 700
 Avcılar - Mahmutbey 700
-Avcılar - Maslak 1200
-Avcılar - Mecidiyeköy 1100
 Avcılar - Mehterçeşme 500
-Avcılar - Merter 800
 Avcılar - Mimaroba 500
 Avcılar - Osmanbey 1000
 Avcılar - Saadetdere 500
 Avcılar - Selimpaşa 1100
-Avcılar - Sultanbeyli 1600
+Avcılar - Sultanahmet 800
 Avcılar - Şirinevler 800
 Avcılar - Tepecik 700
+Avcılar - Tuzla 2400
 Avcılar - Ulus 1400
-Avcılar - Ümraniye 1400
 Avcılar - Yakuplu 600
 Avcılar - Yeniköy 1400
-Avcılar - Zeytinburnu 800
 Ayazağa - Bayrampaşa 1300
 Ayazağa - Beşiktaş 500
 Ayazağa - Florya 1100
 Ayazağa - İçerenköy 1200
+Ayazağa - Mimarsinan 1700
+Ayazağa - Şişli 800
+Aydınlı - Bahçelievler 1900
+Aydınlı - Bostancı 900
 Aydınlı - Darıca 500
-Aydınlı - İzmit 1600
+Aydınlı - Esenyurt 2000
+Aydınlı - Kaynarca 500
 Aydınlı - Söğütlüçeşme 1100
-Bağcılar - Bebek 800
+Aydınlı - Yakacık 800
+Aydınlı - Yenisahra 1200
+Aydıntepe - Taksim 1400
 Bağcılar - Beşyol 600
-Bağcılar - Çatalca 3200
+Bağcılar - Bostancı 1300
+Bağcılar - Bursa 7200
+Bağcılar - Celaliye 1800
 Bağcılar - Çayırova 1800
+Bağcılar - Çorlu 2600
 Bağcılar - Değirmenköy 2400
 Bağcılar - Erenköy 1200
-Bağcılar - Gebze 2000
+Bağcılar - Fikirtepe 600
 Bağcılar - Gürpınar 1000
-Bağcılar - Hadımköy 1200
 Bağcılar - İncirtepe 800
 Bağcılar - İzmit 2900
 Bağcılar - Kozyatağı 1000
+Bağcılar - Kumburgaz 1200
 Bağcılar - Küçükköy 600
 Bağcılar - Nişantaşı 800
 Bağcılar - Ortaköy 700
 Bağcılar - Pendik 1700
+Bağcılar - Piyalepaşa 1000
+Bağcılar - Saadetdere 700
 Bağcılar - Sakarya 4800
-Bağcılar - Selimpaşa 1400
+Bağcılar - Suadiye 1100
 Bağcılar - Sultanahmet 4100
-Bağcılar - Şahintepe 700
 Bağcılar - Tayakadın 1000
 Bağcılar - Tuzla 1800
 Bağcılar - Yalova 500
@@ -1870,56 +2659,67 @@ Bahçeköy - Selimpaşa 2400
 Bahçeköy - Şişli 1200
 Bahçeköy - Taksim 1000
 Bahçelievler - Bahçeşehir 1000
+Bahçelievler - Beşyol 700
 Bahçelievler - Bostancı 1200
 Bahçelievler - Cennet 600
 Bahçelievler - Cevizlibağ 10100
 Bahçelievler - Çekmeköy 1600
 Bahçelievler - Hadımköy 1000
-Bahçelievler - Halkalı 700
-Bahçelievler - Kıraç 800
 Bahçelievler - Kirazlı 500
 Bahçelievler - Kumkapı 700
+Bahçelievler - Kuruçeşme 1000
+Bahçelievler - Levent 700
 Bahçelievler - Mahmutbey 600
 Bahçelievler - Maltepe 1400
+Bahçelievler - Mecidiyeköy 700
 Bahçelievler - Okmeydanı 800
+Bahçelievler - Rami 600
+Bahçelievler - Sapanca 4200
+Bahçelievler - Sefaköy 500
 Bahçelievler - Şahintepe 900
 Bahçelievler - Şile 2000
+Bahçelievler - Tophane 700
+Bahçelievler - Topkapı 700
+Bahçelievler - Tuzla 1900
 Bahçelievler - Ünalan 1400
-Bahçelievler - Yakuplu 700
 Bahçelievler - Yeşilkent 900
-Bahçelievler - Yeşilköy 600
 Bahçelievler - Yeşilpınar 700
-Bahçeşehir - Bakırköy 900
-Bahçeşehir - Bayrampaşa 1000
 Bahçeşehir - Beyazıt 1400
 Bahçeşehir - Beykoz 1800
-Bahçeşehir - Cennet 700
 Bahçeşehir - Çerkezköy 2300
 Bahçeşehir - Esenkent 1200
-Bahçeşehir - Etiler 1400
-Bahçeşehir - Güngören 900
+Bahçeşehir - Eyüpsultan 1100
+Bahçeşehir - Firuzköy 600
 Bahçeşehir - Haramidere 500
-Bahçeşehir - Kağıthane 1100
 Bahçeşehir - Kavaklı 1000
 Bahçeşehir - Kozyatağı 1400
 Bahçeşehir - Kumburgaz 1000
 Bahçeşehir - Kurtköy 1900
+Bahçeşehir - Kuzguncuk 1600
 Bahçeşehir - Küçükyalı 1600
 Bahçeşehir - Maltepe 2200
-Bahçeşehir - Maslak 1200
 Bahçeşehir - Mimarsinan 700
+Bahçeşehir - Nurtepe 1100
 Bahçeşehir - Suadiye 1400
+Bahçeşehir - Tarabya 1800
+Bahçeşehir - Tuzla 2400
 Bahçeşehir - Ümraniye 1600
 Bahçeşehir - Yenikapı 1000
+Bakırköy - Celaliye 1500
+Bakırköy - Çayırova 1800
+Bakırköy - Çekmeköy 800
 Bakırköy - Çengelköy 1200
+Bakırköy - Dudullu 1000
+Bakırköy - Eminönü 600
+Bakırköy - Gayrettepe 800
+Bakırköy - Haraççı 1100
 Bakırköy - Harbiye 700
-Bakırköy - İkitelli 700
-Bakırköy - Kartal 1400
+Bakırköy - Körfez 2800
 Bakırköy - Kumkapı 700
-Bakırköy - Kurtköy 1600
 Bakırköy - Samatya 700
-Bakırköy - Sefaköy 600
 Bakırköy - Tepeüstü 1100
+Bakırköy - Tuzla 1700
+Bakırköy - Veliefendi 1000
 Bakırköy - Yeşilkent 700
 Balat - Beşiktaş 600
 Balat - Güngören 500
@@ -1927,68 +2727,80 @@ Balat - Sultangazi 800
 Balat - Şirinevler 700
 Balmumcu - Mecidiyeköy 600
 Baltalimanı - Beykoz 1200
+Baltalimanı - Kavaklı 1400
 Başakşehir - Bostancı 1600
-Başakşehir - Cennet 700
+Başakşehir - Çengelköy 1000
 Başakşehir - Dolapdere 800
+Başakşehir - Esenkent 700
+Başakşehir - Gölcük 4200
+Başakşehir - Halkalı 600
 Başakşehir - İzmit 4200
+Başakşehir - Kapaklı 2400
+Başakşehir - Kavacık 1200
 Başakşehir - Kurtköy 2000
-Başakşehir - Maslak 1000
+Başakşehir - Samatya 700
 Başakşehir - Sapanca 4200
 Başakşehir - Sultanbeyli 1700
-Başakşehir - Topkapı 800
-Başakşehir - Üsküdar 1200
-Başakşehir - Yenikapı 700
 Başakşehir - Yeşilköy 800
-Bayrampaşa - Beykoz 1300
 Bayrampaşa - Bostancı 1000
 Bayrampaşa - Çağlayan 600
 Bayrampaşa - Çatalca 1400
 Bayrampaşa - Çerkezköy 3000
 Bayrampaşa - Fatih 600
 Bayrampaşa - Gayrettepe 800
-Bayrampaşa - Gaziosmanpaşa 500
 Bayrampaşa - Güneşli 700
 Bayrampaşa - Güngören 600
-Bayrampaşa - Halkalı 600
+Bayrampaşa - İkitelli 700
+Bayrampaşa - Karaköy 700
 Bayrampaşa - Kaynarca 1400
 Bayrampaşa - Kurtköy 1700
 Bayrampaşa - Merter 600
 Bayrampaşa - Mimaroba 1600
 Bayrampaşa - Muratbey 1400
+Bayrampaşa - Nişantaşı 700
+Bayrampaşa - Sancaktepe 1200
 Bayrampaşa - Sapanca 3600
 Bayrampaşa - Şile 3100
-Bayrampaşa - Şişli 700
-Bayrampaşa - Tarabya 800
+Bayrampaşa - Şirinevler 600
 Bayrampaşa - Tepecik 1200
 Bayrampaşa - Velibaba 1400
+Bayrampaşa - Yakuplu 1000
 Bayrampaşa - Yenikapı 600
+Bayrampaşa - Yeniköy 1100
 Bayrampaşa - Yeşilpınar 500
 Bebek - Beyoğlu 600
 Bebek - Çekmeköy 1100
 Bebek - Esenyurt 1200
 Bebek - Fatih 700
-Bebek - Gaziosmanpaşa 700
 Bebek - Küçükköy 1000
+Bebek - Sefaköy 800
+Bebek - Sultangazi 800
 Bebek - Şişli 700
 Bebek - Yeşilpınar 800
 Beşiktaş - Büyükçekmece 1600
 Beşiktaş - Çayırova 1400
-Beşiktaş - Gebze 1800
+Beşiktaş - Çerkezköy 3300
+Beşiktaş - Derince 800
 Beşiktaş - Göktürk 1000
 Beşiktaş - Gülsuyu 1100
+Beşiktaş - Güneşli 700
 Beşiktaş - Habipler 800
 Beşiktaş - İkitelli 1200
 Beşiktaş - İzmit 2800
 Beşiktaş - Kocasinan 800
 Beşiktaş - Kumkapı 700
 Beşiktaş - Mimaroba 1600
-Beşiktaş - Pendik 1400
 Beşiktaş - Sefaköy 700
-Beşiktaş - Sultanbeyli 1100
-Beşiktaş - Taksim 800
+Beşiktaş - Şahintepe 1200
+Beşiktaş - Yakuplu 1200
 Beşiktaş - Yenibosna 900
 Beşiktaş - Yeniköy 800
+Beşyol - Dudullu 1400
+Beşyol - Esenyurt 700
 Beşyol - Fatih 800
+Beşyol - Fulya 700
+Beşyol - Selimpaşa 1300
+Beşyol - Zeytinburnu 700
 Beyazıt - Esenyurt 1200
 Beyazıt - Kağıthane 700
 Beyazıt - Sefaköy 700
@@ -1996,73 +2808,79 @@ Beykoz - Bomonti 1000
 Beykoz - Bostancı 1200
 Beykoz - Büyükçekmece 5400
 Beykoz - Çayırova 2000
+Beykoz - Dolapdere 1200
 Beykoz - Fikirtepe 1000
 Beykoz - Gültepe 1000
+Beykoz - Güngören 1100
 Beykoz - Hadımköy 1700
 Beykoz - İçerenköy 1000
-Beykoz - Kartal 1100
+Beykoz - Kasımpaşa 800
 Beykoz - Maslak 1000
-Beykoz - Mecidiyeköy 800
 Beykoz - Nişantepe 1100
 Beykoz - Osmanbey 1000
-Beykoz - Sancaktepe 700
 Beykoz - Sefaköy 1200
 Beykoz - Söğütlüçeşme 900
 Beykoz - Şile 1800
 Beykoz - Taksim 1000
 Beykoz - Taşdelen 900
 Beykoz - Yeşilkent 1600
+Beylerbeyi - Erenköy 500
 Beylikdüzü - Bolluca 1100
-Beylikdüzü - Çağlayan 1100
 Beylikdüzü - Dudullu 600
-Beylikdüzü - Firuzköy 600
-Beylikdüzü - Galata 1100
-Beylikdüzü - Gebze 3200
+Beylikdüzü - Fikirtepe 1500
 Beylikdüzü - Gümüşyaka 1200
-Beylikdüzü - Güngören 1000
-Beylikdüzü - Güzelce 700
+Beylikdüzü - Güneşli 800
+Beylikdüzü - Harbiye 1200
 Beylikdüzü - Hasköy 1200
 Beylikdüzü - Kamiloba 800
 Beylikdüzü - Kapaklı 2000
+Beylikdüzü - Kayaşehir 900
+Beylikdüzü - Kirazlı 800
+Beylikdüzü - Kumkapı 1100
 Beylikdüzü - Kurtköy 2200
+Beylikdüzü - Kurtuluş 1200
 Beylikdüzü - Kuruçeşme 1100
-Beylikdüzü - Levent 1400
 Beylikdüzü - Lüleburgaz 5200
 Beylikdüzü - Mahmutbey 800
-Beylikdüzü - Maltepe 1800
-Beylikdüzü - Maslak 1200
-Beylikdüzü - Merter 1000
-Beylikdüzü - Okmeydanı 1100
-Beylikdüzü - Pendik 2200
+Beylikdüzü - Ortaköy 1200
+Beylikdüzü - Rami 1200
+Beylikdüzü - Saadetdere 600
+Beylikdüzü - Samandıra 2000
 Beylikdüzü - Samatya 1000
+Beylikdüzü - Sancaktepe 2000
 Beylikdüzü - Sultanbeyli 1800
-Beylikdüzü - Şirinevler 900
+Beylikdüzü - Şahintepe 1000
 Beylikdüzü - Tepecik 600
 Beylikdüzü - Topçular 1100
-Beylikdüzü - Yeşilköy 1000
-Beyoğlu - Bursa 6000
+Beylikdüzü - Tuzla 2200
+Beylikdüzü - Ulus 1200
 Beyoğlu - Caddebostan 900
-Beyoğlu - Çerkezköy 2900
 Beyoğlu - Çorlu 4200
 Beyoğlu - Esenler Otogarı 800
-Beyoğlu - Florya 800
-Beyoğlu - Göktürk 1000
 Beyoğlu - Göztepe 1100
 Beyoğlu - Hadımköy 1200
 Beyoğlu - Halkalı 1000
 Beyoğlu - İçmeler 1300
-Beyoğlu - İzmit 2800
 Beyoğlu - Kayaşehir 1000
+Beyoğlu - Körfez 2700
+Beyoğlu - Kurtköy 1700
 Beyoğlu - Levent 800
+Beyoğlu - Maslak 1400
+Beyoğlu - Ortaköy 1900
 Beyoğlu - Sarıgazi 1100
+Beyoğlu - Şahintepe 1400
+Beyoğlu - Şirinevler 700
 Beyoğlu - Topkapı 1000
+Beyoğlu - Unkapanı 500
 Beyoğlu - Yenibosna 800
-Bizimkent - Sefaköy 700
 Bolluca - Çekmeköy 1600
 Bolluca - Habipler 600
 Bolluca - Sefaköy 1000
+Bolluca - Şirinevler 1000
+Bolluca - Tuzla 2400
 Bomonti - Cihangir 600
 Bomonti - Çekmeköy 1100
+Bomonti - Darıca 1600
 Bomonti - Derince 2500
 Bomonti - Esenler 800
 Bomonti - Esenyalı 1400
@@ -2071,59 +2889,82 @@ Bomonti - Göktürk 1000
 Bomonti - Halkalı 800
 Bomonti - İçerenköy 1000
 Bomonti - Kağıthane 500
+Bomonti - Levent 800
+Bomonti - Mimaroba 1900
 Bomonti - Okmeydanı 700
+Bomonti - Suadiye 1000
 Bomonti - Sultanbeyli 1200
 Bomonti - Taksim 800
+Bomonti - Yıldıztabya 1200
+Bostancı - Darıca 1100
 Bostancı - Denizköşkler 1700
 Bostancı - Dikilitaş 1000
 Bostancı - Fatih 1000
 Bostancı - Gebze 1300
 Bostancı - Halkalı 1400
+Bostancı - Kasımpaşa 1100
 Bostancı - Ömerli 1200
+Bostancı - Samandıra 600
 Bostancı - Sultangazi 1100
 Bostancı - Şişli 900
-Bostancı - Taksim 1100
-Bostancı - Tuzla 1000
 Bostancı - Ümraniye 700
 Bulgurlu - Samandıra 800
+Burhaniye - Dudullu 700
 Burhaniye - Kozyatağı 600
 Bursa - Gaziosmanpaşa 5800
 Bursa - Halkalı 5700
 Bursa - Kağıthane 6000
 Bursa - Sultanbeyli 4200
+Bursa - Zeytinburnu 6000
 Büyükçekmece - Çorlu 1700
+Büyükçekmece - Dudullu 1900
+Büyükçekmece - Edirne 5300
 Büyükçekmece - Eskişehir 10800
-Büyükçekmece - Eyüpsultan 1200
 Büyükçekmece - Fındıkzade 1300
-Büyükçekmece - Gebze 3000
-Büyükçekmece - Kapaklı 2200
+Büyükçekmece - Florya 800
+Büyükçekmece - Gürpınar 500
+Büyükçekmece - İkitelli 1000
 Büyükçekmece - Kasımpaşa 1100
-Büyükçekmece - Sakarya 5400
-Büyükçekmece - Sultangazi 1400
-Büyükçekmece - Taksim 1300
+Büyükçekmece - Kıraç 600
+Büyükçekmece - Tuzla 3000
+Büyükçekmece - Üsküdar 2400
 Caddebostan - Çekmeköy 800
 Caddebostan - Kartal 600
 Cankurtaran - Karaköy 1000
+Celaliye - Silivri 800
 Cennet - Çapa 700
-Cennet - Esenyurt 700
+Cennet - Güngören 700
 Cennet - Kağıthane 1200
+Cennet - Kazlıçeşme 600
 Cennet - Kıraç 600
+Cennet - Mecidiyeköy 700
 Cennet - Sultangazi 1300
+Cennet - Yakuplu 700
 Cennet - Yeşilköy 700
 Cennet - Zeytinburnu 600
 Cerrahpaşa - Kadıköy 1400
 Cerrahpaşa - Nişantaşı 700
 Cerrahpaşa - Talatpaşa 1000
+Cevahir - Esenkent 1100
 Cevizli - Çayırova 800
 Cevizli - Kadıköy 700
 Cevizli - Maslak 800
 Cevizli - Orhanlı 800
+Cevizli - Sancaktepe 700
 Cevizli - Sultanbeyli 700
+Cevizli - Sultangazi 700
+Cevizlibağ - Esenler 600
 Cevizlibağ - Levent 1000
+Cevizlibağ - Şişli 600
 Cihangir - Esenler 800
+Cihangir - Esenyurt 500
 Çağlayan - Esenler 700
 Çağlayan - Esenler Otogarı 600
+Çağlayan - Esenyurt 1100
 Çağlayan - Gaziosmanpaşa 700
+Çağlayan - İzmit 300
+Çağlayan - Kartal 1200
+Çağlayan - Ortaköy 700
 Çağlayan - Ömerli 800
 Çağlayan - Sirkeci 600
 Çağlayan - Taksim 800
@@ -2133,67 +2974,86 @@ Cihangir - Esenler 800
 Çamlıca - İçerenköy 700
 Çamlıca - Körfez 2400
 Çamlıca - Maltepe 700
+Çamlıca - Ümraniye 700
 Çapa - Çatalca 1800
 Çapa - Esenler Otogarı 600
 Çapa - Gürpınar 1100
 Çapa - Halkalı 700
-Çapa - Maltepe 1000
+Çapa - Kartal 1600
 Çapa - Okmeydanı 600
 Çapa - Şişli 600
+Çapa - Yakuplu 1200
 Çatalca - Çorlu 2000
-Çatalca - Gebze 3600
-Çatalca - Gürpınar 1200
 Çatalca - Güzelce 800
 Çatalca - Kadıköy 2400
 Çatalca - Kavaklı 1100
 Çatalca - Kumburgaz 1000
+Çatalca - Maltepe 2400
+Çatalca - Mimarsinan 800
 Çatalca - Sefaköy 1700
 Çatalca - Şirinevler 1400
+Çatalca - Taşoluk 1200
+Çatalca - Yenibosna 800
+Çavuşbaşı - Dolapdere 1300
 Çavuşbaşı - Göktürk 1400
+Çavuşbaşı - Şişli 800
 Çavuşbaşı - Taksim 1000
-Çayırova - Gaziosmanpaşa 1700
 Çayırova - Kağıthane 1900
+Çayırova - Kurtuluş 1200
 Çayırova - Ortaköy 1400
-Çayırova - Samandıra 1000
 Çayırova - Suadiye 1200
-Çayırova - Tepeören 800
+Çayırova - Topselvi 800
 Çayırova - Yenikapı 1800
+Çayırova - Zeytinburnu 2400
 Çekmeköy - Çorlu 3800
+Çekmeköy - Darıca 1100
+Çekmeköy - Dilovası 1900
 Çekmeköy - Eyüpsultan 1000
 Çekmeköy - Gümüşpala 1600
+Çekmeköy - Haramidere 1800
 Çekmeköy - İçerenköy 800
+Çekmeköy - Karaköy 1000
 Çekmeköy - Kavacık 800
 Çekmeköy - Koşuyolu 700
 Çekmeköy - Kozyatağı 700
+Çekmeköy - Kumkapı 1300
 Çekmeköy - Kurtuluş 1200
-Çekmeköy - Maltepe 700
+Çekmeköy - Mecidiyeköy 400
+Çekmeköy - Mimaroba 2400
 Çekmeköy - Sakarya 2800
-Çekmeköy - Sarıyer 1400
 Çekmeköy - Sultangazi 1600
 Çekmeköy - Tuzla 1300
 Çekmeköy - Yenibosna 1600
 Çeliktepe - Florya 1000
-Çeliktepe - Göktürk 800
+Çeliktepe - Gaziosmanpaşa 600
 Çeliktepe - Zekeriyaköy 700
+Çengelköy - Fatih 800
 Çengelköy - Florya 1100
+Çengelköy - Göktürk 1200
 Çengelköy - Haydarpaşa 600
+Çengelköy - Kadıköy 800
+Çengelköy - Kartal 700
 Çengelköy - Kasımpaşa 1000
 Çengelköy - Maltepe 700
+Çengelköy - Nişantaşı 1100
+Çengelköy - Sancaktepe 1000
 Çengelköy - Şişli 1200
 Çengelköy - Yakacık 1000
 Çengelköy - Yenikapı 1000
+Çerkezköy - Eyüpsultan 2900
+Çerkezköy - Göktürk 2900
+Çerkezköy - Gümüşyaka 1200
 Çerkezköy - Kabakça 1400
-Çerkezköy - Kağıthane 2600
+Çerkezköy - Selimpaşa 1600
+Çerkezköy - Sultanbeyli 3600
 Çerkezköy - Şirinevler 2000
 Çerkezköy - Taksim 2900
-Çerkezköy - Ümraniye 3000
-Çerkezköy - Yenikapı 2900
+Çınardere - Kadıköy 900
 Çorlu - Güngören 2000
 Çorlu - Kıraç 2400
 Çorlu - Kumburgaz 1700
 Çorlu - Kurtuluş 2600
 Çorlu - Okmeydanı 4200
-Çorlu - Pendik 3600
 Çorlu - Sancaktepe 4200
 Çorlu - Sultangazi 2500
 Çorlu - Zeytinburnu 3200
@@ -2202,45 +3062,57 @@ Cihangir - Esenler 800
 Darıca - Dudullu 1200
 Darıca - Esenler 700
 Darıca - Güneşli 1900
+Darıca - Kaynarca 700
 Darıca - Küçükçekmece 2400
 Darıca - Mecidiyeköy 1600
+Darıca - Samandıra 1000
+Darıca - Soğanlık 800
 Darıca - Sultangazi 1900
-Darıca - Şişli 1600
-Darıca - Ümraniye 1200
 Darıca - Üsküdar 1200
 Darıca - Velibaba 800
 Darıca - Zeytinburnu 1800
+Davutpaşa - Küçükçekmece 700
+Davutpaşa - Mahmutbey 600
 Demirkapı - Güngören 500
 Demirkapı - İncirli 600
-Denizköşkler - Halkalı 600
+Denizköşkler - Esenyurt 600
 Denizköşkler - Kavaklı 500
 Denizköşkler - Maltepe 1600
 Dereağzı - Tekirdağ 600
 Derince - Kurtköy 1900
-Derince - Pendik 1900
-Derince - Şişli 2500
+Derince - Kuruçeşme 800
 Derince - Tuzla 2200
 Dilovası - Esenler 600
 Dilovası - Esenler Otogarı 600
+Dilovası - Esenyurt 2800
+Dilovası - Gaziosmanpaşa 2400
 Dilovası - Gümüşyaka 5100
 Dilovası - Kartal 1100
+Dilovası - Küçükyalı 3100
 Dilovası - Silivri 5100
 Dolapdere - Esenler 700
 Dolapdere - Maslak 1000
+Dragos - Edirne 9600
 Dudullu - Esenler Otogarı 700
+Dudullu - Ferhatpaşa 600
 Dudullu - Florya 2400
-Dudullu - Gebze 1200
 Dudullu - Hadımköy 2000
+Dudullu - Kasımpaşa 1100
+Dudullu - Kayışdağı 600
+Dudullu - Kaynarca 800
 Dudullu - Küçükçekmece 1600
-Dudullu - Ömerli 700
 Dudullu - Riva 1800
+Dudullu - Sefaköy 1400
 Dudullu - Tarabya 1100
-Dudullu - Tuzla 1000
+Dudullu - Taşdelen 600
+Dudullu - Zeytinburnu 1200
 Düzce - Fatih 6000
 Düzce - Yenikapı 6000
 Düzce - Zeytinburnu 10200
-Edirne - Esenler 4800
 Edirne - Esenler Otogarı 4800
+Edirne - Esenyurt 4800
+Edirne - Eyüpsultan 6000
+Edirne - Maltepe 9600
 Edirnekapı - İkitelli 700
 Edirnekapı - Kumburgaz 1300
 Edirnekapı - Şişli 700
@@ -2253,79 +3125,82 @@ Eminönü - Sultangazi 700
 Eminönü - Yenibosna 700
 Eminönü - Yeşilkent 1100
 Eminönü - Yeşilpınar 700
+Emirgan - Esenyurt 1100
+Emirgan - Kocamustafapaşa 800
+Erenköy - Esenler 1400
 Erenköy - Fatih 900
+Erenköy - Feriköy 1800
 Erenköy - Gültepe 800
-Erenköy - Sancaktepe 700
+Erenköy - Küçükçekmece 1200
+Erenköy - Pendik 900
+Erenköy - Şişli 1100
 Erenköy - Yeniköy 1000
 Esenkent - Gültepe 3400
+Esenkent - Güngören 1100
 Esenkent - Kurtuluş 1100
+Esenkent - Mimaroba 800
+Esenkent - Muratbey 1100
+Esenkent - Şirinevler 800
 Esenkent - Taşdelen 700
 Esenkent - Yenibosna 700
 Esenler - Etiler 700
-Esenler - Florya 700
 Esenler - Güneşli 1100
-Esenler - Haraççı 1100
-Esenler - İzmit 700
-Esenler - Kapaklı 2600
-Esenler - Kasımpaşa 700
-Esenler - Kıraç 1000
+Esenler - Güvercintepe 700
+Esenler - Kayışdağı 1200
 Esenler - Kurtköy 1500
 Esenler - Laleli 700
-Esenler - Pendik 1500
+Esenler - Levent 800
+Esenler - Mimaroba 1200
 Esenler - Riva 1800
 Esenler - Şile 3800
+Esenler - Tarabya 900
+Esenler - Taşoluk 1000
 Esenler - Tepecik 1200
 Esenler - Topçular 500
-Esenler - Yalova 1400
 Esenler - Yeşilköy 900
 Esenler Otogarı - Etiler 700
 Esenler Otogarı - Güngören 500
-Esenler Otogarı - Hadımköy 1200
 Esenler Otogarı - İkitelli 600
 Esenler Otogarı - İstinye 1000
-Esenler Otogarı - İzmit 700
 Esenler Otogarı - Kağıthane 800
-Esenler Otogarı - Kanarya 800
 Esenler Otogarı - Kartal 1400
 Esenler Otogarı - Kavacık 1200
-Esenler Otogarı - Kıraç 1100
 Esenler Otogarı - Kocasinan 600
 Esenler Otogarı - Mecidiyeköy 800
-Esenler Otogarı - Ortaköy 800
+Esenler Otogarı - Mehterçeşme 1000
+Esenler Otogarı - Nişantaşı 700
 Esenler Otogarı - Sancaktepe 1300
+Esenler Otogarı - Silivri 2400
 Esenler Otogarı - Sultanbeyli 1700
-Esenler Otogarı - Şahintepe 700
-Esenler Otogarı - Şişli 600
 Esenler Otogarı - Taksim 600
 Esenler Otogarı - Topkapı 700
 Esenler Otogarı - Yakuplu 800
 Esenler Otogarı - Yalova 1400
+Esenler Otogarı - Yeşilkent 1000
+Esenler Otogarı - Yeşilpınar 800
 Esenyalı - Esenyurt 1900
 Esenyalı - Fatih 1700
 Esenyalı - İzmit 1800
 Esenyalı - Silivri 2800
-Esenyurt - Gümüşyaka 1800
-Esenyurt - Kamiloba 1100
+Esenyurt - Fulya 1300
+Esenyurt - Kabataş 1300
+Esenyurt - Kavakpınar 2000
 Esenyurt - Kaynarca 2200
 Esenyurt - Kilyos 1400
-Esenyurt - Kirazlı 800
-Esenyurt - Maslak 1200
 Esenyurt - Merter 800
-Esenyurt - Mimarsinan 500
 Esenyurt - Muratbey 1000
-Esenyurt - Nişantaşı 1200
 Esenyurt - Nişantepe 1800
 Esenyurt - Nurtepe 1200
-Esenyurt - Ortaköy 1300
+Esenyurt - Orhanlı 2300
+Esenyurt - Ömerli 700
+Esenyurt - Rami 800
+Esenyurt - Riva 2400
 Esenyurt - Rumelihisarı 1400
 Esenyurt - Sapanca 4800
+Esenyurt - Sinanoba 700
 Esenyurt - Şişhane 1000
-Esenyurt - Talatpaşa 400
 Esenyurt - Tarabya 1400
-Esenyurt - Taşdelen 1900
-Esenyurt - Yeşilpınar 1000
-Esenyurt - Zekeriyaköy 1800
-Esenyurt - Zincirlikuyu 1100
+Esenyurt - Tozkoparan 1000
 Eskişehir - Pendik 7200
 Etiler - Fatih 600
 Etiler - Firuzköy 1100
@@ -2334,185 +3209,219 @@ Etiler - Gebze 1800
 Etiler - Göktürk 1000
 Etiler - İkitelli 2000
 Etiler - Kozyatağı 2000
-Etiler - Sefaköy 700
+Etiler - Kurtköy 2500
+Etiler - Küçükçekmece 1000
+Etiler - Sarıgazi 1000
+Etiler - Suadiye 1000
 Etiler - Taksim 800
 Etiler - Yenibosna 800
-Etiler - Yeşilköy 800
-Eyüpsultan - Güngören 500
+Eyüpsultan - Halkalı 600
+Eyüpsultan - Kavaklı 1000
 Eyüpsultan - Kurtköy 1800
 Eyüpsultan - Mahmutbey 700
 Eyüpsultan - Nişantaşı 700
 Eyüpsultan - Osmanbey 700
-Eyüpsultan - Polonezköy 1200
-Eyüpsultan - Sancaktepe 2000
-Eyüpsultan - Sultanbeyli 1500
 Eyüpsultan - Şile 3000
 Eyüpsultan - Taksim 1400
-Fatih - Florya 800
-Fatih - Güneşli 500
+Fatih - Göktürk 1200
 Fatih - Kumburgaz 1400
 Fatih - Kurtuluş 700
 Fatih - Kuştepe 1000
+Fatih - Küçükköy 600
 Fatih - Mahmutbey 800
-Fatih - Mecidiyeköy 700
 Fatih - Mehterçeşme 1100
 Fatih - Nişantaşı 600
-Fatih - Sultanbeyli 1200
-Fatih - Taksim 500
+Fatih - Nurtepe 700
+Fatih - Şirinevler 700
 Fatih - Yakacık 1600
-Fatih - Yenibosna 1400
+Fatih - Yakuplu 1000
 Fatih - Yeşilköy 700
 Fatih - Zekeriyaköy 1100
+Fenerbahçe - Pendik 1000
 Fenerbahçe - Sancaktepe 800
 Ferhatpaşa - Güngören 1200
 Ferhatpaşa - Samandıra 600
 Ferhatpaşa - Sancaktepe 500
 Ferhatpaşa - Soğanlık 600
-Ferhatpaşa - Sultanbeyli 600
 Ferhatpaşa - Şirinevler 1100
 Feriköy - Kozyatağı 800
 Fındıkzade - Gaziosmanpaşa 700
 Fındıkzade - İkitelli 700
 Fındıkzade - Osmanbey 700
+Fikirtepe - Göktürk 1200
 Fikirtepe - Sarıyer 1200
-Fikirtepe - Sultanbeyli 800
+Fikirtepe - Sefaköy 1300
+Fikirtepe - Şişli 1000
+Firuzköy - Kumburgaz 900
+Firuzköy - Levent 1300
+Firuzköy - Mimaroba 1000
 Firuzköy - Sefaköy 700
 Firuzköy - Şişli 1200
 Florya - Gayrettepe 1100
 Florya - Göktürk 1600
 Florya - Halkalı 700
+Florya - İkitelli 700
 Florya - Kanarya 800
 Florya - Levent 900
 Florya - Maslak 1100
-Florya - Sultanbeyli 1400
-Florya - Şişli 1000
+Florya - Mecidiyeköy 800
+Florya - Sefaköy 1700
 Florya - Ulus 1000
 Florya - Yeniköy 1300
+Fulya - Kumburgaz 2600
 Fulya - Maslak 800
 Fulya - Taşdelen 1100
 Galata - Güneşli 1800
 Galata - Mahmutbey 1200
 Galata - Ömerli 1400
+Gayrettepe - Gaziosmanpaşa 800
 Gayrettepe - Karaköy 600
 Gayrettepe - Kayışdağı 800
 Gayrettepe - Mahmutbey 700
-Gayrettepe - Sultanbeyli 1100
 Gayrettepe - Ümraniye 800
 Gaziosmanpaşa - Güneşli 1200
 Gaziosmanpaşa - Güvercintepe 700
+Gaziosmanpaşa - Habipler 1200
 Gaziosmanpaşa - Haraççı 1000
 Gaziosmanpaşa - Ihlamurkuyu 1100
+Gaziosmanpaşa - İkitelli 800
 Gaziosmanpaşa - Kanarya 800
 Gaziosmanpaşa - Kasımpaşa 500
-Gaziosmanpaşa - Kayaşehir 700
-Gaziosmanpaşa - Kurtköy 1400
-Gaziosmanpaşa - Mecidiyeköy 600
+Gaziosmanpaşa - Küçükyalı 1200
 Gaziosmanpaşa - Merter 600
+Gaziosmanpaşa - Sapanca 4200
+Gaziosmanpaşa - Şahintepe 800
+Gaziosmanpaşa - Şile 2400
+Gaziosmanpaşa - Şirinevler 700
 Gaziosmanpaşa - Taşdelen 1300
+Gaziosmanpaşa - Topkapı 700
+Gaziosmanpaşa - Yeşilkent 700
 Gebze - Göztepe 1400
-Gebze - Gülsuyu 1200
+Gebze - Gümüşyaka 4200
+Gebze - Güneşli 3600
 Gebze - Hadımköy 2500
+Gebze - Harbiye 1800
 Gebze - Kavacık 1400
-Gebze - Sarıyer 2400
-Gebze - Silivri 2100
-Gebze - Şile 2400
+Gebze - Kayışdağı 1200
+Gebze - Sancaktepe 1000
+Gebze - Yakacık 900
 Gebze - Zekeriyaköy 2400
-Gebze - Zeytinburnu 1800
 Göktürk - Kabataş 1000
-Göktürk - Kadıköy 1400
 Göktürk - Kağıthane 700
+Göktürk - Kanarya 1200
 Göktürk - Kuruçeşme 800
+Göktürk - Maltepe 1200
 Göktürk - Mecidiyeköy 700
 Göktürk - Sakarya 7200
-Göktürk - Sultangazi 700
+Göktürk - Sancaktepe 1600
 Göktürk - Şirinevler 1100
 Göktürk - Taksim 1000
 Göztepe - Kağıthane 1000
 Göztepe - Kurtköy 1000
 Göztepe - Levent 1000
-Göztepe - Maltepe 700
-Göztepe - Sultanbeyli 800
+Göztepe - Sancaktepe 800
 Gülsuyu - Kartal 500
-Gülsuyu - Kemerburgaz 1400
 Gülsuyu - Pendik 600
-Gülsuyu - Sultanbeyli 700
+Gülsuyu - Sancaktepe 700
 Gültepe - Kilyos 1100
 Gültepe - Kozyatağı 1000
 Gültepe - Küçükçekmece 1200
+Gültepe - Okmeydanı 1100
 Gümüşyaka - Kıraç 1300
 Güneşli - Gürpınar 1000
 Güneşli - Halkalı 600
+Güneşli - Kanarya 700
+Güneşli - Kocasinan 600
+Güneşli - Kumburgaz 1400
 Güneşli - Maltepe 1400
-Güneşli - Merter 600
 Güneşli - Ortaköy 800
 Güneşli - Silivri 2300
 Güneşli - Sirkeci 800
 Güneşli - Sultanbeyli 1400
 Güneşli - Sultangazi 600
 Güneşli - Ünalan 1200
-Güneşli - Zeytinburnu 700
 Güngören - Güzelce 1100
 Güngören - Habipler 800
+Güngören - Harem 700
+Güngören - İkitelli 600
 Güngören - Kabataş 700
+Güngören - Kartal 1200
 Güngören - Kayaşehir 800
 Güngören - Kıraç 1000
 Güngören - Kurtköy 1500
 Güngören - Kuruçeşme 800
 Güngören - Mehterçeşme 900
+Güngören - Mimaroba 1300
 Güngören - Sirkeci 600
-Güngören - Şişli 800
-Güngören - Üsküdar 1000
-Gürpınar - Güzelce 700
+Güngören - Yalova 5100
+Güngören - Yeşilköy 500
 Gürpınar - İkitelli 1000
+Gürpınar - Küçükköy 1200
 Gürpınar - Mehterçeşme 500
 Gürpınar - Nurtepe 1200
 Gürpınar - Silivri 1200
-Güvercintepe - Halkalı 500
+Gürpınar - Şirinevler 1000
+Gürpınar - Taksim 1300
+Güvercintepe - Kıraç 600
+Güvercintepe - Okmeydanı 800
 Güvercintepe - Şişli 800
+Güvercintepe - Yeşilkent 700
+Güzelce - İkitelli 1000
 Güzelce - Kadıköy 1400
+Güzelce - Kavaklı 700
 Güzelce - Mehterçeşme 600
 Güzelce - Sefaköy 1000
 Güzelce - Yakuplu 700
-Güzelyalı - Sancaktepe 800
 Habipler - Hadımköy 1200
+Habipler - Kıraç 800
 Habipler - Kumburgaz 1400
-Habipler - Küçükköy 700
 Habipler - Taksim 800
 Habipler - Yakuplu 1000
 Habipler - Yeşilköy 800
 Hadımköy - Halkalı 800
-Hadımköy - İkitelli 1000
 Hadımköy - Kapaklı 2400
 Hadımköy - Kumkapı 1400
 Hadımköy - Okmeydanı 1300
-Hadımköy - Tepecik 1000
+Hadımköy - Sefaköy 1000
+Hadımköy - Sultanbeyli 2500
 Hadımköy - Ümraniye 1600
 Hadımköy - Yenikapı 1100
 Halkalı - Harbiye 800
 Halkalı - Kağıthane 800
 Halkalı - Kartaltepe 700
 Halkalı - Kavaklı 1000
+Halkalı - Kayaşehir 600
 Halkalı - Küçükköy 700
+Halkalı - Mahmutbey 500
 Halkalı - Mecidiyeköy 800
 Halkalı - Ömerli 1000
 Halkalı - Sirkeci 800
 Halkalı - Şile 3000
 Halkalı - Şirinevler 500
-Halkalı - Şişli 700
+Halkalı - Ümraniye 1200
 Halkalı - Yenikapı 1000
 Halkalı - Yeşilköy 1000
 Haraççı - Silivri 1600
 Haraççı - Sultanbeyli 1800
+Haramidere - Maltepe 800
 Haramidere - Okmeydanı 1400
+Haramidere - Selimpaşa 1000
+Haramidere - Yeşilkent 500
+Haramidere - Zeytinburnu 1000
 Harbiye - Kavaklı 1400
 Harbiye - Moda 1000
+Harem - Kadıköy 500
+Harem - Kartal 800
 Harem - Ümraniye 700
 Haseki - Sultangazi 500
 Ihlamurkuyu - Taksim 1100
 Ihlamurkuyu - Zeytinburnu 1000
 İcadiye - Kıraç 1400
+İçerenköy - Ümraniye 600
+İçerenköy - Üsküdar 600
+İçmeler - Zeytinburnu 1700
 İdealtepe - Pendik 700
-İkitelli - Kadıköy 1200
+İkitelli - Kapaklı 2400
 İkitelli - Karaköy 900
 İkitelli - Kavaklı 800
 İkitelli - Kocamustafapaşa 700
@@ -2521,79 +3430,98 @@ Ihlamurkuyu - Zeytinburnu 1000
 İkitelli - Okmeydanı 1000
 İkitelli - Pendik 1700
 İkitelli - Sultanbeyli 1700
+İkitelli - Ümraniye 1300
 İkitelli - Ünalan 1200
-İkitelli - Yenibosna 600
-İkitelli - Zeytinburnu 800
+İkitelli - Yakuplu 1000
 İstinye - Kavacık 800
 İstinye - Küçükçekmece 1000
-İstinye - Levent 600
 İstinye - Maltepe 1100
 İstinye - Nişantaşı 600
 İstinye - Osmanbey 1000
 İstinye - Sancaktepe 1200
 İstinye - Sultangazi 700
+İstinye - Şahintepe 1100
 İstinye - Taksim 700
-İzmit - Kağıthane 1100
+İzmit - Karaköy 3100
+İzmit - Kavakpınar 1200
+İzmit - Küçükçekmece 3200
 İzmit - Maslak 3000
+İzmit - Nişantaşı 500
+İzmit - Ömerli 2200
+İzmit - Samandıra 2200
+İzmit - Sancaktepe 2200
 İzmit - Sarıyer 3000
 İzmit - Sultanbeyli 2400
+İzmit - Şile 3300
+İzmit - Tepeören 2000
 İzmit - Ulus 2800
+İzmit - Üsküdar 2500
 İzmit - Yeşilkent 3000
 Kabakça - Silivri 800
 Kadıköy - Kayışdağı 700
-Kadıköy - Kocamustafapaşa 800
-Kadıköy - Körfez 2100
 Kadıköy - Kurtuluş 800
 Kadıköy - Kuruçeşme 1000
-Kadıköy - Küçükyalı 700
 Kadıköy - Levent 800
 Kadıköy - Nişantaşı 1000
 Kadıköy - Nişantepe 900
 Kadıköy - Okmeydanı 900
 Kadıköy - Ortaköy 800
-Kadıköy - Riva 1100
 Kadıköy - Samandıra 700
 Kadıköy - Soğanlık 700
-Kadıköy - Sultangazi 1100
 Kadıköy - Tarabya 1000
 Kadıköy - Yakacık 700
 Kadıköy - Yakuplu 900
-Kadıköy - Yenibosna 1100
-Kadıköy - Zeytinburnu 1000
 Kadıköy - Zümrütevler 600
-Kağıthane - Kartal 1200
 Kağıthane - Kavacık 1000
+Kağıthane - Levent 600
 Kağıthane - Okmeydanı 600
-Kağıthane - Sancaktepe 1400
+Kağıthane - Riva 1700
 Kağıthane - Sefaköy 800
+Kağıthane - Şile 2200
+Kağıthane - Tepeüstü 1300
 Kağıthane - Yakuplu 1100
 Kağıthane - Yenibosna 1000
 Kağıthane - Yenikapı 700
 Kağıthane - Yeşilpınar 700
-Kağıthane - Zekeriyaköy 800
-Kanarya - Pendik 1600
-Kanarya - Şahintepe 700
+Kamiloba - Selimpaşa 500
+Kamiloba - Silivri 800
+Kamiloba - Şirinevler 1200
 Kanarya - Şirinevler 500
+Kanarya - Şişli 1400
 Kanarya - Tepecik 1000
 Kanarya - Yenibosna 700
+Kanarya - Zeytinburnu 1000
 Kanlıca - Kaynarca 1200
 Kapaklı - Sefaköy 2500
 Kapaklı - Şişli 3000
+Kapaklı - Tepecik 1900
 Karagümrük - Yenibosna 700
 Karaköy - Kartal 1200
 Karaköy - Ümraniye 1000
 Karaköy - Yakuplu 1300
 Karayolları - Okmeydanı 700
+Karayolları - Sarıyer 900
 Karayolları - Üsküdar 1000
+Karayolları - Yeşilköy 1000
 Kartal - Kavacık 1100
 Kartal - Kumkapı 1400
 Kartal - Levent 1200
 Kartal - Nişantepe 800
+Kartal - Okmeydanı 1200
 Kartal - Ortaköy 1200
-Kartal - Sakarya 3600
+Kartal - Suadiye 700
+Kartal - Şirinevler 1500
 Kartal - Velibaba 500
+Kartal - Yalova 3800
+Kartal - Yenibosna 1400
+Kartal - Yenişehir 600
+Kartal - Yeşilköy 1600
+Kartal - Zeytinburnu 1400
 Kartaltepe - Küçükköy 500
 Kartaltepe - Zeytinburnu 700
+Kartepe - Kavakpınar 2100
+Kartepe - Pendik 2100
+Kartepe - Sultanbeyli 2400
 Kasımpaşa - Silivri 2000
 Kasımpaşa - Tekirdağ 3600
 Kasımpaşa - Yenikapı 600
@@ -2603,205 +3531,257 @@ Kavacık - Küçükçekmece 1200
 Kavacık - Levent 1000
 Kavacık - Mecidiyeköy 800
 Kavacık - Pendik 1400
+Kavacık - Sefaköy 1400
 Kavacık - Söğütlüçeşme 700
 Kavacık - Şişli 800
-Kavacık - Yalova 5600
-Kavaklı - Kumburgaz 800
+Kavacık - Topkapı 900
 Kavaklı - Nişantaşı 1300
+Kavaklı - Sarıyer 1800
 Kavaklı - Sefaköy 800
-Kavaklı - Silivri 1200
-Kavaklı - Şirinevler 800
 Kavaklı - Tarabya 1400
 Kavakpınar - Okmeydanı 1300
 Kavakpınar - Soğanlık 700
+Kavakpınar - Tekirdağ 4200
+Kayaşehir - Mecidiyeköy 1100
 Kayaşehir - Nişantaşı 1100
+Kayaşehir - Orhanlı 1100
 Kayaşehir - Ulus 1300
 Kayaşehir - Ümraniye 1400
+Kayışdağı - Kurtköy 800
 Kayışdağı - Kuruçeşme 1000
 Kayışdağı - Nispetiye 800
 Kayışdağı - Nişantaşı 1000
 Kayışdağı - Pendik 800
+Kayışdağı - Sapanca 3400
 Kayışdağı - Sefaköy 1300
 Kaynarca - Küçükköy 1900
+Kaynarca - Maltepe 600
 Kaynarca - Orhanlı 600
 Kaynarca - Sakarya 3800
 Kaynarca - Sultanbeyli 700
 Kaynarca - Sultangazi 1800
 Kaynarca - Ünalan 700
 Kemerburgaz - Maltepe 1400
+Kemerburgaz - Mecidiyeköy 700
 Kemerburgaz - Sancaktepe 2000
-Kemerburgaz - Şirinevler 1000
 Kemerburgaz - Taksim 900
 Kıraç - Kirazlı 900
 Kıraç - Küçükköy 1000
+Kıraç - Mahmutbey 800
+Kıraç - Merter 400
+Kıraç - Mimaroba 500
+Kıraç - Mimarsinan 600
+Kıraç - Ömerli 600
 Kıraç - Pendik 2200
 Kıraç - Sakarya 800
 Kıraç - Sultanbeyli 1700
+Kıraç - Sultangazi 1000
 Kıraç - Yeşilköy 1000
+Kıraç - Zeytinburnu 1000
 Kızıltoprak - Küçükyalı 700
+Kızıltoprak - Pendik 1000
 Kirazlı - Okmeydanı 800
 Kireçburnu - Mecidiyeköy 800
 Kireçburnu - Şişli 700
+Kocamustafapaşa - Sefaköy 700
 Kocamustafapaşa - Yamanevler 1000
 Kocasinan - Kumburgaz 1100
 Kocasinan - Küçükçekmece 500
 Kocasinan - Mahmutbey 500
+Koşuyolu - Tuzla 1000
 Kozyatağı - Körfez 2100
 Kozyatağı - Maltepe 600
 Kozyatağı - Ortaköy 800
+Kozyatağı - Sancaktepe 800
+Körfez - Pendik 1400
 Körfez - Samandıra 1800
 Körfez - Sancaktepe 1800
 Körfez - Sultanbeyli 1200
-Körfez - Üsküdar 2400
+Körfez - Taksim 2700
 Kumburgaz - Küçükçekmece 1400
-Kumburgaz - Silivri 800
+Kumburgaz - Maltepe 3000
+Kumburgaz - Ümraniye 2200
+Kumkapı - Maslak 700
 Kumkapı - Merter 700
 Kumkapı - Sefaköy 700
-Kurtköy - Küçükçekmece 1800
 Kurtköy - Maltepe 800
 Kurtköy - Nişantaşı 1400
-Kurtköy - Sapanca 1900
 Kurtköy - Yakacık 600
+Kurtköy - Zeytinburnu 2000
 Kurtuluş - Sarıyer 1000
 Kurtuluş - Sefaköy 1000
 Kuruçeşme - Küçükyalı 1100
+Kuruçeşme - Nurtepe 700
+Kuruçeşme - Suadiye 1000
 Kuruçeşme - Şile 2400
+Kuruçeşme - Yenibosna 800
 Küçükçekmece - Lüleburgaz 2900
+Küçükçekmece - Mecidiyeköy 1000
 Küçükçekmece - Selimpaşa 1400
 Küçükçekmece - Sultanahmet 900
-Küçükçekmece - Şahintepe 700
 Küçükçekmece - Yakuplu 700
 Küçükçekmece - Yenibosna 600
-Küçükçekmece - Yenikapı 700
+Küçükçekmece - Yeşilköy 600
 Küçükköy - Maslak 700
 Küçükköy - Nişantaşı 700
 Küçükköy - Yenikapı 700
 Küçükköy - Yeşilköy 1000
+Küçükyalı - Ömerli 1100
 Küçükyalı - Sultangazi 1200
 Laleli - Üsküdar 1000
+Levent - Mehterçeşme 1100
+Levent - Sultangazi 700
 Levent - Yenikapı 800
+Levent - Zümrütevler 1100
 Mahmutbey - Sirkeci 1400
 Mahmutbey - Sultangazi 700
 Mahmutbey - Şişli 900
-Maltepe - Maslak 800
+Maltepe - Merter 1400
 Maltepe - Mimaroba 2300
-Maltepe - Nişantaşı 1200
+Maltepe - Muratbey 2400
 Maltepe - Riva 1300
+Maltepe - Sarıgazi 600
 Maltepe - Şirinevler 1400
+Maltepe - Tepeören 1300
 Maltepe - Yenikapı 1300
 Maslak - Ömerli 1400
+Maslak - Piyalepaşa 1400
 Maslak - Suadiye 1600
 Maslak - Şirinevler 1000
 Maslak - Şişli 700
+Maslak - Tepeüstü 900
 Maslak - Yeşilköy 1100
 Maslak - Yeşilpınar 700
 Mecidiyeköy - Ortaköy 700
 Mecidiyeköy - Sarıyer 1200
-Mecidiyeköy - Sefaköy 1000
-Mecidiyeköy - Sultangazi 800
+Mecidiyeköy - Tekirdağ 3600
 Mecidiyeköy - Topkapı 700
 Mecidiyeköy - Üsküdar 900
 Mecidiyeköy - Yenikapı 600
-Mehterçeşme - Yenibosna 800
 Mehterçeşme - Zeytinburnu 1200
 Merter - Okmeydanı 700
 Merter - Ortaköy 800
+Merter - Sefaköy 600
 Merter - Şişli 800
+Merter - Ümraniye 1000
 Merter - Yenikapı 600
+Mimaroba - Nişantaşı 1300
 Mimaroba - Rami 1200
 Mimaroba - Sarıyer 1900
-Mimaroba - Ümraniye 1800
+Mimaroba - Silivri 1100
 Mimarsinan - Yakuplu 600
-Mimarsinan - Yeşilkent 600
 Muratbey - Sultangazi 1300
 Nişantaşı - Suadiye 800
 Nişantaşı - Ümraniye 800
+Nişantepe - Pendik 1400
 Nişantepe - Şişli 1200
+Nurtepe - Üsküdar 900
 Okmeydanı - Sarıgazi 1100
-Okmeydanı - Sultangazi 600
+Okmeydanı - Topkapı 2400
 Okmeydanı - Ümraniye 1000
-Okmeydanı - Yakuplu 1200
+Okmeydanı - Yenibosna 700
+Okmeydanı - Yeşilköy 800
 Okmeydanı - Zeytinburnu 700
 Ortaköy - Sancaktepe 1100
 Ortaköy - Yeşilpınar 700
-Osmanbey - Zeytinburnu 700
+Ortaköy - Zekeriyaköy 1200
+Osmanbey - Sultangazi 800
+Ömerli - Sancaktepe 800
 Ömerli - Sultanbeyli 700
 Paşabahçe - Taksim 1000
 Pendik - Sakarya 3800
-Pendik - Samandıra 700
+Pendik - Sarıgazi 600
 Pendik - Sarıyer 1400
-Pendik - Silivri 2800
 Pendik - Söğütlüçeşme 900
-Pendik - Tekirdağ 5400
-Pendik - Ünalan 700
+Pendik - Suadiye 800
+Pendik - Şirinevler 1600
 Pendik - Yenikapı 2600
 Pendik - Yeniköy 1400
 Piyalepaşa - Üsküdar 1000
 Rami - Sefaköy 800
 Rami - Taksim 600
 Riva - Sarıyer 1400
+Riva - Tuzla 1800
+Saadetdere - Sancaktepe 1700
+Saadetdere - Silivri 1200
 Saadetdere - Suadiye 1400
+Sakarya - Sancaktepe 3400
 Sakarya - Silivri 7000
 Sakarya - Sultanbeyli 3600
 Sakarya - Taşdelen 2800
+Sakarya - Üsküdar 4200
 Sakarya - Zeytinburnu 6600
+Samandıra - Şile 1600
 Samandıra - Taksim 900
 Samandıra - Tepeüstü 600
-Sancaktepe - Taksim 1100
+Samandıra - Yenikapı 1200
+Sancaktepe - Şeyhli 700
+Sancaktepe - Şirinevler 1700
 Sancaktepe - Ulus 1100
 Sancaktepe - Yenibosna 1300
-Sapanca - Ümraniye 3300
+Sancaktepe - Zümrütevler 600
+Sapanca - Yıldıztabya 4200
 Sarıgazi - Sultanbeyli 600
-Sarıgazi - Taksim 1100
+Sarıgazi - Sultangazi 1400
+Sarıgazi - Üsküdar 700
 Sarıgazi - Yenibosna 1200
 Sarıyer - Sefaköy 1100
 Sarıyer - Silivri 2400
-Sarıyer - Suadiye 1400
 Sarıyer - Sultanbeyli 1600
+Sarıyer - Topkapı 800
 Sarıyer - Yeşilpınar 700
 Sefaköy - Sultanahmet 800
 Sefaköy - Sultanbeyli 1400
 Sefaköy - Şahintepe 600
 Sefaköy - Şile 3000
 Sefaköy - Şirinevler 700
-Sefaköy - Ümraniye 1300
-Sefaköy - Yeşilköy 700
+Sefaköy - Tarlabaşı 700
+Sefaköy - Ulus 1000
+Sefaköy - Yeniköy 1200
 Selimpaşa - Yenibosna 1200
 Selimpaşa - Yeşilpınar 1200
-Silivri - Şişli 4600
+Silivri - Şahintepe 1900
 Silivri - Tepecik 800
 Silivri - Tuzla 3000
-Silivri - Ümraniye 3000
 Silivri - Yakuplu 1200
-Silivri - Yeşilköy 1600
+Silivri - Yenibosna 1700
+Silivri - Yenikapı 1600
 Silivri - Yeşilpınar 1800
+Sinanoba - Yakuplu 700
 Sirkeci - Taksim 400
-Sirkeci - Yakuplu 1100
+Sirkeci - Ümraniye 1000
 Soğanlı - Ümraniye 1200
 Soğanlı - Yeşilpınar 800
+Soğanlık - Sultanbeyli 600
+Soğanlık - Şişli 1300
+Söğütlüçeşme - Taksim 1100
 Söğütlüçeşme - Tuzla 1000
-Suadiye - Tuzla 1000
 Suadiye - Ümraniye 800
+Suadiye - Üsküdar 700
 Suadiye - Yenişehir 800
 Sultanahmet - Üsküdar 11400
-Sultanbeyli - Şile 1900
-Sultanbeyli - Taksim 1200
 Sultanbeyli - Taşdelen 600
 Sultanbeyli - Üsküdar 900
 Sultanbeyli - Yakacık 600
-Sultangazi - Yenibosna 800
-Şile - Şişli 2400
+Sultangazi - Tepecik 1200
+Şahintepe - Yenibosna 700
 Şile - Yenibosna 2000
 Şile - Yeşilpınar 3000
+Şirinevler - Ümraniye 1000
 Şirinevler - Yakuplu 700
 Şirinevler - Zeytinburnu 600
 Şişhane - Ümraniye 800
 Şişli - Tarabya 800
-Şişli - Tuzla 1400
+Şişli - Taşdelen 1000
+Şişli - Tayakadın 1700
+Şişli - Tekirdağ 3600
+Şişli - Yeniköy 900
 Taksim - Tepecik 1700
 Taksim - Yenikapı 700
+Taksim - Yeniköy 1700
 Taksim - Yeşilkent 1100
 Taksim - Yeşilköy 800
+Taksim - Zekeriyaköy 1100
 Talatpaşa - Zekeriyaköy 900
 Tarabya - Üsküdar 1000
 Tarabya - Yeşilpınar 800
@@ -2809,13 +3789,17 @@ Taşdelen - Ümraniye 700
 Taşdelen - Üsküdar 800
 Tekirdağ - Yenişehir 5400
 Tepeören - Velibaba 1000
+Tuzla - Yakacık 1000
 Tuzla - Yayalar 700
 Ulus - Yenibosna 1000
-Ümraniye - Yenikapı 1000
+Ulus - Yeşilpınar 800
 Ümraniye - Yenisahra 700
+Üsküdar - Yalova 4500
 Üsküdar - Yenikapı 1400
+Yakuplu - Yenikapı 1000
 Yenibosna - Yeşilpınar 800
 Yenibosna - Zeytinburnu 500
 Yenikapı - Zeytinburnu 600
+Yeşilkent - Yeşilköy 1000
 Yeşilpınar - Zincirlikuyu 700
 Zekeriyaköy - Zincirlikuyu 1100

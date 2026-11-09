@@ -486,9 +486,9 @@ footer{text-align:center;color:#8b909a;font-size:13px;padding:26px 16px 12px}
 
 <section id="fiyatlar">
   <h2>Popüler güzergâh fiyatları</h2>
-  <p class="sub">Hızlı Çağır fiyatlarıdır; araç seçimine göre değişir.</p>
+  <p class="sub">Şu anki saatin Hızlı Çağır fiyatlarıdır; saate ve araç seçimine göre değişir.</p>
   <div class="tablo" id="tablo"><div class="bos">Fiyatlar yükleniyor…</div></div>
-  <p class="tablo-not">Kendi güzergâhınızın fiyatı için <a href="#cagir">yukarıdan nereden-nereye yazın</a>; 1.500'den fazla güzergâhın fiyatı hazır.</p>
+  <p class="tablo-not">Kendi güzergâhınızın fiyatı için <a href="#cagir">yukarıdan nereden-nereye yazın</a>; 2.000'den fazla güzergâhın fiyatı hazır.</p>
 </section>
 
 <section id="neden">
@@ -608,20 +608,47 @@ function norm(s) {
 
 // --- fiyat listesi: fiyatlar.txt dosyasindan okunur ---
 // Her satir "Yer 1 - Yer 2 Fiyat". "TEK İLANDAN" bolumu kullanilmaz.
-var ROT = [], YER = {}, ADLAR = {}, GOR = [], POP = {};
+var ROT = [], YER = {}, ADLAR = {}, GOR = [], POP = {}, SAAT = [];
 function gorunen(y) { return y === "İstanbul Havalimanı" ? y + " (IST)" : y === "Sabiha Gökçen" ? y + " (SAW)" : y; }
+
+// --- saate gore fiyat: fiyatlar.txt "SAAT FARKI" bolumu (or. "hafta içi 16-20 +3" = o saatlerde %3 fazla) ---
+function istSaat(z) { // Istanbul saati ve hafta sonu mu
+  var h = 0, g = "";
+  new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Istanbul", hour: "2-digit", hourCycle: "h23", weekday: "short" })
+    .formatToParts(z || new Date()).forEach(function (x) { if (x.type === "hour") h = +x.value % 24; if (x.type === "weekday") g = x.value; });
+  return { h: h, hs: g === "Sat" || g === "Sun" };
+}
+function saatFark(z) {
+  var s = istSaat(z), f = null;
+  SAAT.forEach(function (x) { if (x.hs === s.hs && s.h >= x.a && s.h < x.b) f = x; });
+  return f;
+}
+function carpan() { var f = saatFark(); return f ? 1 + f.y / 100 : 1; }
+function saatli(p) { return Math.round(p * carpan() / 100) * 100; }
+function saatYazi(p) { // sadece fiyat gercekten degistiyse yazar
+  var f = saatFark();
+  if (!f || !f.y || saatli(p) === p) return "";
+  return f.y > 0 ? " · 🚦 yoğun saat fiyatı" : f.a === 0 ? " · 🌙 gece fiyatı" : " · sakin saat fiyatı";
+}
+
 function listeYukle(metin) {
-  var semt = 0, atla = false;
-  ROT = []; YER = {}; ADLAR = {};
+  var semt = 0, atla = false, saat = false;
+  ROT = []; YER = {}; ADLAR = {}; SAAT = [];
   metin.split("\n").forEach(function (l) {
     l = l.trim();
     if (l.indexOf("=====") === 0) {
       var n = norm(l);
       atla = n.indexOf("tek ilan") > -1;
       semt = n.indexOf("semt") > -1 ? 1 : 0;
+      saat = n.indexOf("saat fark") > -1;
       return;
     }
     if (atla) return;
+    if (saat) {
+      var s = norm(l).match(/^hafta (ici|sonu) (\d+) (\d+) /), y = l.match(/ ([+-]?\d+)$/);
+      if (s && y) SAAT.push({ hs: s[1] === "sonu", a: +s[2], b: +s[3], y: +y[1] });
+      return;
+    }
     var m = l.match(/^(.+?) - (.+?) (\d+)$/);
     if (!m) return;
     ROT.push([m[1], m[2], +m[3], semt]);
@@ -652,7 +679,7 @@ function tabloYaz() {
     d.firstChild.innerHTML = "<em></em><i>→</i><em></em>";
     d.firstChild.children[0].textContent = p[0]; d.firstChild.children[2].textContent = p[1];
     d.firstChild.children[0].style.fontStyle = d.firstChild.children[2].style.fontStyle = "normal";
-    d.lastChild.textContent = tl(r[2]);
+    d.lastChild.textContent = tl(saatli(r[2]));
     t.appendChild(d); say++;
   });
   if (!say) t.innerHTML = "<div class='bos'>Fiyat için yukarıdan nereden-nereye yazın.</div>";
@@ -817,7 +844,7 @@ function rota(on) {
   if (KONUM[on] || a.length < 2 || b.length < 2) return null;
   return fiyatBul(a, b);
 }
-function aracFiyat(arac, taban) { return Math.round(taban * (1 + ARAC[arac]) / 100) * 100; }
+function aracFiyat(arac, taban) { return Math.round(taban * (1 + ARAC[arac]) * carpan() / 100) * 100; }
 var TICARI_YAZI = "Taksimetre −%" + TICARI_INDIRIM;
 
 function guncelle(on) {
@@ -850,7 +877,7 @@ function guncelle(on) {
   if (on === "h" || arac) {
     kutu.innerHTML = "<small></small><b></b><small class='rota'></small>";
     kutu.firstChild.textContent = arac ? AD[arac] + " ücreti" : "Yolculuk ücreti";
-    kutu.querySelector("b").textContent = tl(arac ? aracFiyat(arac, r[2]) : r[2]);
+    kutu.querySelector("b").textContent = tl(arac ? aracFiyat(arac, r[2]) : saatli(r[2]));
   } else {
     kutu.innerHTML = "<small>Araç seçin — ücretler</small><div class='liste'>" +
       "<div><span>🚗 Ekonomik binek / 🚙 Geniş araç</span><b>" + tl(aracFiyat("Ekonomik Binek", r[2])) + "</b></div>" +
@@ -858,7 +885,7 @@ function guncelle(on) {
       "<div><span>🚕 Ticari taksi</span><b>" + TICARI_YAZI + "</b></div>" +
       "<div><span>🚘 Üst segment</span><b>Teklif</b></div></div><small class='rota'></small>";
   }
-  kutu.querySelector(".rota").textContent = r[0] + " ⇄ " + r[1];
+  kutu.querySelector(".rota").textContent = r[0] + " ⇄ " + r[1] + saatYazi(r[2]);
 }
 ["h", "a"].forEach(function (on) {
   $(on + "_nereden").addEventListener("input", function () { KONUM[on] = null; guncelle(on); });
@@ -909,7 +936,7 @@ function fiyatSatiri(on) {
   if (arac && ARAC[arac] === null) return "💰 *Fiyat:* " + AD[arac] + " için teklif istiyorum";
   if (r) {
     var yer = " (" + r[0] + " – " + r[1] + ")";
-    if (on === "h") return "💰 *Fiyat:* " + tl(r[2]) + yer;
+    if (on === "h") return "💰 *Fiyat:* " + tl(saatli(r[2])) + yer;
     if (arac) return "💰 *Fiyat:* " + tl(aracFiyat(arac, r[2])) + yer;
     return "💰 *Fiyat:* Binek/Geniş " + tl(aracFiyat("Ekonomik Binek", r[2])) + " · VIP " + tl(aracFiyat("VIP Minibüs (Vito)", r[2])) + " · Ticari " + TICARI_YAZI + yer;
   }
@@ -979,6 +1006,8 @@ fetch("fiyatlar.txt", { cache: "no-cache" })
   .then(function (r) { return r.ok ? r.text() : ""; })
   .then(function (t) { if (t.trim()) listeYukle(t); })
   .catch(function () {});
+// saat dilimi degisince (or. 16:00 yogun saat basladi) fiyatlar kendiliginden yenilenir
+setInterval(function () { if (ROT.length) { guncelle("h"); guncelle("a"); tabloYaz(); } }, 60000);
 </script>
 </body>
 </html>
