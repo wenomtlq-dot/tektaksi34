@@ -185,6 +185,8 @@ textarea{resize:vertical;min-height:70px}
 .oneri div:last-child{border-top:0}
 .oneri div:first-child{font-weight:500}
 .oneri div:active{background:#FFF6D6}
+.oneri div.harita::before{content:"📍";margin-right:6px;font-size:14px}
+.oneri small{color:#6b7280;font-size:13px;font-weight:400;margin-left:6px}
 .chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
 .chips button{font-size:13px;padding:6px 10px;border-radius:16px;border:1px solid var(--ln);background:#F3F4F6;color:var(--ink);cursor:pointer}
 .chips button.loc{background:#EAF7EF;border-color:#BFE6CC}
@@ -211,6 +213,7 @@ textarea{resize:vertical;min-height:70px}
 .fiyat.var .liste div:first-child{border-top:0}
 .fiyat.var .liste b{font-size:17px;font-weight:900;letter-spacing:0}
 .fiyat.yok{background:#F3F4F6;color:#374151;font-size:14px;font-weight:600}
+.fiyat.bekle{background:#FFFBEB;color:#6b5a1e;font-size:14px;font-weight:600;border:1.5px dashed var(--y)}
 .send{width:100%;margin-top:18px;padding:15px;font-size:17px;font-weight:900;color:#fff;background:var(--wa);border:0;border-radius:14px;display:flex;align-items:center;justify-content:center;gap:10px;cursor:pointer}
 .send:active{transform:scale(.98)}
 .send .ic{width:24px;height:24px}
@@ -488,7 +491,7 @@ footer{text-align:center;color:#8b909a;font-size:13px;padding:26px 16px 12px}
   <h2>Popüler güzergâh fiyatları</h2>
   <p class="sub">Şu anki saatin Hızlı Çağır fiyatlarıdır; saate ve araç seçimine göre değişir.</p>
   <div class="tablo" id="tablo"><div class="bos">Fiyatlar yükleniyor…</div></div>
-  <p class="tablo-not">Kendi güzergâhınızın fiyatı için <a href="#cagir">yukarıdan nereden-nereye yazın</a>; 2.000'den fazla güzergâhın fiyatı hazır.</p>
+  <p class="tablo-not">Kendi güzergâhınızın fiyatı için <a href="#cagir">yukarıdan nereden-nereye yazın</a>; 2.000'den fazla güzergâhın fiyatı hazır. Listede olmayan yerlerin fiyatı da yol mesafesine göre anında hesaplanır.</p>
 </section>
 
 <section id="neden">
@@ -608,7 +611,7 @@ function norm(s) {
 
 // --- fiyat listesi: fiyatlar.txt dosyasindan okunur ---
 // Her satir "Yer 1 - Yer 2 Fiyat". "TEK İLANDAN" bolumu kullanilmaz.
-var ROT = [], YER = {}, ADLAR = {}, GOR = [], POP = {}, SAAT = [];
+var ROT = [], YER = {}, ADLAR = {}, GOR = [], POP = {}, SAAT = [], LISTE_AD = {};
 function gorunen(y) { return y === "İstanbul Havalimanı" ? y + " (IST)" : y === "Sabiha Gökçen" ? y + " (SAW)" : y; }
 
 // --- saate gore fiyat: fiyatlar.txt "SAAT FARKI" bolumu (or. "hafta içi 16-20 +3" = o saatlerde %3 fazla) ---
@@ -631,8 +634,32 @@ function saatYazi(p) { // sadece fiyat gercekten degistiyse yazar
   return f.y > 0 ? " · 🚦 yoğun saat fiyatı" : f.a === 0 ? " · 🌙 gece fiyatı" : " · sakin saat fiyatı";
 }
 
+// --- km tarifesi: listede fiyati olmayan guzergahlar icin (yol mesafesine gore) ---
+// fiyatlar.txt'de "KM TARİFESİ" bolumu varsa o gecerli olur, yoksa bu.
+// "fiyat": o km'ye kadar sabit ucret. "km": o araliktaki her km icin eklenen ucret (kademeli).
+// Or: 70 km = 800 + 20 x 30 = 1.400 TL ; 130 km = 800 + 50 x 30 + 30 x 28 = 3.140 -> 3.100 TL
+var KM_VARSAYILAN = [
+  { kadar: 20, fiyat: 400 },
+  { kadar: 30, fiyat: 500 },
+  { kadar: 50, fiyat: 800 },
+  { kadar: 100, km: 30 },
+  { kadar: 1e9, km: 28 }
+];
+var KM_TARIFE = KM_VARSAYILAN;
+function kmFiyat(km) {
+  var onceki = 0, fiyat = 0;
+  for (var i = 0; i < KM_TARIFE.length; i++) {
+    var t = KM_TARIFE[i];
+    if (t.km == null) fiyat = t.fiyat;
+    else fiyat += (Math.min(km, t.kadar) - onceki) * t.km;
+    if (km <= t.kadar) break;
+    onceki = t.kadar;
+  }
+  return Math.round(fiyat / 100) * 100;
+}
+
 function listeYukle(metin) {
-  var semt = 0, atla = false, saat = false;
+  var semt = 0, atla = false, saat = false, kmt = false, KMT = [];
   ROT = []; YER = {}; ADLAR = {}; SAAT = [];
   metin.split("\n").forEach(function (l) {
     l = l.trim();
@@ -641,9 +668,16 @@ function listeYukle(metin) {
       atla = n.indexOf("tek ilan") > -1;
       semt = n.indexOf("semt") > -1 ? 1 : 0;
       saat = n.indexOf("saat fark") > -1;
+      kmt = n.indexOf("km tarife") > -1;
       return;
     }
     if (atla) return;
+    if (kmt) { // "0-20 km 400" / "50-100 km km başı 30" / "100 km üstü km başı 28"
+      var k = norm(l), t = k.match(/^(\d+) (\d+) km (km basi )?(\d+)$/), u = k.match(/^(\d+) km (?:ustu|uzeri|sonrasi) (km basi )?(\d+)$/);
+      if (t) KMT.push(t[3] ? { kadar: +t[2], km: +t[4] } : { kadar: +t[2], fiyat: +t[4] });
+      else if (u) KMT.push(u[2] ? { kadar: 1e9, km: +u[3] } : { kadar: 1e9, fiyat: +u[3] });
+      return;
+    }
     if (saat) {
       var s = norm(l).match(/^hafta (ici|sonu) (\d+) (\d+) /), y = l.match(/ ([+-]?\d+)$/);
       if (s && y) SAAT.push({ hs: s[1] === "sonu", a: +s[2], b: +s[3], y: +y[1] });
@@ -654,7 +688,10 @@ function listeYukle(metin) {
     ROT.push([m[1], m[2], +m[3], semt]);
     YER[m[1]] = 1; YER[m[2]] = 1;
   });
+  KM_TARIFE = KMT.length ? KMT.sort(function (a, b) { return a.kadar - b.kadar; }) : KM_VARSAYILAN;
   Object.keys(YER).forEach(function (y) { ADLAR[y] = [y].concat(ALIAS[y] || []).map(norm); });
+  LISTE_AD = {};
+  Object.keys(ADLAR).forEach(function (y) { ADLAR[y].forEach(function (k) { LISTE_AD[k] = y; }); });
   POP = {};
   ROT.forEach(function (r) { POP[r[0]] = (POP[r[0]] || 0) + 1; POP[r[1]] = (POP[r[1]] || 0) + 1; });
   GOR = Object.keys(YER).sort(function (a, b) { return a.localeCompare(b, "tr"); })
@@ -732,34 +769,175 @@ function oneriBul(ham) {
   return sonuc.slice(0, 5).map(function (x) { return x.o; });
 }
 
-// --- yer onerileri (sitenin kendi listesi) ---
+// --- harita: listede olmayan yerler ---
+// Yer bulma: Photon (OpenStreetMap, ucretsiz). Yol mesafesi: OSRM (ucretsiz). Ulasilamazsa kus ucusu x 1,35.
+var HARITA = "https://photon.komoot.io/api/?lat=41.01&lon=28.98&bbox=25.6,35.8,44.8,42.1&limit=";
+var SABIT = { "İstanbul Havalimanı": [41.2753, 28.7519], "Sabiha Gökçen": [40.8986, 29.3092] };
+var GEO = {}, MESAFE = {}, SECIM = {}; // SECIM: kutuda haritadan secilen yer (kutu id -> yer)
+function zamanli(url, ms) { // cevap gelmezse ms sonra vazgec
+  var c = window.AbortController ? new AbortController() : null, z = setTimeout(function () { if (c) c.abort(); }, ms || 6000);
+  return fetch(url, c ? { signal: c.signal } : {}).then(function (r) { clearTimeout(z); if (!r.ok) throw r.status; return r.json(); });
+}
+function photonAra(q, n) {
+  var k = n + "|" + norm(q);
+  if (!GEO[k]) GEO[k] = zamanli(HARITA + n + "&q=" + encodeURIComponent(q), 5000).then(function (j) {
+    var gor = {};
+    return (j.features || []).map(function (f) {
+      var p = f.properties || {}, c = f.geometry && f.geometry.coordinates;
+      var ad = p.name || (p.street ? p.street + (p.housenumber ? " " + p.housenumber : "") : "");
+      if (!ad || !c) return null;
+      var alt = [];
+      [p.district, p.city, p.county, p.state].forEach(function (x) { if (x && norm(x) !== norm(ad) && alt.indexOf(x) < 0) alt.push(x); });
+      var y = { ad: ad, alt: alt.slice(-2).join(", "), il: p.state || "", yer: p.osm_key === "place" || p.osm_key === "boundary", lat: c[1], lon: c[0] };
+      var a = norm(y.ad + " " + y.alt);
+      if (gor[a]) return null;
+      gor[a] = 1; return y;
+    }).filter(Boolean);
+  }).catch(function () { delete GEO[k]; return []; });
+  return GEO[k];
+}
+function nominatimAra(q) { // Photon cevap vermezse yedek
+  return zamanli("https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=tr&accept-language=tr&viewbox=27.9,41.6,29.95,40.75&q=" + encodeURIComponent(q))
+    .then(function (j) {
+      return (j || []).map(function (x) {
+        var p = (x.display_name || "").split(", ").filter(function (s) { return !/bölgesi|türkiye|^\d+$/i.test(s); });
+        return { ad: x.name || p[0], alt: p.slice(1).slice(-2).join(", "), il: p[p.length - 1] || "", yer: x.category === "place" || x.category === "boundary", lat: +x.lat, lon: +x.lon };
+      });
+    }).catch(function () { return []; });
+}
+function listedekiYer(v) { // yazilan, listedeki hangi yere uyuyor (en iyi)
+  var s = eslesme(v), en = "", p = 0;
+  Object.keys(s).forEach(function (y) { if (s[y] > p) { p = s[y]; en = y; } });
+  return en;
+}
+function secimVar(id) { var s = SECIM[id]; return !!(s && s.v === $(id).value.trim()); }
+function kutuHazir(on, alan) { // yazmayi bitirmis gibi mi (secti / konum / listedeki tam ad)
+  var id = on + "_" + alan;
+  return (alan === "nereden" && KONUM[on]) || secimVar(id) || !!LISTE_AD[norm($(id).value)];
+}
+// bir kutudaki yerin koordinati: konum > haritadan secilen > listedeki yer adi > yazilan metin
+function yerBul(on, alan) {
+  var id = on + "_" + alan, v = $(id).value.trim();
+  if (alan === "nereden" && KONUM[on]) { var k = KONUM[on].split(","); return Promise.resolve({ ad: "Konumunuz", alt: "", lat: +k[0], lon: +k[1] }); }
+  if (secimVar(id)) return Promise.resolve(SECIM[id]);
+  var e = listedekiYer(v), q = e || v;
+  if (SABIT[e]) return Promise.resolve({ ad: e, alt: "", lat: SABIT[e][0], lon: SABIT[e][1] });
+  return photonAra(q, 6).then(function (l) { return l.length ? l : nominatimAra(q); }).then(function (l) {
+    if (!l.length) return null;
+    if (!e) return l[0];
+    // listedeki ad ise: once semt/ilce olan, sonra Istanbul'da olan
+    var en = null, ep = 9;
+    l.forEach(function (x, i) { var p = (x.yer ? 0 : 2) + (/istanbul/.test(norm(x.il + " " + x.alt)) ? 0 : 1); if (p < ep) { ep = p; en = x; } });
+    return { ad: e, alt: "", lat: en.lat, lon: en.lon };
+  });
+}
+function kusUcusu(A, B) {
+  var r = Math.PI / 180, x = Math.pow(Math.sin((B.lat - A.lat) * r / 2), 2) + Math.cos(A.lat * r) * Math.cos(B.lat * r) * Math.pow(Math.sin((B.lon - A.lon) * r / 2), 2);
+  return 12742 * Math.asin(Math.sqrt(x));
+}
+function yolKm(A, B) {
+  var k = [A.lat, A.lon, B.lat, B.lon].map(function (x) { return x.toFixed(4); }).join(",");
+  if (MESAFE[k]) return MESAFE[k];
+  var yol = A.lon + "," + A.lat + ";" + B.lon + "," + B.lat + "?overview=false";
+  function osrm(u) { return zamanli(u + yol).then(function (j) { if (!j.routes || !j.routes[0]) throw 0; return j.routes[0].distance / 1000; }); }
+  MESAFE[k] = osrm("https://router.project-osrm.org/route/v1/driving/")
+    .catch(function () { return osrm("https://routing.openstreetmap.de/routed-car/route/v1/driving/"); })
+    .catch(function () { return kusUcusu(A, B) * 1.35; });
+  return MESAFE[k];
+}
+function yerAdi(y) { return y.ad + (y.alt ? " (" + y.alt.split(", ")[0] + ")" : ""); }
+
+// fiyat listede yoksa: iki yeri bul, yol mesafesini olc, km tarifesiyle hesapla
+var TAHMIN = { h: null, a: null }, TBELLEK = {}, TZAMAN = {};
+function anahtar(on) { return $(on + "_nereden").value.trim() + "|" + $(on + "_nereye").value.trim() + "|" + (KONUM[on] || ""); }
+function tahminEt(on) {
+  var k = anahtar(on), t = TAHMIN[on];
+  if (t && t.k === k) return t;
+  if (t && !t.basladi) { clearTimeout(TZAMAN[on]); delete TBELLEK[t.k]; } // hala yaziyor: oncekini iptal
+  if (TBELLEK[k]) return (TAHMIN[on] = TBELLEK[k]);
+  t = TAHMIN[on] = TBELLEK[k] = { k: k, durum: "bekle" };
+  var hemen = kutuHazir(on, "nereden") && kutuHazir(on, "nereye");
+  TZAMAN[on] = setTimeout(function () {
+    t.basladi = true;
+    Promise.all([yerBul(on, "nereden"), yerBul(on, "nereye")]).then(function (y) {
+      if (!y[0] || !y[1]) throw 0;
+      return yolKm(y[0], y[1]).then(function (km) {
+        km = Math.max(1, Math.round(km));
+        t.r = [yerAdi(y[0]), yerAdi(y[1]), kmFiyat(km), 0, km];
+        t.durum = "tamam";
+      });
+    }).catch(function () { t.durum = "yok"; delete TBELLEK[k]; })
+      .then(function () { if (TAHMIN[on] === t) guncelle(on); });
+  }, hemen ? 0 : 1000);
+  return t;
+}
+function tahminIptal(on) { // yazi degisti ve henuz sorulmadiysa bosuna sorma
+  var t = TAHMIN[on];
+  if (t && !t.basladi && t.k !== anahtar(on)) { clearTimeout(TZAMAN[on]); delete TBELLEK[t.k]; TAHMIN[on] = null; }
+}
+// gosterilecek fiyat: listedeki fiyat, yoksa hesaplanmis olan
+function guzergah(on) {
+  var r = rota(on), t = TAHMIN[on];
+  if (r) return r;
+  return t && t.k === anahtar(on) && t.durum === "tamam" ? t.r : null;
+}
+
+// --- yer onerileri (sitenin kendi listesi + haritadan yerler) ---
 var SON_SECIM = 0; // son oneri secim zamani
 document.querySelectorAll(".acw input").forEach(function (inp) {
-  var kutu = document.createElement("div"), secildi = false;
+  var kutu = document.createElement("div"), secildi = false, bekle = null;
   kutu.className = "oneri"; kutu.hidden = true; inp.parentNode.appendChild(kutu);
-  function goster() {
-    if (secildi) { secildi = false; kutu.hidden = true; return; }
-    var l = oneriBul(inp.value);
-    if (!l.length || (l.length === 1 && norm(l[0].g) === norm(inp.value))) { kutu.hidden = true; return; }
+  function sec(d, yaz) {
+    // basinca listeyi hemen kapatma (yoksa dokunus alttaki butona gecer); secimi parmak kalkinca yap
+    d.addEventListener("pointerdown", function (e) { e.preventDefault(); });
+    d.addEventListener("mousedown", function (e) { e.preventDefault(); });
+    d.addEventListener("click", function (e) {
+      e.preventDefault(); e.stopPropagation();
+      SON_SECIM = Date.now();
+      yaz(); secildi = true; kutu.hidden = true;
+      inp.dispatchEvent(new Event("input"));
+    });
+    kutu.appendChild(d);
+  }
+  function ciz(l, h) {
+    h = (h || []).filter(function (o) { return !LISTE_AD[norm(o.ad)]; }); // listede olan yer zaten ustte
+    if (!h.length && (!l.length || (l.length === 1 && norm(l[0].g) === norm(inp.value)))) { kutu.hidden = true; return; }
+    l = l.slice(0, h.length ? 3 : 5); h = h.slice(0, 5 - l.length);
     kutu.innerHTML = "";
     l.forEach(function (o) {
       var d = document.createElement("div");
       d.textContent = o.g;
-      // basinca listeyi hemen kapatma (yoksa dokunus alttaki butona gecer); secimi parmak kalkinca yap
-      d.addEventListener("pointerdown", function (e) { e.preventDefault(); });
-      d.addEventListener("mousedown", function (e) { e.preventDefault(); });
-      d.addEventListener("click", function (e) {
-        e.preventDefault(); e.stopPropagation();
-        SON_SECIM = Date.now();
-        inp.value = o.g; secildi = true; kutu.hidden = true;
-        inp.dispatchEvent(new Event("input"));
+      sec(d, function () { inp.value = o.g; });
+    });
+    h.forEach(function (o) {
+      var d = document.createElement("div");
+      d.className = "harita"; d.textContent = o.ad;
+      if (o.alt) { var s = document.createElement("small"); s.textContent = o.alt; d.appendChild(s); }
+      sec(d, function () {
+        inp.value = o.ad + (o.alt ? ", " + o.alt : "");
+        SECIM[inp.id] = { v: inp.value, ad: o.ad, alt: o.alt, lat: o.lat, lon: o.lon };
       });
-      kutu.appendChild(d);
     });
     kutu.hidden = false;
     // liste ustteki sabit cubugun altinda kalirsa sayfayi biraz asagi kaydir
     var ust = document.querySelector(".hdr").getBoundingClientRect().bottom + 6, r = kutu.getBoundingClientRect();
     if (r.top < ust) window.scrollBy(0, r.top - ust);
+  }
+  function goster() {
+    clearTimeout(bekle);
+    if (secildi) { secildi = false; kutu.hidden = true; return; }
+    if (secimVar(inp.id)) { kutu.hidden = true; return; }
+    var v = inp.value.trim(), l = oneriBul(v);
+    ciz(l, []);
+    if (norm(v).length < 3 || LISTE_AD[norm(v)] || document.activeElement !== inp) return;
+    // yazmayi biraz birakinca haritada da ara
+    bekle = setTimeout(function () {
+      if (inp.value.trim() !== v || document.activeElement !== inp) return;
+      photonAra(v, 6).then(function (h) {
+        if (inp.value.trim() !== v || document.activeElement !== inp || secimVar(inp.id)) return;
+        ciz(l, h);
+      });
+    }, 350);
   }
   inp.addEventListener("input", goster);
   inp.addEventListener("focus", goster);
@@ -839,9 +1017,11 @@ document.querySelectorAll(".sec-btn").forEach(function (b) {
 var KONUM = { h: null, a: null };
 var BTN = { h: "Hemen Çağır", a: "Aracı Çağır" };
 var AD = { "Ekonomik Binek": "Ekonomik binek", "Geniş Araç (Doblo)": "Geniş araç", "VIP Minibüs (Vito)": "VIP minibüs", "Üst Segment Sedan": "Üst segment" };
-function rota(on) {
+function rota(on) { // listedeki fiyat (haritadan secilen yerde sadece yerin kendi adina bakilir)
   var a = $(on + "_nereden").value.trim(), b = $(on + "_nereye").value.trim();
   if (KONUM[on] || a.length < 2 || b.length < 2) return null;
+  if (secimVar(on + "_nereden")) a = SECIM[on + "_nereden"].ad;
+  if (secimVar(on + "_nereye")) b = SECIM[on + "_nereye"].ad;
   return fiyatBul(a, b);
 }
 function aracFiyat(arac, taban) { return Math.round(taban * (1 + ARAC[arac]) * carpan() / 100) * 100; }
@@ -850,6 +1030,7 @@ var TICARI_YAZI = "Taksimetre −%" + TICARI_INDIRIM;
 function guncelle(on) {
   var a = $(on + "_nereden").value.trim(), b = $(on + "_nereye").value.trim(), kutu = $(on + "_fiyat"), yazi = $(on + "_btn").lastChild;
   var arac = on === "a" ? secilen("a_arac") : "";
+  tahminIptal(on);
   yazi.textContent = BTN[on];
   if (arac === "Ticari") {
     kutu.hidden = false; kutu.className = "fiyat var";
@@ -867,6 +1048,16 @@ function guncelle(on) {
   if (a.length < 2 || b.length < 2) { kutu.hidden = true; return; }
   var r = rota(on);
   kutu.hidden = false;
+  // listede yoksa mesafeden hesapla (en az 3 harf yazilmissa ya da secilmisse)
+  if (!r && (kutuHazir(on, "nereden") || norm(a).length >= 3) && (kutuHazir(on, "nereye") || norm(b).length >= 3)) {
+    var t = tahminEt(on);
+    if (t.durum === "bekle") {
+      kutu.className = "fiyat bekle";
+      kutu.textContent = "⏳ Yol mesafesi ölçülüyor, fiyat hesaplanıyor…";
+      return;
+    }
+    if (t.durum === "tamam") r = t.r;
+  }
   if (!r) {
     kutu.className = "fiyat yok";
     kutu.textContent = "💬 Bu güzergâhın fiyatı için WhatsApp'tan yazın, hemen dönüş yapalım.";
@@ -885,7 +1076,9 @@ function guncelle(on) {
       "<div><span>🚕 Ticari taksi</span><b>" + TICARI_YAZI + "</b></div>" +
       "<div><span>🚘 Üst segment</span><b>Teklif</b></div></div><small class='rota'></small>";
   }
-  kutu.querySelector(".rota").textContent = r[0] + " ⇄ " + r[1] + saatYazi(r[2]);
+  kutu.querySelector(".rota").textContent = r[4]
+    ? r[0] + " → " + r[1] + " · yaklaşık " + r[4] + " km, mesafeye göre" + saatYazi(r[2])
+    : r[0] + " ⇄ " + r[1] + saatYazi(r[2]);
 }
 ["h", "a"].forEach(function (on) {
   $(on + "_nereden").addEventListener("input", function () { KONUM[on] = null; guncelle(on); });
@@ -931,11 +1124,11 @@ function yerSatirlari(on, m) {
 }
 function fiyatSatiri(on) {
   var a = $(on + "_nereden").value.trim(), b = $(on + "_nereye").value.trim();
-  var arac = on === "a" ? secilen("a_arac") : "", r = rota(on);
+  var arac = on === "a" ? secilen("a_arac") : "", r = guzergah(on);
   if (arac === "Ticari") return "💰 *Fiyat:* " + TICARI_YAZI + " indirimli";
   if (arac && ARAC[arac] === null) return "💰 *Fiyat:* " + AD[arac] + " için teklif istiyorum";
   if (r) {
-    var yer = " (" + r[0] + " – " + r[1] + ")";
+    var yer = " (" + r[0] + " – " + r[1] + (r[4] ? ", ~" + r[4] + " km, mesafeye göre" : "") + ")";
     if (on === "h") return "💰 *Fiyat:* " + tl(saatli(r[2])) + yer;
     if (arac) return "💰 *Fiyat:* " + tl(aracFiyat(arac, r[2])) + yer;
     return "💰 *Fiyat:* Binek/Geniş " + tl(aracFiyat("Ekonomik Binek", r[2])) + " · VIP " + tl(aracFiyat("VIP Minibüs (Vito)", r[2])) + " · Ticari " + TICARI_YAZI + yer;
