@@ -638,13 +638,19 @@ function saatYazi(p) { // sadece fiyat gercekten degistiyse yazar
 // --- km tarifesi: listede fiyati olmayan guzergahlar icin (yol mesafesine gore) ---
 // fiyatlar.txt'de "KM TARİFESİ" bolumu varsa o gecerli olur, yoksa bu.
 // "fiyat": o km'ye kadar sabit ucret. "km": o araliktaki her km icin eklenen ucret (kademeli).
-// Or: 70 km = 800 + 20 x 30 = 1.400 TL ; 130 km = 800 + 50 x 30 + 30 x 28 = 3.140 -> 3.100 TL
+// Tolga'nin tarifesi (10 Kasim) %10-15 zamli, yuvarlak rakamlarla. Sonuc 100 TL'ye yuvarlanir.
+// Or: 20 km = 400 + 7 x 45 + 5 x 40 = 915 -> 900 TL ; 40 km = 1.115 + 10 x 34 + 5 x 30 = 1.605 -> 1.600 TL
 var KM_VARSAYILAN = [
-  { kadar: 20, fiyat: 400 },
-  { kadar: 30, fiyat: 500 },
-  { kadar: 50, fiyat: 800 },
-  { kadar: 100, km: 30 },
-  { kadar: 1e9, km: 28 }
+  { kadar: 8, fiyat: 400 },   // 8 km'ye kadar 400 TL (350 + %14)
+  { kadar: 15, km: 45 },      // 8-15 km arasi her km 45 TL (40 + %12,5)
+  { kadar: 25, km: 40 },      // 15-25 km: 40 TL (35 + %14)
+  { kadar: 35, km: 34 },      // 25-35 km: 34 TL (30 + %13)
+  { kadar: 50, km: 30 },      // 35-50 km: 30 TL (27 + %11)
+  { kadar: 100, km: 28 },     // 50-100 km: 28 TL (25 + %12)
+  { kadar: 200, km: 26 },     // 100-200 km: 26 TL (23 + %13)
+  { kadar: 400, km: 24 },     // 200-400 km: 24 TL (21 + %14)
+  { kadar: 1000, km: 22 },    // 400-1000 km: 22 TL (20 + %10)
+  { kadar: 1e9, km: 21 }      // 1000 km ustu: 21 TL (19 + %10,5)
 ];
 var KM_TARIFE = KM_VARSAYILAN;
 function kmFiyat(km) {
