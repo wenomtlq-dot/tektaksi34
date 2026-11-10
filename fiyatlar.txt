@@ -16,6 +16,19 @@ hafta sonu 10-16 -2
 hafta sonu 16-20 +2
 hafta sonu 20-24 0
 
+===== KM TARİFESİ (listede olmayan yerler için, yol mesafesine göre - 10.11.2026) =====
+(Kademeli: her km kendi aralığının fiyatından sayılır. Sonra saat farkı eklenir, 100 TL'ye yuvarlanır.)
+0-8 km 400
+8-15 km km başı 45
+15-25 km km başı 40
+25-35 km km başı 34
+35-50 km km başı 30
+50-100 km km başı 28
+100-200 km km başı 26
+200-400 km km başı 24
+400-1000 km km başı 22
+1000 km üstü km başı 21
+
 ===== İLÇE - İLÇE (883 güzergâh) =====
 İstanbul Havalimanı - Arnavutköy 1100
 İstanbul Havalimanı - Ataşehir 1800
