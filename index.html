@@ -207,6 +207,7 @@ textarea{resize:vertical;min-height:70px}
 .fiyat.var{background:#FFF6D6;border:1.5px solid var(--y)}
 .fiyat.var small{display:block;font-size:13px;color:#6b5a1e;font-weight:600}
 .fiyat.var .rota{font-weight:400;margin-top:2px}
+.fiyat.var .not{margin-top:8px;padding-top:7px;border-top:1px dashed #E8D48A;font-size:12.5px;font-weight:700;color:#7a5a00}
 .fiyat.var b{font-size:30px;font-weight:900;letter-spacing:-.5px}
 .fiyat.var .liste{margin:8px 0 4px;text-align:left}
 .fiyat.var .liste div{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:7px 2px;border-top:1px solid #F1E3A6;font-size:15px;font-weight:500}
@@ -491,7 +492,7 @@ footer{text-align:center;color:#8b909a;font-size:13px;padding:26px 16px 12px}
   <h2>Popüler güzergâh fiyatları</h2>
   <p class="sub">Şu anki saatin Hızlı Çağır fiyatlarıdır; saate ve araç seçimine göre değişir.</p>
   <div class="tablo" id="tablo"><div class="bos">Fiyatlar yükleniyor…</div></div>
-  <p class="tablo-not">Kendi güzergâhınızın fiyatı için <a href="#cagir">yukarıdan nereden-nereye yazın</a>; 2.000'den fazla güzergâhın fiyatı hazır. Listede olmayan yerlerin fiyatı da yol mesafesine göre anında hesaplanır.</p>
+  <p class="tablo-not">Kendi güzergâhınızın fiyatı için <a href="#cagir">yukarıdan nereden-nereye yazın</a>; 2.000'den fazla güzergâhın fiyatı hazır. Listede olmayan yerlerin fiyatı da yol mesafesine göre anında hesaplanır. İstanbul dışındaki ücretli yollar fiyatlara dahil değildir.</p>
 </section>
 
 <section id="neden">
@@ -568,7 +569,8 @@ var ARAC = {
   "VIP Minibüs (Vito)": 0.40,
   "Üst Segment Sedan": null
 };
-var TICARI_INDIRIM = 10; // Ticari: taksimetrenin %10 indirimli
+var TICARI_INDIRIM = 10;
+var UCRETLI_YOL = "İstanbul dışındaki ücretli yollar fiyata dahil değildir."; // Ticari: taksimetrenin %10 indirimli
 // Populer guzergah tablosu (fiyatlar fiyatlar.txt'den gelir)
 var POPULER = [
   ["İstanbul Havalimanı", "Taksim"], ["İstanbul Havalimanı", "Kadıköy"], ["İstanbul Havalimanı", "Beşiktaş"],
@@ -1085,6 +1087,9 @@ function guncelle(on) {
   kutu.querySelector(".rota").textContent = r[4]
     ? r[0] + " → " + r[1] + " · yaklaşık " + r[4] + " km, mesafeye göre" + saatYazi(r[2])
     : r[0] + " ⇄ " + r[1] + saatYazi(r[2]);
+  var not = document.createElement("small");
+  not.className = "not"; not.textContent = UCRETLI_YOL;
+  kutu.appendChild(not);
 }
 ["h", "a"].forEach(function (on) {
   $(on + "_nereden").addEventListener("input", function () { KONUM[on] = null; guncelle(on); });
@@ -1134,7 +1139,7 @@ function fiyatSatiri(on) {
   if (arac === "Ticari") return "💰 *Fiyat:* " + TICARI_YAZI + " indirimli";
   if (arac && ARAC[arac] === null) return "💰 *Fiyat:* " + AD[arac] + " için teklif istiyorum";
   if (r) {
-    var yer = " (" + r[0] + " – " + r[1] + (r[4] ? ", ~" + r[4] + " km, mesafeye göre" : "") + ")";
+    var yer = " (" + r[0] + " – " + r[1] + (r[4] ? ", ~" + r[4] + " km, mesafeye göre" : "") + ")\nℹ️ _" + UCRETLI_YOL + "_";
     if (on === "h") return "💰 *Fiyat:* " + tl(saatli(r[2])) + yer;
     if (arac) return "💰 *Fiyat:* " + tl(aracFiyat(arac, r[2])) + yer;
     return "💰 *Fiyat:* Binek/Geniş " + tl(aracFiyat("Ekonomik Binek", r[2])) + " · VIP " + tl(aracFiyat("VIP Minibüs (Vito)", r[2])) + " · Ticari " + TICARI_YAZI + yer;
