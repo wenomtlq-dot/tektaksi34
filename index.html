@@ -1,6 +1,12 @@
 <!doctype html>
 <html lang="tr">
 <head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-T4ZPRJJR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="tHwyczJpBrefxmY1CilubRI8b9qiAVAN53IFPPiuHb4" />
@@ -588,7 +594,18 @@ var ALIAS = {
 var $ = function (id) { return document.getElementById(id); };
 var wa = "https://wa.me/" + TEL;
 document.querySelectorAll("a.wa").forEach(function (a) { a.href = wa + "?text=" + encodeURIComponent("Merhaba, tektaksi34 sitesinden yazıyorum."); });
+// --- ziyaretci sayaci (Google Analytics): arama ve WhatsApp tiklamalarini say ---
+function olcum(ad, bilgi) { try { if (window.gtag) gtag("event", ad, bilgi || {}); } catch (e) {} }
+document.addEventListener("click", function (e) {
+  var a = e.target.closest && e.target.closest("a[href]");
+  if (!a) return;
+  var h = a.getAttribute("href") || "";
+  if (h.indexOf("tel:") === 0) olcum("telefon_tiklama");
+  else if (h.indexOf("wa.me") > -1) olcum("whatsapp_tiklama");
+}, true);
 function gonder(satirlar) {
+  var b = satirlar[0] || "";
+  olcum("whatsapp_form_gonder", { form: /HIZLI/.test(b) ? "hizli" : /ARAÇ/.test(b) ? "arac_sec" : /REZERV/.test(b) ? "rezervasyon" : "diger" });
   location.href = wa + "?text=" + encodeURIComponent(satirlar.join("\n").trim());
 }
 
