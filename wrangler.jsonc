@@ -1,0 +1,11 @@
+{
+  // tektaksi34: statik site (depo kökü) + adres yönlendirme (src/yonlendir.js)
+  "name": "tektaksi34",
+  "compatibility_date": "2025-09-01",
+  "main": "src/yonlendir.js",
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS",
+    "run_worker_first": true
+  }
+}

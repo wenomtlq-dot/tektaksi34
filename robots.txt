@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /gorseller/
 
-Sitemap: https://tektaksi34.netlify.app/sitemap.xml
+Sitemap: https://tektaksi34.com.tr/sitemap.xml
