@@ -631,7 +631,7 @@ function norm(s) {
 
 // --- fiyat listesi: fiyatlar.txt dosyasindan okunur ---
 // Her satir "Yer 1 - Yer 2 Fiyat". "TEK İLANDAN" bolumu kullanilmaz.
-var ROT = [], YER = {}, ADLAR = {}, GOR = [], POP = {}, SAAT = [], LISTE_AD = {};
+var ROT = [], YER = {}, ADLAR = {}, GOR = [], POP = {}, SAAT = [], LISTE_AD = {}, IST = {}, GENEL = {};
 function gorunen(y) { return y === "İstanbul Havalimanı" ? y + " (IST)" : y === "Sabiha Gökçen" ? y + " (SAW)" : y; }
 
 // --- saate gore fiyat: fiyatlar.txt "SAAT FARKI" bolumu (or. "hafta içi 16-20 +3" = o saatlerde %3 fazla) ---
@@ -685,35 +685,41 @@ function kmFiyat(km) {
 }
 
 function listeYukle(metin) {
-  var semt = 0, atla = false, saat = false, kmt = false, KMT = [];
-  ROT = []; YER = {}; ADLAR = {}; SAAT = [];
+  var bolum = "", KMT = [];
+  ROT = []; YER = {}; ADLAR = {}; SAAT = []; IST = {}; GENEL = {};
   metin.split("\n").forEach(function (l) {
     l = l.trim();
     if (l.indexOf("=====") === 0) {
       var n = norm(l);
-      atla = n.indexOf("tek ilan") > -1;
-      semt = n.indexOf("semt") > -1 ? 1 : 0;
-      saat = n.indexOf("saat fark") > -1;
-      kmt = n.indexOf("km tarife") > -1;
+      bolum = n.indexOf("tek ilan") > -1 ? "atla" : n.indexOf("saat fark") > -1 ? "saat" : n.indexOf("km tarife") > -1 ? "km"
+        : n.indexOf("istanbul geneli") > -1 ? "genel" : n.indexOf("sehir disi") > -1 ? "dis" : n.indexOf("semt") > -1 ? "semt" : "ilce";
       return;
     }
-    if (atla) return;
-    if (kmt) { // "0-20 km 400" / "50-100 km km başı 30" / "100 km üstü km başı 28"
+    if (bolum === "atla" || !l) return;
+    if (bolum === "km") { // "0-20 km 400" / "50-100 km km başı 30" / "100 km üstü km başı 28"
       var k = norm(l), t = k.match(/^(\d+) (\d+) km (km basi )?(\d+)$/), u = k.match(/^(\d+) km (?:ustu|uzeri|sonrasi) (km basi )?(\d+)$/);
       if (t) KMT.push(t[3] ? { kadar: +t[2], km: +t[4] } : { kadar: +t[2], fiyat: +t[4] });
       else if (u) KMT.push(u[2] ? { kadar: 1e9, km: +u[3] } : { kadar: 1e9, fiyat: +u[3] });
       return;
     }
-    if (saat) {
+    if (bolum === "saat") {
       var s = norm(l).match(/^hafta (ici|sonu) (\d+) (\d+) /), y = l.match(/ ([+-]?\d+)$/);
       if (s && y) SAAT.push({ hs: s[1] === "sonu", a: +s[2], b: +s[3], y: +y[1] });
       return;
     }
     var m = l.match(/^(.+?) - (.+?) (\d+)$/);
     if (!m) return;
-    ROT.push([m[1], m[2], +m[3], semt]);
+    // "İstanbul geneli": İstanbul'un neresinden olursa olsun o şehre ortalama fiyat
+    if (bolum === "genel") {
+      var sehir = m[1] === "İstanbul" ? m[2] : m[1];
+      GENEL[sehir] = +m[3]; YER[sehir] = 1;
+      return;
+    }
+    ROT.push([m[1], m[2], +m[3], bolum === "semt" ? 1 : 0]);
     YER[m[1]] = 1; YER[m[2]] = 1;
+    if (bolum === "ilce" || bolum === "semt") { IST[m[1]] = 1; IST[m[2]] = 1; }
   });
+  delete YER["İstanbul"];
   KM_TARIFE = KMT.length ? KMT.sort(function (a, b) { return a.kadar - b.kadar; }) : KM_VARSAYILAN;
   Object.keys(YER).forEach(function (y) { ADLAR[y] = [y].concat(ALIAS[y] || []).map(norm); });
   LISTE_AD = {};
@@ -1012,7 +1018,14 @@ function fiyatBul(a, b) {
     p += r[3] * 1000;
     if (p > puan) { puan = p; en = r; }
   });
-  return en;
+  if (en) return en;
+  // listede tam güzergâh yoksa: İstanbul içi bir yer + "İstanbul geneli" bölümündeki şehir
+  function genel(X, Y, ham) {
+    var ist = norm(ham) === "istanbul" ? "İstanbul" : Object.keys(X).filter(function (y) { return IST[y]; })[0] || (/\bistanbul\b/.test(norm(ham)) ? "İstanbul" : "");
+    var sehir = Object.keys(Y).filter(function (y) { return GENEL[y]; }).sort(function (p, q) { return Y[q] - Y[p]; })[0];
+    return ist && sehir ? [ist, sehir, GENEL[sehir], 0] : null;
+  }
+  return genel(A, B, a) || genel(B, A, b);
 }
 function tl(p) { return p.toLocaleString("tr-TR") + " TL"; }
 
